@@ -6,7 +6,7 @@ Conjugator is a tool/library that allows you to inflect and conjugate Spanish ve
 expand to other languages as well, but for now, it is only Spanish.
 
 Installation
-------
+====
 
 To install, simply get it from npm:
 
@@ -21,7 +21,7 @@ git clone git@github.com:ehoogerbeets/conjugator.git
 ~~~~~
 
 How to Use Conjugator From the Command-line
--------
+====
 
 Without parameters, the conjugator will conjugate all verbs it knows about to all moods, tenses, 
 numbers, and persons. That's probably not what you want, though.
@@ -94,7 +94,7 @@ The output is pretty-printed json. You can also get a cleaner line-by-line form 
 To see the personal pronouns that go along with the verb forms, give the "pronouns" argument:
 
 ~~~~~
-> conjugator ir list
+> conjugator ir list pronouns
   yo voy
   tú vas
   él va
@@ -109,6 +109,7 @@ To see the personal pronouns that go along with the verb forms, give the "pronou
 ~~~~~
 
 Filters
+----
 
 To filter the list of inflections, just give the name of the moods, tenses, numbers, or persons you want to filter by. You may
 specify the arguments in any order. Only the first parameter (the infinitive verb form) has to be first, and the rest of 
@@ -160,6 +161,7 @@ the arguments are free form. For example, to see only the present, first person 
 
 
 Filter Arguments
+----
 
 Here are the list of moods that conjugator supports:
 
@@ -202,6 +204,7 @@ Note that not all combinations are valid. For example, there is no "imperative" 
 If you filter by that, you will get nothing in return.
 
 Pronoun Styles
+----
 
 There are a number of parameters that affect the style of pronouns supported. For example, in some styles of Spanish, 
 like that spoken in Argentina near the Rio Plata, the second person singular informal form is "vos" (you). In other 
@@ -235,7 +238,7 @@ on the command-line. Here are the genders supported:
 * inanimate - use "it" and "they" (inanimate -- same as masculine)
 
 Using Conjugator From Code
--------
+====
 
 You can use conjugator in your own code and retrieve the same json object that is pretty-printed on the screen
 when you use the command-line interface. Example:
@@ -289,16 +292,18 @@ an object containing all of these forms, whereas inflect only ever returns
 a particular form. 
 
 Development
------------
+====
 
 New PRs are welcome! 
 
 Code
+----
 
 If you would like to update the code to fix bugs or, even better, add support for another language, 
 please go right ahead!
 
 Data
+----
 
 If you found some regular verbs or verb exceptions we didn't cover, please update the data/exceptions.json file and
 submit it. Note that any verb that is not listed in the regular or exception files will have the normal -ar, -ir,
@@ -413,7 +418,7 @@ Instead of spelling it all out like this:
 
 
 Copyright and License
--------
+====
 
 Copyright &copy; 2017, HealthTap, Inc.
 
