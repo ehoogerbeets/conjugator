@@ -1,6 +1,6 @@
 {
     "name": "conjugator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "./conjugator.js",
     "description": "Conjugator inflects and conjugates Spanish verbs",
     "keywords": [
