@@ -383,7 +383,7 @@ Example entry in the data/exceptions.json:
 }
 ~~~~~
 
-All other cases listed above are generated per the regular rules.
+All other cases not listed above are generated per the regular rules.
 
 Note that at any level, if all of the values underneath there are the same thing, then the level does not
 need to contain a subobject. It can just have a string value. For example, if a particular singular imperative 
