@@ -14,7 +14,11 @@ To install, simply get it from npm:
 npm install conjugator
 ~~~~~
 
-You can also use the -b
+or from github:
+
+~~~~~
+git clone git@github.com:ehoogerbeets/conjugator.git
+~~~~~
 
 How to Use Conjugator From the Command-line
 -------
@@ -28,7 +32,6 @@ that particular verb to all its moods, tenses, numbers, and persons:
 ~~~~~
 > conjugator ir
 {
-
     "indicative": {
         "present": {
             "singular": {
@@ -246,7 +249,7 @@ console.log("The first person plural future subjunctive is: " +
   comerConjugation.subjunctive.future.plural.first);
 ~~~~
 
-You can filter the results by passing a second command-line argument:
+You can filter the results by passing a second "options" argument:
 
 ~~~~
 var conjugateVerb = require("conjugator/lib/conjugateVerb.js");
@@ -278,7 +281,12 @@ var comerForm = inflect("comer", {
 console.log("The first person plural present indicative is: " + comerForm);
 ~~~~
 
-
+Note that if any of the above 4 options are not given, inflect will use the
+default for that option and return only one form of the verb. The difference
+between conjugateVerb and inflect is that conjugateVerb
+will iterate through all the possible values for the missing filters and return
+an object containing all of these forms, whereas inflect only ever returns
+a particular form. 
 
 Development
 -----------
