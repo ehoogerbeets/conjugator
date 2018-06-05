@@ -448,7 +448,19 @@
 					"second": "tendríais",
 					"third": "tendrían"
 				}
-			}
+			},
+			"future": {
+                "singular": {
+                    "first": "tendría",
+                    "second": "tendrías",
+                    "third": "tendría"
+                },
+                "plural": {
+                    "first": "tendríamos",
+                    "second": "tendríais",
+                    "third": "tendrían"
+                }
+            }
 		},
 		"imperative": {
 			"affirmative": {
@@ -1723,5 +1735,14 @@
 	},
 	"volver": {
 		"past participle": "vuelto"
+	},
+	"contener": {
+	   "imperative": {
+            "affirmative": {
+                "singular": {
+                    "second": "contén"
+                }
+            }
+        }
 	}
 }

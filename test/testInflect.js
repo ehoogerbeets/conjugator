@@ -1,7 +1,7 @@
 /*
  * testInflect.js - nodeunit test for the Spanish verb inflection generator function.
  * 
- * Copyright © 2017, HealthTap, Inc.
+ * Copyright © 2017-2018, HealthTap, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,6 +19,7 @@
 
 if (!inflect) {
     var inflect = require("../lib/inflect.js");
+    var conjugateVerb = require("../lib/conjugateVerb.js");
 }
 
 var tests = {
@@ -169,7 +170,43 @@ var tests = {
 					"second":	"amareis", 
 					"third":	"amaren" 
 				}
-			}
+			},
+			"perfect": {
+			    "singular": {
+			        "first":    "haya amado",
+			        "second":   "hayas amado",
+			        "third":    "haya amado"
+			    },
+			    "plural": {
+			        "first":    "hayamos amado",
+			        "second":   "hayáis amado",
+			        "third":    "hayan amado"
+			    }
+			},
+            "pluperfect": {
+                "singular": {
+                    "first":    "hubiera amado",
+                    "second":   "hubieras amado",
+                    "third":    "hubiera amado"
+                },
+                "plural": {
+                    "first":    "hubiéramos amado",
+                    "second":   "hubierais amado",
+                    "third":    "hubieran amado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "hubiere amado",
+                    "second":   "hubieres amado",
+                    "third":    "hubiere amado"
+                },
+                "plural": {
+                    "first":    "hubiéremos amado",
+                    "second":   "hubiereis amado",
+                    "third":    "hubieren amado"
+                }
+            }
 		},
 		"imperative": {
 			"affirmative": {
@@ -284,7 +321,55 @@ var tests = {
 					"second": 	"partiréis",	
 					"third": 	"partirán"
 				}
-			}
+			},
+            "perfect": {
+                "singular": {
+                    "first":    "he partido",
+                    "second":   "has partido",
+                    "third":    "ha partido"
+                },
+                "plural": {
+                    "first":    "hemos partido",  
+                    "second":   "habéis partido", 
+                    "third":    "han partido"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "había partido",
+                    "second":   "habías partido",
+                    "third":    "había partido"
+                },
+                "plural": {
+                    "first":    "habíamos partido",   
+                    "second":   "habíais partido",    
+                    "third":    "habían partido"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "habré partido",
+                    "second":   "habrás partido",
+                    "third":    "habrá partido"
+                },
+                "plural": {
+                    "first":    "habremos partido",   
+                    "second":   "habréis partido",    
+                    "third":    "habrán partido"
+                }
+            },
+            "preterite perfect": {
+                "singular": {
+                    "first":    "hube partido",
+                    "second":   "hubiste partido",
+                    "third":    "hubo partido"
+                },
+                "plural": {
+                    "first":    "hubimos partido",    
+                    "second":   "hubisteis partido",  
+                    "third":    "hubieron partido"
+                }
+            }
 		},
 		"subjunctive": {
 			"present": {
@@ -334,7 +419,43 @@ var tests = {
 					"second":	"partiereis", 
 					"third":	"partieren" 
 				}
-			}
+			},
+            "perfect": {
+                "singular": {
+                    "first":    "haya partido",
+                    "second":   "hayas partido",
+                    "third":    "haya partido"
+                },
+                "plural": {
+                    "first":    "hayamos partido",
+                    "second":   "hayáis partido",
+                    "third":    "hayan partido"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "hubiera partido",
+                    "second":   "hubieras partido",
+                    "third":    "hubiera partido"
+                },
+                "plural": {
+                    "first":    "hubiéramos partido",
+                    "second":   "hubierais partido",
+                    "third":    "hubieran partido"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "hubiere partido",
+                    "second":   "hubieres partido",
+                    "third":    "hubiere partido"
+                },
+                "plural": {
+                    "first":    "hubiéremos partido",
+                    "second":   "hubiereis partido",
+                    "third":    "hubieren partido"
+                }
+            }
 		},
 		"imperative": {
 			"affirmative": {
@@ -384,7 +505,19 @@ var tests = {
 					"second": "partiríais",
 					"third": "partirían"
 				}
-			}
+			},
+            "perfect": {
+                "singular": {
+                    "first": "habría partido",
+                    "second": "habrías partido",
+                    "third": "habría partido"
+                },
+                "plural": {
+                    "first": "habríamos partido",
+                    "second": "habríais partido",
+                    "third": "habrían partido"
+                }
+            }
 		}
 	},
 
@@ -437,7 +570,55 @@ var tests = {
 					"second": 	"comeréis",	
 					"third": 	"comerán"
 				}
-			}
+			},
+            "perfect": {
+                "singular": {
+                    "first":    "he comido",
+                    "second":   "has comido",
+                    "third":    "ha comido"
+                },
+                "plural": {
+                    "first":    "hemos comido",  
+                    "second":   "habéis comido", 
+                    "third":    "han comido"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "había comido",
+                    "second":   "habías comido",
+                    "third":    "había comido"
+                },
+                "plural": {
+                    "first":    "habíamos comido",   
+                    "second":   "habíais comido",    
+                    "third":    "habían comido"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "habré comido",
+                    "second":   "habrás comido",
+                    "third":    "habrá comido"
+                },
+                "plural": {
+                    "first":    "habremos comido",   
+                    "second":   "habréis comido",    
+                    "third":    "habrán comido"
+                }
+            },
+            "preterite perfect": {
+                "singular": {
+                    "first":    "hube comido",
+                    "second":   "hubiste comido",
+                    "third":    "hubo comido"
+                },
+                "plural": {
+                    "first":    "hubimos comido",    
+                    "second":   "hubisteis comido",  
+                    "third":    "hubieron comido"
+                }
+            }
 		},
 		"subjunctive": {
 			"present": {
@@ -487,7 +668,43 @@ var tests = {
 					"second":	"comiereis", 
 					"third":	"comieren" 
 				}
-			}
+			},
+			"perfect": {
+                "singular": {
+                    "first":    "haya comido",
+                    "second":   "hayas comido",
+                    "third":    "haya comido"
+                },
+                "plural": {
+                    "first":    "hayamos comido",
+                    "second":   "hayáis comido",
+                    "third":    "hayan comido"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "hubiera comido",
+                    "second":   "hubieras comido",
+                    "third":    "hubiera comido"
+                },
+                "plural": {
+                    "first":    "hubiéramos comido",
+                    "second":   "hubierais comido",
+                    "third":    "hubieran comido"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "hubiere comido",
+                    "second":   "hubieres comido",
+                    "third":    "hubiere comido"
+                },
+                "plural": {
+                    "first":    "hubiéremos comido",
+                    "second":   "hubiereis comido",
+                    "third":    "hubieren comido"
+                }
+            }
 		},
 		"imperative": {
 			"affirmative": {
@@ -537,7 +754,19 @@ var tests = {
 					"second": "comeríais",
 					"third": "comerían"
 				}
-			}
+			},
+            "perfect": {
+                "singular": {
+                    "first": "habría comido",
+                    "second": "habrías comido",
+                    "third": "habría comido"
+                },
+                "plural": {
+                    "first": "habríamos comido",
+                    "second": "habríais comido",
+                    "third": "habrían comido"
+                }
+            }
 		}
 	}
 };
@@ -760,7 +989,43 @@ var irregularVerbs = {
 					"second":	"estuviereis", 
 					"third":	"estuvieren" 
 				}
-			}
+			},
+            "perfect": {
+                "singular": {
+                    "first":    "haya estado",
+                    "second":   "hayas estado",
+                    "third":    "haya estado"
+                },
+                "plural": {
+                    "first":    "hayamos estado",
+                    "second":   "hayáis estado",
+                    "third":    "hayan estado"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "hubiera estado",
+                    "second":   "hubieras estado",
+                    "third":    "hubiera estado"
+                },
+                "plural": {
+                    "first":    "hubiéramos estado",
+                    "second":   "hubierais estado",
+                    "third":    "hubieran estado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "hubiere estado",
+                    "second":   "hubieres estado",
+                    "third":    "hubiere estado"
+                },
+                "plural": {
+                    "first":    "hubiéremos estado",
+                    "second":   "hubiereis estado",
+                    "third":    "hubieren estado"
+                }
+            }
 		},
 		"imperative": {
 			"affirmative": {
@@ -824,8 +1089,804 @@ var irregularVerbs = {
 				}
 			}
 		}
+	},
+	
+	// IE stem change verb regular
+	"acertar": {
+	    "indicative": {
+	        "present": {
+	            "singular": {
+	                "first": "acierto",
+	                "second": "aciertas",
+	                "third": "acierta"
+	            },
+	            "plural": {
+	                "first": "acertamos",
+	                "second": "acertáis",
+	                "third": "aciertan"
+	            }
+	        },
+	        "imperfect": {
+	            "singular": {
+	                "first": "acertaba",
+	                "second": "acertabas",
+	                "third": "acertaba"
+	            },
+	            "plural": {
+	                "first": "acertábamos",
+	                "second": "acertabais",
+	                "third": "acertaban"
+	            }
+	        },
+	        "preterite": {
+	            "singular": {
+	                "first": "acerté",
+	                "second": "acertaste",
+	                "third": "acertó"
+	            },
+	            "plural": {
+	                "first": "acertamos",
+	                "second": "acertasteis",
+	                "third": "acertaron"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "acertaré",
+	                "second": "acertarás",
+	                "third": "acertará"
+	            },
+	            "plural": {
+	                "first": "acertaremos",
+	                "second": "acertaréis",
+	                "third": "acertarán"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "he acertado",
+	                "second": "has acertado",
+	                "third": "ha acertado"
+	            },
+	            "plural": {
+	                "first": "hemos acertado",
+	                "second": "habéis acertado",
+	                "third": "han acertado"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "había acertado",
+	                "second": "habías acertado",
+	                "third": "había acertado"
+	            },
+	            "plural": {
+	                "first": "habíamos acertado",
+	                "second": "habíais acertado",
+	                "third": "habían acertado"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "habré acertado",
+	                "second": "habrás acertado",
+	                "third": "habrá acertado"
+	            },
+	            "plural": {
+	                "first": "habremos acertado",
+	                "second": "habréis acertado",
+	                "third": "habrán acertado"
+	            }
+	        },
+	        "preterite perfect": {
+	            "singular": {
+	                "first": "hube acertado",
+	                "second": "hubiste acertado",
+	                "third": "hubo acertado"
+	            },
+	            "plural": {
+	                "first": "hubimos acertado",
+	                "second": "hubisteis acertado",
+	                "third": "hubieron acertado"
+	            }
+	        }
+	    },
+	    "subjunctive": {
+	        "present": {
+	            "singular": {
+	                "first": "acierte",
+	                "second": "aciertes",
+	                "third": "acierte"
+	            },
+	            "plural": {
+	                "first": "acertemos",
+	                "second": "acertéis",
+	                "third": "acierten"
+	            }
+	        },
+	        "imperfect -ra": {
+	            "singular": {
+	                "first": "acertara",
+	                "second": "acertaras",
+	                "third": "acertara"
+	            },
+	            "plural": {
+	                "first": "acertáramos",
+	                "second": "acertarais",
+	                "third": "acertaran"
+	            }
+	        },
+	        "imperfect -se": {
+	            "singular": {
+	                "first": "acertase",
+	                "second": "acertases",
+	                "third": "acertase"
+	            },
+	            "plural": {
+	                "first": "acertásemos",
+	                "second": "acertaseis",
+	                "third": "acertasen"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "acertare",
+	                "second": "acertares",
+	                "third": "acertare"
+	            },
+	            "plural": {
+	                "first": "acertáremos",
+	                "second": "acertareis",
+	                "third": "acertaren"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "haya acertado",
+	                "second": "hayas acertado",
+	                "third": "haya acertado"
+	            },
+	            "plural": {
+	                "first": "hayamos acertado",
+	                "second": "hayáis acertado",
+	                "third": "hayan acertado"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "hubiera acertado",
+	                "second": "hubieras acertado",
+	                "third": "hubiera acertado"
+	            },
+	            "plural": {
+	                "first": "hubiéramos acertado",
+	                "second": "hubierais acertado",
+	                "third": "hubieran acertado"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "hubiere acertado",
+	                "second": "hubieres acertado",
+	                "third": "hubiere acertado"
+	            },
+	            "plural": {
+	                "first": "hubiéremos acertado",
+	                "second": "hubiereis acertado",
+	                "third": "hubieren acertado"
+	            }
+	        }
+	    },
+	    "conditional": {
+	        "present": {
+	            "singular": {
+	                "first": "acertaría",
+	                "second": "acertarías",
+	                "third": "acertaría"
+	            },
+	            "plural": {
+	                "first": "acertaríamos",
+	                "second": "acertaríais",
+	                "third": "acertarían"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "habría acertado",
+	                "second": "habrías acertado",
+	                "third": "habría acertado"
+	            },
+	            "plural": {
+	                "first": "habríamos acertado",
+	                "second": "habríais acertado",
+	                "third": "habrían acertado"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "acertaría",
+	                "second": "acertarías",
+	                "third": "acertaría"
+	            },
+	            "plural": {
+	                "first": "acertaríamos",
+	                "second": "acertaríais",
+	                "third": "acertarían"
+	            }
+	        }
+	    },
+	    "imperative": {
+	        "affirmative": {
+	            "singular": {
+	                "second": "acierta",
+	                "third": "acierte"
+	            },
+	            "plural": {
+	                "first": "acertemos",
+	                "second": "acertad",
+	                "third": "acierten"
+	            }
+	        },
+	        "negative": {
+	            "singular": {
+	                "second": "aciertes",
+	                "third": "acierte"
+	            },
+	            "plural": {
+	                "first": "acertemos",
+	                "second": "acertéis",
+	                "third": "acierten"
+	            }
+	        }
+	    }
+	},
+	
+	// IE stem change 
+	"conferir": {
+	    "indicative": {
+	        "present": {
+	            "singular": {
+	                "first": "confiero",
+	                "second": "confieres",
+	                "third": "confiere"
+	            },
+	            "plural": {
+	                "first": "conferimos",
+	                "second": "conferís",
+	                "third": "confieren"
+	            }
+	        },
+	        "imperfect": {
+	            "singular": {
+	                "first": "confería",
+	                "second": "conferías",
+	                "third": "confería"
+	            },
+	            "plural": {
+	                "first": "conferíamos",
+	                "second": "conferíais",
+	                "third": "conferían"
+	            }
+	        },
+	        "preterite": {
+	            "singular": {
+	                "first": "conferí",
+	                "second": "conferiste",
+	                "third": "confierió"
+	            },
+	            "plural": {
+	                "first": "conferimos",
+	                "second": "conferisteis",
+	                "third": "conferieron"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "conferiré",
+	                "second": "conferirás",
+	                "third": "conferirá"
+	            },
+	            "plural": {
+	                "first": "conferiremos",
+	                "second": "conferiréis",
+	                "third": "conferirán"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "he conferido",
+	                "second": "has conferido",
+	                "third": "ha conferido"
+	            },
+	            "plural": {
+	                "first": "hemos conferido",
+	                "second": "habéis conferido",
+	                "third": "han conferido"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "había conferido",
+	                "second": "habías conferido",
+	                "third": "había conferido"
+	            },
+	            "plural": {
+	                "first": "habíamos conferido",
+	                "second": "habíais conferido",
+	                "third": "habían conferido"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "habré conferido",
+	                "second": "habrás conferido",
+	                "third": "habrá conferido"
+	            },
+	            "plural": {
+	                "first": "habremos conferido",
+	                "second": "habréis conferido",
+	                "third": "habrán conferido"
+	            }
+	        },
+	        "preterite perfect": {
+	            "singular": {
+	                "first": "hube conferido",
+	                "second": "hubiste conferido",
+	                "third": "hubo conferido"
+	            },
+	            "plural": {
+	                "first": "hubimos conferido",
+	                "second": "hubisteis conferido",
+	                "third": "hubieron conferido"
+	            }
+	        }
+	    },
+	    "subjunctive": {
+	        "present": {
+	            "singular": {
+	                "first": "confiera",
+	                "second": "confieras",
+	                "third": "confiera"
+	            },
+	            "plural": {
+	                "first": "confieramos",
+	                "second": "confieráis",
+	                "third": "confieran"
+	            }
+	        },
+	        "imperfect -ra": {
+	            "singular": {
+	                "first": "confieriera",
+	                "second": "confierieras",
+	                "third": "confieriera"
+	            },
+	            "plural": {
+	                "first": "confieriéramos",
+	                "second": "confierierais",
+	                "third": "confierieran"
+	            }
+	        },
+	        "imperfect -se": {
+	            "singular": {
+	                "first": "confieriese",
+	                "second": "confierieses",
+	                "third": "confieriese"
+	            },
+	            "plural": {
+	                "first": "confieriésemos",
+	                "second": "confierieseis",
+	                "third": "confieriesen"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "confieriere",
+	                "second": "confierieres",
+	                "third": "confieriere"
+	            },
+	            "plural": {
+	                "first": "confieriéremos",
+	                "second": "confieriereis",
+	                "third": "confierieren"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "haya conferido",
+	                "second": "hayas conferido",
+	                "third": "haya conferido"
+	            },
+	            "plural": {
+	                "first": "hayamos conferido",
+	                "second": "hayáis conferido",
+	                "third": "hayan conferido"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "hubiera conferido",
+	                "second": "hubieras conferido",
+	                "third": "hubiera conferido"
+	            },
+	            "plural": {
+	                "first": "hubiéramos conferido",
+	                "second": "hubierais conferido",
+	                "third": "hubieran conferido"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "hubiere conferido",
+	                "second": "hubieres conferido",
+	                "third": "hubiere conferido"
+	            },
+	            "plural": {
+	                "first": "hubiéremos conferido",
+	                "second": "hubiereis conferido",
+	                "third": "hubieren conferido"
+	            }
+	        }
+	    },
+	    "conditional": {
+	        "present": {
+	            "singular": {
+	                "first": "conferiría",
+	                "second": "conferirías",
+	                "third": "conferiría"
+	            },
+	            "plural": {
+	                "first": "conferiríamos",
+	                "second": "conferiríais",
+	                "third": "conferirían"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "habría conferido",
+	                "second": "habrías conferido",
+	                "third": "habría conferido"
+	            },
+	            "plural": {
+	                "first": "habríamos conferido",
+	                "second": "habríais conferido",
+	                "third": "habrían conferido"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "conferiría",
+	                "second": "conferirías",
+	                "third": "conferiría"
+	            },
+	            "plural": {
+	                "first": "conferiríamos",
+	                "second": "conferiríais",
+	                "third": "conferirían"
+	            }
+	        }
+	    },
+	    "imperative": {
+	        "affirmative": {
+	            "singular": {
+	                "second": "confiere",
+	                "third": "confiera"
+	            },
+	            "plural": {
+	                "first": "confieramos",
+	                "second": "conferid",
+	                "third": "confieran"
+	            }
+	        },
+	        "negative": {
+	            "singular": {
+	                "second": "confieras",
+	                "third": "confiera"
+	            },
+	            "plural": {
+	                "first": "confieramos",
+	                "second": "confieráis",
+	                "third": "confieran"
+	            }
+	        }
+	    }
+	},
+	
+	// IE verb with -go
+	"contener": {
+	    "indicative": {
+	        "present": {
+	            "singular": {
+	                "first": "contengo",
+	                "second": "contienes",
+	                "third": "contiene"
+	            },
+	            "plural": {
+	                "first": "contenemos",
+	                "second": "contenéis",
+	                "third": "contienen"
+	            }
+	        },
+	        "imperfect": {
+	            "singular": {
+	                "first": "contenía",
+	                "second": "contenías",
+	                "third": "contenía"
+	            },
+	            "plural": {
+	                "first": "conteníamos",
+	                "second": "conteníais",
+	                "third": "contenían"
+	            }
+	        },
+	        "preterite": {
+	            "singular": {
+	                "first": "contuve",
+	                "second": "contuviste",
+	                "third": "contuvo"
+	            },
+	            "plural": {
+	                "first": "contuvimos",
+	                "second": "contuvisteis",
+	                "third": "contuvieron"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "contendré",
+	                "second": "contendrás",
+	                "third": "contendrá"
+	            },
+	            "plural": {
+	                "first": "contendremos",
+	                "second": "contendréis",
+	                "third": "contendrán"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "he contenido",
+	                "second": "has contenido",
+	                "third": "ha contenido"
+	            },
+	            "plural": {
+	                "first": "hemos contenido",
+	                "second": "habéis contenido",
+	                "third": "han contenido"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "había contenido",
+	                "second": "habías contenido",
+	                "third": "había contenido"
+	            },
+	            "plural": {
+	                "first": "habíamos contenido",
+	                "second": "habíais contenido",
+	                "third": "habían contenido"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "habré contenido",
+	                "second": "habrás contenido",
+	                "third": "habrá contenido"
+	            },
+	            "plural": {
+	                "first": "habremos contenido",
+	                "second": "habréis contenido",
+	                "third": "habrán contenido"
+	            }
+	        },
+	        "preterite perfect": {
+	            "singular": {
+	                "first": "hube contenido",
+	                "second": "hubiste contenido",
+	                "third": "hubo contenido"
+	            },
+	            "plural": {
+	                "first": "hubimos contenido",
+	                "second": "hubisteis contenido",
+	                "third": "hubieron contenido"
+	            }
+	        }
+	    },
+	    "subjunctive": {
+	        "present": {
+	            "singular": {
+	                "first": "contenga",
+	                "second": "contengas",
+	                "third": "contenga"
+	            },
+	            "plural": {
+	                "first": "contengamos",
+	                "second": "contengáis",
+	                "third": "contengan"
+	            }
+	        },
+	        "imperfect -ra": {
+	            "singular": {
+	                "first": "contuviera",
+	                "second": "contuvieras",
+	                "third": "contuviera"
+	            },
+	            "plural": {
+	                "first": "contuviéramos",
+	                "second": "contuvierais",
+	                "third": "contuvieran"
+	            }
+	        },
+	        "imperfect -se": {
+	            "singular": {
+	                "first": "contuviese",
+	                "second": "contuvieses",
+	                "third": "contuviese"
+	            },
+	            "plural": {
+	                "first": "contuviésemos",
+	                "second": "contuvieseis",
+	                "third": "contuviesen"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "contuviere",
+	                "second": "contuvieres",
+	                "third": "contuviere"
+	            },
+	            "plural": {
+	                "first": "contuviéremos",
+	                "second": "contuviereis",
+	                "third": "contuvieren"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "haya contenido",
+	                "second": "hayas contenido",
+	                "third": "haya contenido"
+	            },
+	            "plural": {
+	                "first": "hayamos contenido",
+	                "second": "hayáis contenido",
+	                "third": "hayan contenido"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "hubiera contenido",
+	                "second": "hubieras contenido",
+	                "third": "hubiera contenido"
+	            },
+	            "plural": {
+	                "first": "hubiéramos contenido",
+	                "second": "hubierais contenido",
+	                "third": "hubieran contenido"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "hubiere contenido",
+	                "second": "hubieres contenido",
+	                "third": "hubiere contenido"
+	            },
+	            "plural": {
+	                "first": "hubiéremos contenido",
+	                "second": "hubiereis contenido",
+	                "third": "hubieren contenido"
+	            }
+	        }
+	    },
+	    "conditional": {
+	        "present": {
+	            "singular": {
+	                "first": "contendría",
+	                "second": "contendrías",
+	                "third": "contendría"
+	            },
+	            "plural": {
+	                "first": "contendríamos",
+	                "second": "contendríais",
+	                "third": "contendrían"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "habría contenido",
+	                "second": "habrías contenido",
+	                "third": "habría contenido"
+	            },
+	            "plural": {
+	                "first": "habríamos contenido",
+	                "second": "habríais contenido",
+	                "third": "habrían contenido"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "contendría",
+	                "second": "contendrías",
+	                "third": "contendría"
+	            },
+	            "plural": {
+	                "first": "contendríamos",
+	                "second": "contendríais",
+	                "third": "contendrían"
+	            }
+	        }
+	    },
+	    "imperative": {
+	        "affirmative": {
+	            "singular": {
+	                "second": "contén",
+	                "third": "contenga"
+	            },
+	            "plural": {
+	                "first": "contengamos",
+	                "second": "contened",
+	                "third": "contengan"
+	            }
+	        },
+	        "negative": {
+	            "singular": {
+	                "second": "contengas",
+	                "third": "contenga"
+	            },
+	            "plural": {
+	                "first": "contengamos",
+	                "second": "contengáis",
+	                "third": "contengan"
+	            }
+	        }
+	    }
 	}
 };
+
+function deepCompare(left, right) {
+    if (!left || !right) {
+        if (!left && !right) {
+            return true;
+        }
+        
+        console.log("left is " + JSON.stringify(left) + " and right is " + JSON.stringify(right));
+        return false;
+    }
+    
+    
+    for (var p in left) {
+        if (left.hasOwnProperty(p)) {
+            if (typeof(left[p]) === "object") {
+                if (!deepCompare(left[p], right[p])) {
+                    console.log("property " + p);
+                    return false;
+                }
+            } else {
+                if (left[p] !== right[p]) {
+                    console.log("property " + p + " left is " + left[p] + " and right is " + right[p]);
+                    return false;
+                }
+            }
+        }
+    }
+
+    for (var p in right) {
+        if (right.hasOwnProperty(p)) {
+            if (typeof(right[p]) === "object") {
+                if (!deepCompare(left[p], right[p])) {
+                    console.log("property " + p);
+                    return false;
+                }
+            } else {
+                if (left[p] !== right[p]) {
+                    console.log("property " + p + " left is " + left[p] + " and right is " + right[p]);
+                    return false;
+                }
+            }
+        }
+    }
+
+    return true;
+}
 
 module.exports = {
     testInflectRegular: function(test) {
@@ -918,5 +1979,32 @@ module.exports = {
     	});
         
         test.done();
+    },
+    
+    testConjugateRegularVerbs: function(test) {
+
+        Object.keys(tests).forEach(function(verb) {
+            var expected = tests[verb];
+
+            var actual = conjugateVerb(verb, {verbOnly: true});
+            test.ok(deepCompare(actual, expected));
+            test.deepEqual(actual, expected);
+        });
+        
+        test.done();
+    },
+
+    testConjugateIrregularVerbs: function(test) {
+
+        Object.keys(irregularVerbs).forEach(function(verb) {
+            var expected = irregularVerbs[verb];
+
+            var actual = conjugateVerb(verb, {verbOnly: true});
+            test.ok(deepCompare(actual, expected));
+            test.deepEqual(actual, expected);
+        });
+        
+        test.done();
     }
+
 };
