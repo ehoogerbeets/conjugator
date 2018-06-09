@@ -1372,12 +1372,12 @@ var irregularVerbs = {
 	            "singular": {
 	                "first": "conferí",
 	                "second": "conferiste",
-	                "third": "confierió"
+	                "third": "confirió"
 	            },
 	            "plural": {
 	                "first": "conferimos",
 	                "second": "conferisteis",
-	                "third": "conferieron"
+	                "third": "confirieron"
 	            }
 	        },
 	        "future": {
@@ -1449,45 +1449,45 @@ var irregularVerbs = {
 	                "third": "confiera"
 	            },
 	            "plural": {
-	                "first": "confieramos",
-	                "second": "confieráis",
+	                "first": "confiramos",
+	                "second": "confiráis",
 	                "third": "confieran"
 	            }
 	        },
 	        "imperfect -ra": {
 	            "singular": {
-	                "first": "confieriera",
-	                "second": "confierieras",
-	                "third": "confieriera"
+	                "first": "confiriera",
+	                "second": "confirieras",
+	                "third": "confiriera"
 	            },
 	            "plural": {
-	                "first": "confieriéramos",
-	                "second": "confierierais",
-	                "third": "confierieran"
+	                "first": "confiriéramos",
+	                "second": "confirierais",
+	                "third": "confirieran"
 	            }
 	        },
 	        "imperfect -se": {
 	            "singular": {
-	                "first": "confieriese",
-	                "second": "confierieses",
-	                "third": "confieriese"
+	                "first": "confiriese",
+	                "second": "confirieses",
+	                "third": "confiriese"
 	            },
 	            "plural": {
-	                "first": "confieriésemos",
-	                "second": "confierieseis",
-	                "third": "confieriesen"
+	                "first": "confiriésemos",
+	                "second": "confirieseis",
+	                "third": "confiriesen"
 	            }
 	        },
 	        "future": {
 	            "singular": {
-	                "first": "confieriere",
-	                "second": "confierieres",
-	                "third": "confieriere"
+	                "first": "confiriere",
+	                "second": "confirieres",
+	                "third": "confiriere"
 	            },
 	            "plural": {
-	                "first": "confieriéremos",
-	                "second": "confieriereis",
-	                "third": "confierieren"
+	                "first": "confiriéremos",
+	                "second": "confiriereis",
+	                "third": "confirieren"
 	            }
 	        },
 	        "perfect": {
@@ -1572,7 +1572,7 @@ var irregularVerbs = {
 	                "third": "confiera"
 	            },
 	            "plural": {
-	                "first": "confieramos",
+	                "first": "confiramos",
 	                "second": "conferid",
 	                "third": "confieran"
 	            }
@@ -1583,13 +1583,262 @@ var irregularVerbs = {
 	                "third": "confiera"
 	            },
 	            "plural": {
-	                "first": "confieramos",
-	                "second": "confieráis",
+	                "first": "confiramos",
+	                "second": "confiráis",
 	                "third": "confieran"
 	            }
 	        }
 	    }
 	},
+	
+    "confesar": {
+        "indicative": {
+            "present": {
+                "singular": {
+                    "first": "confieso",
+                    "second": "confiesas",
+                    "third": "confiesa"
+                },
+                "plural": {
+                    "first": "confesamos",
+                    "second": "confesáis",
+                    "third": "confiesan"
+                }
+            },
+            "imperfect": {
+                "singular": {
+                    "first": "confesaba",
+                    "second": "confesabas",
+                    "third": "confesaba"
+                },
+                "plural": {
+                    "first": "confesábamos",
+                    "second": "confesabais",
+                    "third": "confesaban"
+                }
+            },
+            "preterite": {
+                "singular": {
+                    "first": "confesé",
+                    "second": "confesaste",
+                    "third": "confesó"
+                },
+                "plural": {
+                    "first": "confesamos",
+                    "second": "confesasteis",
+                    "third": "confesaron"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "confesaré",
+                    "second": "confesarás",
+                    "third": "confesará"
+                },
+                "plural": {
+                    "first": "confesaremos",
+                    "second": "confesaréis",
+                    "third": "confesarán"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "he confesado",
+                    "second": "has confesado",
+                    "third": "ha confesado"
+                },
+                "plural": {
+                    "first": "hemos confesado",
+                    "second": "habéis confesado",
+                    "third": "han confesado"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first": "había confesado",
+                    "second": "habías confesado",
+                    "third": "había confesado"
+                },
+                "plural": {
+                    "first": "habíamos confesado",
+                    "second": "habíais confesado",
+                    "third": "habían confesado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first": "habré confesado",
+                    "second": "habrás confesado",
+                    "third": "habrá confesado"
+                },
+                "plural": {
+                    "first": "habremos confesado",
+                    "second": "habréis confesado",
+                    "third": "habrán confesado"
+                }
+            },
+            "preterite perfect": {
+                "singular": {
+                    "first": "hube confesado",
+                    "second": "hubiste confesado",
+                    "third": "hubo confesado"
+                },
+                "plural": {
+                    "first": "hubimos confesado",
+                    "second": "hubisteis confesado",
+                    "third": "hubieron confesado"
+                }
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "singular": {
+                    "first": "confiese",
+                    "second": "confieses",
+                    "third": "confiese"
+                },
+                "plural": {
+                    "first": "confesemos",
+                    "second": "confeséis",
+                    "third": "confiesen"
+                }
+            },
+            "imperfect -ra": {
+                "singular": {
+                    "first": "confesara",
+                    "second": "confesaras",
+                    "third": "confesara"
+                },
+                "plural": {
+                    "first": "confesáramos",
+                    "second": "confesarais",
+                    "third": "confesaran"
+                }
+            },
+            "imperfect -se": {
+                "singular": {
+                    "first": "confesase",
+                    "second": "confesases",
+                    "third": "confesase"
+                },
+                "plural": {
+                    "first": "confesásemos",
+                    "second": "confesaseis",
+                    "third": "confesasen"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "confesare",
+                    "second": "confesares",
+                    "third": "confesare"
+                },
+                "plural": {
+                    "first": "confesáremos",
+                    "second": "confesareis",
+                    "third": "confesaren"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "haya confesado",
+                    "second": "hayas confesado",
+                    "third": "haya confesado"
+                },
+                "plural": {
+                    "first": "hayamos confesado",
+                    "second": "hayáis confesado",
+                    "third": "hayan confesado"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first": "hubiera confesado",
+                    "second": "hubieras confesado",
+                    "third": "hubiera confesado"
+                },
+                "plural": {
+                    "first": "hubiéramos confesado",
+                    "second": "hubierais confesado",
+                    "third": "hubieran confesado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first": "hubiere confesado",
+                    "second": "hubieres confesado",
+                    "third": "hubiere confesado"
+                },
+                "plural": {
+                    "first": "hubiéremos confesado",
+                    "second": "hubiereis confesado",
+                    "third": "hubieren confesado"
+                }
+            }
+        },
+        "conditional": {
+            "present": {
+                "singular": {
+                    "first": "confesaría",
+                    "second": "confesarías",
+                    "third": "confesaría"
+                },
+                "plural": {
+                    "first": "confesaríamos",
+                    "second": "confesaríais",
+                    "third": "confesarían"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "habría confesado",
+                    "second": "habrías confesado",
+                    "third": "habría confesado"
+                },
+                "plural": {
+                    "first": "habríamos confesado",
+                    "second": "habríais confesado",
+                    "third": "habrían confesado"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "confesaría",
+                    "second": "confesarías",
+                    "third": "confesaría"
+                },
+                "plural": {
+                    "first": "confesaríamos",
+                    "second": "confesaríais",
+                    "third": "confesarían"
+                }
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "singular": {
+                    "second": "confiesa",
+                    "third": "confiese"
+                },
+                "plural": {
+                    "first": "confesemos",
+                    "second": "confesad",
+                    "third": "confiesen"
+                }
+            },
+            "negative": {
+                "singular": {
+                    "second": "confieses",
+                    "third": "confiese"
+                },
+                "plural": {
+                    "first": "confesemos",
+                    "second": "confeséis",
+                    "third": "confiesen"
+                }
+            }
+        }
+    },
 	
 	// IE verb with -go
 	"contener": {
