@@ -1,6 +1,6 @@
 /*
  * testInflect.js - nodeunit test for the Spanish verb inflection generator function.
- * 
+ *
  * Copyright © 2017-2018, HealthTap, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -32,8 +32,8 @@ var tests = {
 					"third":	"ama"
 				},
 				"plural": {
-					"first": 	"amamos",	
-					"second": 	"amáis",	
+					"first": 	"amamos",
+					"second": 	"amáis",
 					"third": 	"aman"
 				}
 			},
@@ -41,10 +41,10 @@ var tests = {
 				"singular": {
 					"first":	"amé",
 					"second":	"amaste",
-					"third":	"amó"	
+					"third":	"amó"
 				},
 				"plural": {
-					"first": 	"amamos",	
+					"first": 	"amamos",
 					"second": 	"amasteis",
 					"third": 	"amaron"
 				}
@@ -53,11 +53,11 @@ var tests = {
 				"singular": {
 					"first":	"amaba",
 					"second":	"amabas",
-					"third":	"amaba",	
+					"third":	"amaba",
 				},
 				"plural": {
-					"first": 	"amábamos",	
-					"second": 	"amabais",	
+					"first": 	"amábamos",
+					"second": 	"amabais",
 					"third": 	"amaban"
 				}
 			},
@@ -68,8 +68,8 @@ var tests = {
 					"third":	"amará"
 				},
 				"plural": {
-					"first": 	"amaremos",	
-					"second": 	"amaréis",	
+					"first": 	"amaremos",
+					"second": 	"amaréis",
 					"third": 	"amarán"
 				}
 			},
@@ -80,8 +80,8 @@ var tests = {
 					"third":	"ha amado"
 				},
 				"plural": {
-					"first": 	"hemos amado",	
-					"second": 	"habéis amado",	
+					"first": 	"hemos amado",
+					"second": 	"habéis amado",
 					"third": 	"han amado"
 				}
 			},
@@ -92,8 +92,8 @@ var tests = {
 					"third":	"había amado"
 				},
 				"plural": {
-					"first": 	"habíamos amado",	
-					"second": 	"habíais amado",	
+					"first": 	"habíamos amado",
+					"second": 	"habíais amado",
 					"third": 	"habían amado"
 				}
 			},
@@ -104,8 +104,8 @@ var tests = {
 					"third":	"habrá amado"
 				},
 				"plural": {
-					"first": 	"habremos amado",	
-					"second": 	"habréis amado",	
+					"first": 	"habremos amado",
+					"second": 	"habréis amado",
 					"third": 	"habrán amado"
 				}
 			},
@@ -116,8 +116,8 @@ var tests = {
 					"third":	"hubo amado"
 				},
 				"plural": {
-					"first": 	"hubimos amado",	
-					"second": 	"hubisteis amado",	
+					"first": 	"hubimos amado",
+					"second": 	"hubisteis amado",
 					"third": 	"hubieron amado"
 				}
 			}
@@ -161,14 +161,14 @@ var tests = {
 			},
 			"future": {
 				"singular": {
-					"first":	"amare", 
-					"second":	"amares", 
+					"first":	"amare",
+					"second":	"amares",
 					"third":	"amare"
 				},
 				"plural": {
-					"first":	"amáremos", 
-					"second":	"amareis", 
-					"third":	"amaren" 
+					"first":	"amáremos",
+					"second":	"amareis",
+					"third":	"amaren"
 				}
 			},
 			"perfect": {
@@ -281,8 +281,8 @@ var tests = {
 					"third":	"parte"
 				},
 				"plural": {
-					"first": 	"partimos",	
-					"second": 	"partís",	
+					"first": 	"partimos",
+					"second": 	"partís",
 					"third": 	"parten"
 				}
 			},
@@ -290,10 +290,10 @@ var tests = {
 				"singular": {
 					"first":	"partí",
 					"second":	"partiste",
-					"third":	"partió"	
+					"third":	"partió"
 				},
 				"plural": {
-					"first": 	"partimos",	
+					"first": 	"partimos",
 					"second": 	"partisteis",
 					"third": 	"partieron"
 				}
@@ -302,11 +302,11 @@ var tests = {
 				"singular": {
 					"first":	"partía",
 					"second":	"partías",
-					"third":	"partía",	
+					"third":	"partía",
 				},
 				"plural": {
-					"first": 	"partíamos",	
-					"second": 	"partíais",	
+					"first": 	"partíamos",
+					"second": 	"partíais",
 					"third": 	"partían"
 				}
 			},
@@ -317,8 +317,8 @@ var tests = {
 					"third":	"partirá"
 				},
 				"plural": {
-					"first": 	"partiremos",	
-					"second": 	"partiréis",	
+					"first": 	"partiremos",
+					"second": 	"partiréis",
 					"third": 	"partirán"
 				}
 			},
@@ -329,8 +329,8 @@ var tests = {
                     "third":    "ha partido"
                 },
                 "plural": {
-                    "first":    "hemos partido",  
-                    "second":   "habéis partido", 
+                    "first":    "hemos partido",
+                    "second":   "habéis partido",
                     "third":    "han partido"
                 }
             },
@@ -341,8 +341,8 @@ var tests = {
                     "third":    "había partido"
                 },
                 "plural": {
-                    "first":    "habíamos partido",   
-                    "second":   "habíais partido",    
+                    "first":    "habíamos partido",
+                    "second":   "habíais partido",
                     "third":    "habían partido"
                 }
             },
@@ -353,8 +353,8 @@ var tests = {
                     "third":    "habrá partido"
                 },
                 "plural": {
-                    "first":    "habremos partido",   
-                    "second":   "habréis partido",    
+                    "first":    "habremos partido",
+                    "second":   "habréis partido",
                     "third":    "habrán partido"
                 }
             },
@@ -365,8 +365,8 @@ var tests = {
                     "third":    "hubo partido"
                 },
                 "plural": {
-                    "first":    "hubimos partido",    
-                    "second":   "hubisteis partido",  
+                    "first":    "hubimos partido",
+                    "second":   "hubisteis partido",
                     "third":    "hubieron partido"
                 }
             }
@@ -410,14 +410,14 @@ var tests = {
 			},
 			"future": {
 				"singular": {
-					"first":	"partiere", 
-					"second":	"partieres", 
+					"first":	"partiere",
+					"second":	"partieres",
 					"third":	"partiere"
 				},
 				"plural": {
-					"first":	"partiéremos", 
-					"second":	"partiereis", 
-					"third":	"partieren" 
+					"first":	"partiéremos",
+					"second":	"partiereis",
+					"third":	"partieren"
 				}
 			},
             "perfect": {
@@ -530,8 +530,8 @@ var tests = {
 					"third":	"come"
 				},
 				"plural": {
-					"first": 	"comemos",	
-					"second": 	"coméis",	
+					"first": 	"comemos",
+					"second": 	"coméis",
 					"third": 	"comen"
 				}
 			},
@@ -539,10 +539,10 @@ var tests = {
 				"singular": {
 					"first":	"comí",
 					"second":	"comiste",
-					"third":	"comió"	
+					"third":	"comió"
 				},
 				"plural": {
-					"first": 	"comimos",	
+					"first": 	"comimos",
 					"second": 	"comisteis",
 					"third": 	"comieron"
 				}
@@ -551,11 +551,11 @@ var tests = {
 				"singular": {
 					"first":	"comía",
 					"second":	"comías",
-					"third":	"comía",	
+					"third":	"comía",
 				},
 				"plural": {
-					"first": 	"comíamos",	
-					"second": 	"comíais",	
+					"first": 	"comíamos",
+					"second": 	"comíais",
 					"third": 	"comían"
 				}
 			},
@@ -566,8 +566,8 @@ var tests = {
 					"third":	"comerá"
 				},
 				"plural": {
-					"first": 	"comeremos",	
-					"second": 	"comeréis",	
+					"first": 	"comeremos",
+					"second": 	"comeréis",
 					"third": 	"comerán"
 				}
 			},
@@ -578,8 +578,8 @@ var tests = {
                     "third":    "ha comido"
                 },
                 "plural": {
-                    "first":    "hemos comido",  
-                    "second":   "habéis comido", 
+                    "first":    "hemos comido",
+                    "second":   "habéis comido",
                     "third":    "han comido"
                 }
             },
@@ -590,8 +590,8 @@ var tests = {
                     "third":    "había comido"
                 },
                 "plural": {
-                    "first":    "habíamos comido",   
-                    "second":   "habíais comido",    
+                    "first":    "habíamos comido",
+                    "second":   "habíais comido",
                     "third":    "habían comido"
                 }
             },
@@ -602,8 +602,8 @@ var tests = {
                     "third":    "habrá comido"
                 },
                 "plural": {
-                    "first":    "habremos comido",   
-                    "second":   "habréis comido",    
+                    "first":    "habremos comido",
+                    "second":   "habréis comido",
                     "third":    "habrán comido"
                 }
             },
@@ -614,8 +614,8 @@ var tests = {
                     "third":    "hubo comido"
                 },
                 "plural": {
-                    "first":    "hubimos comido",    
-                    "second":   "hubisteis comido",  
+                    "first":    "hubimos comido",
+                    "second":   "hubisteis comido",
                     "third":    "hubieron comido"
                 }
             }
@@ -659,14 +659,14 @@ var tests = {
 			},
 			"future": {
 				"singular": {
-					"first":	"comiere", 
-					"second":	"comieres", 
+					"first":	"comiere",
+					"second":	"comieres",
 					"third":	"comiere"
 				},
 				"plural": {
-					"first":	"comiéremos", 
-					"second":	"comiereis", 
-					"third":	"comieren" 
+					"first":	"comiéremos",
+					"second":	"comiereis",
+					"third":	"comieren"
 				}
 			},
 			"perfect": {
@@ -809,7 +809,7 @@ var irregularPastParticiples = {
 			}
 		}
 	},
-	
+
 	"decir": {
 		"indicative": {
 			"perfect": {
@@ -851,8 +851,8 @@ var irregularVerbs = {
 					"third":	"está"
 				},
 				"plural": {
-					"first": 	"estamos",	
-					"second": 	"estáis",	
+					"first": 	"estamos",
+					"second": 	"estáis",
 					"third": 	"están"
 				}
 			},
@@ -860,10 +860,10 @@ var irregularVerbs = {
 				"singular": {
 					"first":	"estuve",
 					"second":	"estuviste",
-					"third":	"estuvo"	
+					"third":	"estuvo"
 				},
 				"plural": {
-					"first": 	"estuvimos",	
+					"first": 	"estuvimos",
 					"second": 	"estuvisteis",
 					"third": 	"estuvieron"
 				}
@@ -872,11 +872,11 @@ var irregularVerbs = {
 				"singular": {
 					"first":	"estaba",
 					"second":	"estabas",
-					"third":	"estaba",	
+					"third":	"estaba",
 				},
 				"plural": {
-					"first": 	"estábamos",	
-					"second": 	"estabais",	
+					"first": 	"estábamos",
+					"second": 	"estabais",
 					"third": 	"estaban"
 				}
 			},
@@ -887,8 +887,8 @@ var irregularVerbs = {
 					"third":	"estará"
 				},
 				"plural": {
-					"first": 	"estaremos",	
-					"second": 	"estaréis",	
+					"first": 	"estaremos",
+					"second": 	"estaréis",
 					"third": 	"estarán"
 				}
 			},
@@ -899,8 +899,8 @@ var irregularVerbs = {
 					"third":	"ha estado"
 				},
 				"plural": {
-					"first": 	"hemos estado",	
-					"second": 	"habéis estado",	
+					"first": 	"hemos estado",
+					"second": 	"habéis estado",
 					"third": 	"han estado"
 				}
 			},
@@ -911,8 +911,8 @@ var irregularVerbs = {
 					"third":	"había estado"
 				},
 				"plural": {
-					"first": 	"habíamos estado",	
-					"second": 	"habíais estado",	
+					"first": 	"habíamos estado",
+					"second": 	"habíais estado",
 					"third": 	"habían estado"
 				}
 			},
@@ -923,8 +923,8 @@ var irregularVerbs = {
 					"third":	"habrá estado"
 				},
 				"plural": {
-					"first": 	"habremos estado",	
-					"second": 	"habréis estado",	
+					"first": 	"habremos estado",
+					"second": 	"habréis estado",
 					"third": 	"habrán estado"
 				}
 			},
@@ -935,8 +935,8 @@ var irregularVerbs = {
 					"third":	"hubo estado"
 				},
 				"plural": {
-					"first": 	"hubimos estado",	
-					"second": 	"hubisteis estado",	
+					"first": 	"hubimos estado",
+					"second": 	"hubisteis estado",
 					"third": 	"hubieron estado"
 				}
 			}
@@ -980,14 +980,14 @@ var irregularVerbs = {
 			},
 			"future": {
 				"singular": {
-					"first":	"estuviere", 
-					"second":	"estuvieres", 
+					"first":	"estuviere",
+					"second":	"estuvieres",
 					"third":	"estuviere"
 				},
 				"plural": {
-					"first":	"estuviéremos", 
-					"second":	"estuviereis", 
-					"third":	"estuvieren" 
+					"first":	"estuviéremos",
+					"second":	"estuviereis",
+					"third":	"estuvieren"
 				}
 			},
             "perfect": {
@@ -1090,7 +1090,7 @@ var irregularVerbs = {
 			}
 		}
 	},
-	
+
 	// IE stem change verb regular
 	"acertar": {
 	    "indicative": {
@@ -1340,8 +1340,8 @@ var irregularVerbs = {
 	        }
 	    }
 	},
-	
-	// IE stem change 
+
+	// IE stem change -ir
 	"conferir": {
 	    "indicative": {
 	        "present": {
@@ -1590,7 +1590,8 @@ var irregularVerbs = {
 	        }
 	    }
 	},
-	
+
+	// IE stem change -ar
     "confesar": {
         "indicative": {
             "present": {
@@ -1839,7 +1840,507 @@ var irregularVerbs = {
             }
         }
     },
-	
+
+    // IE stem change -er
+    "encender": {
+        "indicative": {
+            "present": {
+                "singular": {
+                    "first": "enciendo",
+                    "second": "enciendes",
+                    "third": "enciende"
+                },
+                "plural": {
+                    "first": "encendemos",
+                    "second": "encendéis",
+                    "third": "encienden"
+                }
+            },
+            "imperfect": {
+                "singular": {
+                    "first": "encendía",
+                    "second": "encendías",
+                    "third": "encendía"
+                },
+                "plural": {
+                    "first": "encendíamos",
+                    "second": "encendíais",
+                    "third": "encendían"
+                }
+            },
+            "preterite": {
+                "singular": {
+                    "first": "encendí",
+                    "second": "encendiste",
+                    "third": "encendió"
+                },
+                "plural": {
+                    "first": "encendimos",
+                    "second": "encendisteis",
+                    "third": "encendieron"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "encenderé",
+                    "second": "encenderás",
+                    "third": "encenderá"
+                },
+                "plural": {
+                    "first": "encenderemos",
+                    "second": "encenderéis",
+                    "third": "encenderán"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "he encendido",
+                    "second": "has encendido",
+                    "third": "ha encendido"
+                },
+                "plural": {
+                    "first": "hemos encendido",
+                    "second": "habéis encendido",
+                    "third": "han encendido"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first": "había encendido",
+                    "second": "habías encendido",
+                    "third": "había encendido"
+                },
+                "plural": {
+                    "first": "habíamos encendido",
+                    "second": "habíais encendido",
+                    "third": "habían encendido"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first": "habré encendido",
+                    "second": "habrás encendido",
+                    "third": "habrá encendido"
+                },
+                "plural": {
+                    "first": "habremos encendido",
+                    "second": "habréis encendido",
+                    "third": "habrán encendido"
+                }
+            },
+            "preterite perfect": {
+                "singular": {
+                    "first": "hube encendido",
+                    "second": "hubiste encendido",
+                    "third": "hubo encendido"
+                },
+                "plural": {
+                    "first": "hubimos encendido",
+                    "second": "hubisteis encendido",
+                    "third": "hubieron encendido"
+                }
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "singular": {
+                    "first": "encienda",
+                    "second": "enciendas",
+                    "third": "encienda"
+                },
+                "plural": {
+                    "first": "encendamos",
+                    "second": "encendáis",
+                    "third": "enciendan"
+                }
+            },
+            "imperfect -ra": {
+                "singular": {
+                    "first": "encendiera",
+                    "second": "encendieras",
+                    "third": "encendiera"
+                },
+                "plural": {
+                    "first": "encendiéramos",
+                    "second": "encendierais",
+                    "third": "encendieran"
+                }
+            },
+            "imperfect -se": {
+                "singular": {
+                    "first": "encendiese",
+                    "second": "encendieses",
+                    "third": "encendiese"
+                },
+                "plural": {
+                    "first": "encendiésemos",
+                    "second": "encendieseis",
+                    "third": "encendiesen"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "encendiere",
+                    "second": "encendieres",
+                    "third": "encendiere"
+                },
+                "plural": {
+                    "first": "encendiéremos",
+                    "second": "encendiereis",
+                    "third": "encendieren"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "haya encendido",
+                    "second": "hayas encendido",
+                    "third": "haya encendido"
+                },
+                "plural": {
+                    "first": "hayamos encendido",
+                    "second": "hayáis encendido",
+                    "third": "hayan encendido"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first": "hubiera encendido",
+                    "second": "hubieras encendido",
+                    "third": "hubiera encendido"
+                },
+                "plural": {
+                    "first": "hubiéramos encendido",
+                    "second": "hubierais encendido",
+                    "third": "hubieran encendido"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first": "hubiere encendido",
+                    "second": "hubieres encendido",
+                    "third": "hubiere encendido"
+                },
+                "plural": {
+                    "first": "hubiéremos encendido",
+                    "second": "hubiereis encendido",
+                    "third": "hubieren encendido"
+                }
+            }
+        },
+        "conditional": {
+            "present": {
+                "singular": {
+                    "first": "encendería",
+                    "second": "encenderías",
+                    "third": "encendería"
+                },
+                "plural": {
+                    "first": "encenderíamos",
+                    "second": "encenderíais",
+                    "third": "encenderían"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "habría encendido",
+                    "second": "habrías encendido",
+                    "third": "habría encendido"
+                },
+                "plural": {
+                    "first": "habríamos encendido",
+                    "second": "habríais encendido",
+                    "third": "habrían encendido"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "encendería",
+                    "second": "encenderías",
+                    "third": "encendería"
+                },
+                "plural": {
+                    "first": "encenderíamos",
+                    "second": "encenderíais",
+                    "third": "encenderían"
+                }
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "singular": {
+                    "second": "enciende",
+                    "third": "encienda"
+                },
+                "plural": {
+                    "first": "encendamos",
+                    "second": "encended",
+                    "third": "enciendan"
+                }
+            },
+            "negative": {
+                "singular": {
+                    "second": "enciendas",
+                    "third": "encienda"
+                },
+                "plural": {
+                    "first": "encendamos",
+                    "second": "encendáis",
+                    "third": "enciendan"
+                }
+            }
+        }
+    },
+
+    // IAR stem change i-í
+    "chirriar": {
+        "indicative": {
+            "present": {
+                "singular": {
+                    "first": "chirrío",
+                    "second": "chirrías",
+                    "third": "chirría"
+                },
+                "plural": {
+                    "first": "chirriamos",
+                    "second": "chirriáis",
+                    "third": "chirrían"
+                }
+            },
+            "imperfect": {
+                "singular": {
+                    "first": "chirriaba",
+                    "second": "chirriabas",
+                    "third": "chirriaba"
+                },
+                "plural": {
+                    "first": "chirriábamos",
+                    "second": "chirriabais",
+                    "third": "chirriaban"
+                }
+            },
+            "preterite": {
+                "singular": {
+                    "first": "chirrié",
+                    "second": "chirriaste",
+                    "third": "chirrió"
+                },
+                "plural": {
+                    "first": "chirriamos",
+                    "second": "chirriasteis",
+                    "third": "chirriaron"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "chirriaré",
+                    "second": "chirriarás",
+                    "third": "chirriará"
+                },
+                "plural": {
+                    "first": "chirriaremos",
+                    "second": "chirriaréis",
+                    "third": "chirriarán"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "he chirriado",
+                    "second": "has chirriado",
+                    "third": "ha chirriado"
+                },
+                "plural": {
+                    "first": "hemos chirriado",
+                    "second": "habéis chirriado",
+                    "third": "han chirriado"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first": "había chirriado",
+                    "second": "habías chirriado",
+                    "third": "había chirriado"
+                },
+                "plural": {
+                    "first": "habíamos chirriado",
+                    "second": "habíais chirriado",
+                    "third": "habían chirriado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first": "habré chirriado",
+                    "second": "habrás chirriado",
+                    "third": "habrá chirriado"
+                },
+                "plural": {
+                    "first": "habremos chirriado",
+                    "second": "habréis chirriado",
+                    "third": "habrán chirriado"
+                }
+            },
+            "preterite perfect": {
+                "singular": {
+                    "first": "hube chirriado",
+                    "second": "hubiste chirriado",
+                    "third": "hubo chirriado"
+                },
+                "plural": {
+                    "first": "hubimos chirriado",
+                    "second": "hubisteis chirriado",
+                    "third": "hubieron chirriado"
+                }
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "singular": {
+                    "first": "chirríe",
+                    "second": "chirríes",
+                    "third": "chirríe"
+                },
+                "plural": {
+                    "first": "chirriemos",
+                    "second": "chirriéis",
+                    "third": "chirríen"
+                }
+            },
+            "imperfect -ra": {
+                "singular": {
+                    "first": "chirriara",
+                    "second": "chirriaras",
+                    "third": "chirriara"
+                },
+                "plural": {
+                    "first": "chirriáramos",
+                    "second": "chirriarais",
+                    "third": "chirriaran"
+                }
+            },
+            "imperfect -se": {
+                "singular": {
+                    "first": "chirriase",
+                    "second": "chirriases",
+                    "third": "chirriase"
+                },
+                "plural": {
+                    "first": "chirriásemos",
+                    "second": "chirriaseis",
+                    "third": "chirriasen"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "chirriare",
+                    "second": "chirriares",
+                    "third": "chirriare"
+                },
+                "plural": {
+                    "first": "chirriáremos",
+                    "second": "chirriareis",
+                    "third": "chirriaren"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "haya chirriado",
+                    "second": "hayas chirriado",
+                    "third": "haya chirriado"
+                },
+                "plural": {
+                    "first": "hayamos chirriado",
+                    "second": "hayáis chirriado",
+                    "third": "hayan chirriado"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first": "hubiera chirriado",
+                    "second": "hubieras chirriado",
+                    "third": "hubiera chirriado"
+                },
+                "plural": {
+                    "first": "hubiéramos chirriado",
+                    "second": "hubierais chirriado",
+                    "third": "hubieran chirriado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first": "hubiere chirriado",
+                    "second": "hubieres chirriado",
+                    "third": "hubiere chirriado"
+                },
+                "plural": {
+                    "first": "hubiéremos chirriado",
+                    "second": "hubiereis chirriado",
+                    "third": "hubieren chirriado"
+                }
+            }
+        },
+        "conditional": {
+            "present": {
+                "singular": {
+                    "first": "chirriaría",
+                    "second": "chirriarías",
+                    "third": "chirriaría"
+                },
+                "plural": {
+                    "first": "chirriaríamos",
+                    "second": "chirriaríais",
+                    "third": "chirriarían"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "habría chirriado",
+                    "second": "habrías chirriado",
+                    "third": "habría chirriado"
+                },
+                "plural": {
+                    "first": "habríamos chirriado",
+                    "second": "habríais chirriado",
+                    "third": "habrían chirriado"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "chirriaría",
+                    "second": "chirriarías",
+                    "third": "chirriaría"
+                },
+                "plural": {
+                    "first": "chirriaríamos",
+                    "second": "chirriaríais",
+                    "third": "chirriarían"
+                }
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "singular": {
+                    "second": "chirría",
+                    "third": "chirríe"
+                },
+                "plural": {
+                    "first": "chirriemos",
+                    "second": "chirriad",
+                    "third": "chirríen"
+                }
+            },
+            "negative": {
+                "singular": {
+                    "second": "chirríes",
+                    "third": "chirríe"
+                },
+                "plural": {
+                    "first": "chirriemos",
+                    "second": "chirriéis",
+                    "third": "chirríen"
+                }
+            }
+        }
+    },
+
 	// IE verb with -go
 	"contener": {
 	    "indicative": {
@@ -2088,6 +2589,506 @@ var irregularVerbs = {
 	            }
 	        }
 	    }
+	},
+
+	// EIE verb with -jo
+	"corregir": {
+	    "indicative": {
+	        "present": {
+	            "singular": {
+	                "first": "corrijo",
+	                "second": "corriges",
+	                "third": "corrige"
+	            },
+	            "plural": {
+	                "first": "corregimos",
+	                "second": "corregís",
+	                "third": "corrigen"
+	            }
+	        },
+	        "imperfect": {
+	            "singular": {
+	                "first": "corregía",
+	                "second": "corregías",
+	                "third": "corregía"
+	            },
+	            "plural": {
+	                "first": "corregíamos",
+	                "second": "corregíais",
+	                "third": "corregían"
+	            }
+	        },
+	        "preterite": {
+	            "singular": {
+	                "first": "corregí",
+	                "second": "corregiste",
+	                "third": "corrigió"
+	            },
+	            "plural": {
+	                "first": "corregimos",
+	                "second": "corregisteis",
+	                "third": "corrigieron"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "corregiré",
+	                "second": "corregirás",
+	                "third": "corregirá"
+	            },
+	            "plural": {
+	                "first": "corregiremos",
+	                "second": "corregiréis",
+	                "third": "corregirán"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "he corregido",
+	                "second": "has corregido",
+	                "third": "ha corregido"
+	            },
+	            "plural": {
+	                "first": "hemos corregido",
+	                "second": "habéis corregido",
+	                "third": "han corregido"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "había corregido",
+	                "second": "habías corregido",
+	                "third": "había corregido"
+	            },
+	            "plural": {
+	                "first": "habíamos corregido",
+	                "second": "habíais corregido",
+	                "third": "habían corregido"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "habré corregido",
+	                "second": "habrás corregido",
+	                "third": "habrá corregido"
+	            },
+	            "plural": {
+	                "first": "habremos corregido",
+	                "second": "habréis corregido",
+	                "third": "habrán corregido"
+	            }
+	        },
+	        "preterite perfect": {
+	            "singular": {
+	                "first": "hube corregido",
+	                "second": "hubiste corregido",
+	                "third": "hubo corregido"
+	            },
+	            "plural": {
+	                "first": "hubimos corregido",
+	                "second": "hubisteis corregido",
+	                "third": "hubieron corregido"
+	            }
+	        }
+	    },
+	    "subjunctive": {
+	        "present": {
+	            "singular": {
+	                "first": "corrija",
+	                "second": "corrijas",
+	                "third": "corrija"
+	            },
+	            "plural": {
+	                "first": "corrijamos",
+	                "second": "corrijáis",
+	                "third": "corrijan"
+	            }
+	        },
+	        "imperfect -ra": {
+	            "singular": {
+	                "first": "corrigiera",
+	                "second": "corrigieras",
+	                "third": "corrigiera"
+	            },
+	            "plural": {
+	                "first": "corrigiéramos",
+	                "second": "corrigierais",
+	                "third": "corrigieran"
+	            }
+	        },
+	        "imperfect -se": {
+	            "singular": {
+	                "first": "corrigiese",
+	                "second": "corrigieses",
+	                "third": "corrigiese"
+	            },
+	            "plural": {
+	                "first": "corrigiésemos",
+	                "second": "corrigieseis",
+	                "third": "corrigiesen"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "corrigiere",
+	                "second": "corrigieres",
+	                "third": "corrigiere"
+	            },
+	            "plural": {
+	                "first": "corrigiéremos",
+	                "second": "corrigiereis",
+	                "third": "corrigieren"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "haya corregido",
+	                "second": "hayas corregido",
+	                "third": "haya corregido"
+	            },
+	            "plural": {
+	                "first": "hayamos corregido",
+	                "second": "hayáis corregido",
+	                "third": "hayan corregido"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "hubiera corregido",
+	                "second": "hubieras corregido",
+	                "third": "hubiera corregido"
+	            },
+	            "plural": {
+	                "first": "hubiéramos corregido",
+	                "second": "hubierais corregido",
+	                "third": "hubieran corregido"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "hubiere corregido",
+	                "second": "hubieres corregido",
+	                "third": "hubiere corregido"
+	            },
+	            "plural": {
+	                "first": "hubiéremos corregido",
+	                "second": "hubiereis corregido",
+	                "third": "hubieren corregido"
+	            }
+	        }
+	    },
+	    "conditional": {
+	        "present": {
+	            "singular": {
+	                "first": "corregiría",
+	                "second": "corregirías",
+	                "third": "corregiría"
+	            },
+	            "plural": {
+	                "first": "corregiríamos",
+	                "second": "corregiríais",
+	                "third": "corregirían"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "habría corregido",
+	                "second": "habrías corregido",
+	                "third": "habría corregido"
+	            },
+	            "plural": {
+	                "first": "habríamos corregido",
+	                "second": "habríais corregido",
+	                "third": "habrían corregido"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "corregiría",
+	                "second": "corregirías",
+	                "third": "corregiría"
+	            },
+	            "plural": {
+	                "first": "corregiríamos",
+	                "second": "corregiríais",
+	                "third": "corregirían"
+	            }
+	        }
+	    },
+	    "imperative": {
+	        "affirmative": {
+	            "singular": {
+	                "second": "corrige",
+	                "third": "corrija"
+	            },
+	            "plural": {
+	                "first": "corrijamos",
+	                "second": "corregid",
+	                "third": "corrijan"
+	            }
+	        },
+	        "negative": {
+	            "singular": {
+	                "second": "corrijas",
+	                "third": "corrija"
+	            },
+	            "plural": {
+	                "first": "corrijamos",
+	                "second": "corrijáis",
+	                "third": "corrijan"
+	            }
+	        }
+	    }
+	},
+
+	// O-UE verb
+	"oler": {
+	    "indicative": {
+	        "present": {
+	            "singular": {
+	                "first": "huelo",
+	                "second": "hueles",
+	                "third": "huele"
+	            },
+	            "plural": {
+	                "first": "olemos",
+	                "second": "oléis",
+	                "third": "huelen"
+	            }
+	        },
+	        "imperfect": {
+	            "singular": {
+	                "first": "olía",
+	                "second": "olías",
+	                "third": "olía"
+	            },
+	            "plural": {
+	                "first": "olíamos",
+	                "second": "olíais",
+	                "third": "olían"
+	            }
+	        },
+	        "preterite": {
+	            "singular": {
+	                "first": "olí",
+	                "second": "oliste",
+	                "third": "olió"
+	            },
+	            "plural": {
+	                "first": "olimos",
+	                "second": "olisteis",
+	                "third": "olieron"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "oleré",
+	                "second": "olerás",
+	                "third": "olerá"
+	            },
+	            "plural": {
+	                "first": "oleremos",
+	                "second": "oleréis",
+	                "third": "olerán"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "he olido",
+	                "second": "has olido",
+	                "third": "ha olido"
+	            },
+	            "plural": {
+	                "first": "hemos olido",
+	                "second": "habéis olido",
+	                "third": "han olido"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "había olido",
+	                "second": "habías olido",
+	                "third": "había olido"
+	            },
+	            "plural": {
+	                "first": "habíamos olido",
+	                "second": "habíais olido",
+	                "third": "habían olido"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "habré olido",
+	                "second": "habrás olido",
+	                "third": "habrá olido"
+	            },
+	            "plural": {
+	                "first": "habremos olido",
+	                "second": "habréis olido",
+	                "third": "habrán olido"
+	            }
+	        },
+	        "preterite perfect": {
+	            "singular": {
+	                "first": "hube olido",
+	                "second": "hubiste olido",
+	                "third": "hubo olido"
+	            },
+	            "plural": {
+	                "first": "hubimos olido",
+	                "second": "hubisteis olido",
+	                "third": "hubieron olido"
+	            }
+	        }
+	    },
+	    "subjunctive": {
+	        "present": {
+	            "singular": {
+	                "first": "huela",
+	                "second": "huelas",
+	                "third": "huela"
+	            },
+	            "plural": {
+	                "first": "olamos",
+	                "second": "oláis",
+	                "third": "huelan"
+	            }
+	        },
+	        "imperfect -ra": {
+	            "singular": {
+	                "first": "oliera",
+	                "second": "olieras",
+	                "third": "oliera"
+	            },
+	            "plural": {
+	                "first": "oliéramos",
+	                "second": "olierais",
+	                "third": "olieran"
+	            }
+	        },
+	        "imperfect -se": {
+	            "singular": {
+	                "first": "oliese",
+	                "second": "olieses",
+	                "third": "oliese"
+	            },
+	            "plural": {
+	                "first": "oliésemos",
+	                "second": "olieseis",
+	                "third": "oliesen"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "oliere",
+	                "second": "olieres",
+	                "third": "oliere"
+	            },
+	            "plural": {
+	                "first": "oliéremos",
+	                "second": "oliereis",
+	                "third": "olieren"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "haya olido",
+	                "second": "hayas olido",
+	                "third": "haya olido"
+	            },
+	            "plural": {
+	                "first": "hayamos olido",
+	                "second": "hayáis olido",
+	                "third": "hayan olido"
+	            }
+	        },
+	        "pluperfect": {
+	            "singular": {
+	                "first": "hubiera olido",
+	                "second": "hubieras olido",
+	                "third": "hubiera olido"
+	            },
+	            "plural": {
+	                "first": "hubiéramos olido",
+	                "second": "hubierais olido",
+	                "third": "hubieran olido"
+	            }
+	        },
+	        "future perfect": {
+	            "singular": {
+	                "first": "hubiere olido",
+	                "second": "hubieres olido",
+	                "third": "hubiere olido"
+	            },
+	            "plural": {
+	                "first": "hubiéremos olido",
+	                "second": "hubiereis olido",
+	                "third": "hubieren olido"
+	            }
+	        }
+	    },
+	    "conditional": {
+	        "present": {
+	            "singular": {
+	                "first": "huelería",
+	                "second": "huelerías",
+	                "third": "huelería"
+	            },
+	            "plural": {
+	                "first": "oleríamos",
+	                "second": "oleríais",
+	                "third": "huelerían"
+	            }
+	        },
+	        "perfect": {
+	            "singular": {
+	                "first": "habría olido",
+	                "second": "habrías olido",
+	                "third": "habría olido"
+	            },
+	            "plural": {
+	                "first": "habríamos olido",
+	                "second": "habríais olido",
+	                "third": "habrían olido"
+	            }
+	        },
+	        "future": {
+	            "singular": {
+	                "first": "olería",
+	                "second": "olerías",
+	                "third": "olería"
+	            },
+	            "plural": {
+	                "first": "oleríamos",
+	                "second": "oleríais",
+	                "third": "olerían"
+	            }
+	        }
+	    },
+	    "imperative": {
+	        "affirmative": {
+	            "singular": {
+	                "second": "huele",
+	                "third": "huela"
+	            },
+	            "plural": {
+	                "first": "olamos",
+	                "second": "oled",
+	                "third": "huelan"
+	            }
+	        },
+	        "negative": {
+	            "singular": {
+	                "second": "huelas",
+	                "third": "huela"
+	            },
+	            "plural": {
+	                "first": "olamos",
+	                "second": "oláis",
+	                "third": "huelan"
+	            }
+	        }
+	    }
 	}
 };
 
@@ -2096,12 +3097,12 @@ function deepCompare(left, right) {
         if (!left && !right) {
             return true;
         }
-        
+
         console.log("left is " + JSON.stringify(left) + " and right is " + JSON.stringify(right));
         return false;
     }
-    
-    
+
+
     for (var p in left) {
         if (left.hasOwnProperty(p)) {
             if (typeof(left[p]) === "object") {
@@ -2164,10 +3165,10 @@ module.exports = {
     			});
     		});
     	});
-        
+
         test.done();
     },
-    
+
     testInflectIrregularPastParticples: function(test) {
 
     	Object.keys(irregularPastParticiples).forEach(function(verb) {
@@ -2195,10 +3196,10 @@ module.exports = {
     			});
     		});
     	});
-        
+
         test.done();
     },
-    
+
     testInflectIrregularVerbs: function(test) {
 
     	Object.keys(irregularVerbs).forEach(function(verb) {
@@ -2226,10 +3227,10 @@ module.exports = {
     			});
     		});
     	});
-        
+
         test.done();
     },
-    
+
     testConjugateRegularVerbs: function(test) {
 
         Object.keys(tests).forEach(function(verb) {
@@ -2239,7 +3240,7 @@ module.exports = {
             test.ok(deepCompare(actual, expected));
             test.deepEqual(actual, expected);
         });
-        
+
         test.done();
     },
 
@@ -2252,7 +3253,7 @@ module.exports = {
             test.ok(deepCompare(actual, expected));
             test.deepEqual(actual, expected);
         });
-        
+
         test.done();
     }
 
