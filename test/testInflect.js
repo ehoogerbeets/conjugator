@@ -768,7 +768,508 @@ var tests = {
                 }
             }
 		}
-	}
+	},
+
+
+    // regular verbs ending in -dar should not follow "dar" irregular conjugation
+    "agrandar": {
+        "indicative": {
+            "present": {
+                "singular": {
+                    "first":    "agrando",
+                    "second":   "agrandas",
+                    "third":    "agranda"
+                },
+                "plural": {
+                    "first":    "agrandamos",
+                    "second":   "agrandáis",
+                    "third":    "agrandan"
+                }
+            },
+            "preterite": {
+                "singular": {
+                    "first":    "agrandé",
+                    "second":   "agrandaste",
+                    "third":    "agrandó"
+                },
+                "plural": {
+                    "first":    "agrandamos",
+                    "second":   "agrandasteis",
+                    "third":    "agrandaron"
+                }
+            },
+            "imperfect": {
+                "singular": {
+                    "first":    "agrandaba",
+                    "second":   "agrandabas",
+                    "third":    "agrandaba",
+                },
+                "plural": {
+                    "first":    "agrandábamos",
+                    "second":   "agrandabais",
+                    "third":    "agrandaban"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first":    "agrandaré",
+                    "second":   "agrandarás",
+                    "third":    "agrandará"
+                },
+                "plural": {
+                    "first":    "agrandaremos",
+                    "second":   "agrandaréis",
+                    "third":    "agrandarán"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first":    "he agrandado",
+                    "second":   "has agrandado",
+                    "third":    "ha agrandado"
+                },
+                "plural": {
+                    "first":    "hemos agrandado",
+                    "second":   "habéis agrandado",
+                    "third":    "han agrandado"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "había agrandado",
+                    "second":   "habías agrandado",
+                    "third":    "había agrandado"
+                },
+                "plural": {
+                    "first":    "habíamos agrandado",
+                    "second":   "habíais agrandado",
+                    "third":    "habían agrandado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "habré agrandado",
+                    "second":   "habrás agrandado",
+                    "third":    "habrá agrandado"
+                },
+                "plural": {
+                    "first":    "habremos agrandado",
+                    "second":   "habréis agrandado",
+                    "third":    "habrán agrandado"
+                }
+            },
+            "preterite perfect": {
+                "singular": {
+                    "first":    "hube agrandado",
+                    "second":   "hubiste agrandado",
+                    "third":    "hubo agrandado"
+                },
+                "plural": {
+                    "first":    "hubimos agrandado",
+                    "second":   "hubisteis agrandado",
+                    "third":    "hubieron agrandado"
+                }
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "singular": {
+                    "first":    "agrande",
+                    "second":   "agrandes",
+                    "third":    "agrande"
+                },
+                "plural": {
+                    "first":    "agrandemos",
+                    "second":   "agrandéis",
+                    "third":    "agranden"
+                }
+            },
+            "imperfect -ra": {
+                "singular": {
+                    "first":    "agrandara",
+                    "second":   "agrandaras",
+                    "third":    "agrandara"
+                },
+                "plural": {
+                    "first":    "agrandáramos",
+                    "second":   "agrandarais",
+                    "third":    "agrandaran"
+                }
+            },
+            "imperfect -se": {
+                "singular": {
+                    "first":    "agrandase",
+                    "second":   "agrandases",
+                    "third":    "agrandase"
+                },
+                "plural": {
+                    "first":    "agrandásemos",
+                    "second":   "agrandaseis",
+                    "third":    "agrandasen"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first":    "agrandare",
+                    "second":   "agrandares",
+                    "third":    "agrandare"
+                },
+                "plural": {
+                    "first":    "agrandáremos",
+                    "second":   "agrandareis",
+                    "third":    "agrandaren"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first":    "haya agrandado",
+                    "second":   "hayas agrandado",
+                    "third":    "haya agrandado"
+                },
+                "plural": {
+                    "first":    "hayamos agrandado",
+                    "second":   "hayáis agrandado",
+                    "third":    "hayan agrandado"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "hubiera agrandado",
+                    "second":   "hubieras agrandado",
+                    "third":    "hubiera agrandado"
+                },
+                "plural": {
+                    "first":    "hubiéramos agrandado",
+                    "second":   "hubierais agrandado",
+                    "third":    "hubieran agrandado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "hubiere agrandado",
+                    "second":   "hubieres agrandado",
+                    "third":    "hubiere agrandado"
+                },
+                "plural": {
+                    "first":    "hubiéremos agrandado",
+                    "second":   "hubiereis agrandado",
+                    "third":    "hubieren agrandado"
+                }
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "singular": {
+                    "second": "agranda",
+                    "third": "agrande"
+                },
+                "plural": {
+                    "first": "agrandemos",
+                    "second": "agrandad",
+                    "third": "agranden"
+                }
+            },
+            "negative": {
+                "singular": {
+                    "second": "agrandes",
+                    "third": "agrande"
+                },
+                "plural": {
+                    "first": "agrandemos",
+                    "second": "agrandéis",
+                    "third": "agranden"
+                }
+            }
+        },
+        "conditional": {
+            "present": {
+                "singular": {
+                    "first": "agrandaría",
+                    "second": "agrandarías",
+                    "third": "agrandaría"
+                },
+                "plural": {
+                    "first": "agrandaríamos",
+                    "second": "agrandaríais",
+                    "third": "agrandarían"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "agrandaría",
+                    "second": "agrandarías",
+                    "third": "agrandaría"
+                },
+                "plural": {
+                    "first": "agrandaríamos",
+                    "second": "agrandaríais",
+                    "third": "agrandarían"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "habría agrandado",
+                    "second": "habrías agrandado",
+                    "third": "habría agrandado"
+                },
+                "plural": {
+                    "first": "habríamos agrandado",
+                    "second": "habríais agrandado",
+                    "third": "habrían agrandado"
+                }
+            }
+        }
+    },
+
+    // regular verbs like apestar should not follow irregular ones like estar
+    "apestar": {
+        "indicative": {
+            "present": {
+                "singular": {
+                    "first":    "apesto",
+                    "second":   "apestas",
+                    "third":    "apesta"
+                },
+                "plural": {
+                    "first":    "apestamos",
+                    "second":   "apestáis",
+                    "third":    "apestan"
+                }
+            },
+            "preterite": {
+                "singular": {
+                    "first":    "apesté",
+                    "second":   "apestaste",
+                    "third":    "apestó"
+                },
+                "plural": {
+                    "first":    "apestamos",
+                    "second":   "apestasteis",
+                    "third":    "apestaron"
+                }
+            },
+            "imperfect": {
+                "singular": {
+                    "first":    "apestaba",
+                    "second":   "apestabas",
+                    "third":    "apestaba",
+                },
+                "plural": {
+                    "first":    "apestábamos",
+                    "second":   "apestabais",
+                    "third":    "apestaban"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first":    "apestaré",
+                    "second":   "apestarás",
+                    "third":    "apestará"
+                },
+                "plural": {
+                    "first":    "apestaremos",
+                    "second":   "apestaréis",
+                    "third":    "apestarán"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first":    "he apestado",
+                    "second":   "has apestado",
+                    "third":    "ha apestado"
+                },
+                "plural": {
+                    "first":    "hemos apestado",
+                    "second":   "habéis apestado",
+                    "third":    "han apestado"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "había apestado",
+                    "second":   "habías apestado",
+                    "third":    "había apestado"
+                },
+                "plural": {
+                    "first":    "habíamos apestado",
+                    "second":   "habíais apestado",
+                    "third":    "habían apestado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "habré apestado",
+                    "second":   "habrás apestado",
+                    "third":    "habrá apestado"
+                },
+                "plural": {
+                    "first":    "habremos apestado",
+                    "second":   "habréis apestado",
+                    "third":    "habrán apestado"
+                }
+            },
+            "preterite perfect": {
+                "singular": {
+                    "first":    "hube apestado",
+                    "second":   "hubiste apestado",
+                    "third":    "hubo apestado"
+                },
+                "plural": {
+                    "first":    "hubimos apestado",
+                    "second":   "hubisteis apestado",
+                    "third":    "hubieron apestado"
+                }
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "singular": {
+                    "first":    "apeste",
+                    "second":   "apestes",
+                    "third":    "apeste"
+                },
+                "plural": {
+                    "first":    "apestemos",
+                    "second":   "apestéis",
+                    "third":    "apesten"
+                }
+            },
+            "imperfect -ra": {
+                "singular": {
+                    "first":    "apestara",
+                    "second":   "apestaras",
+                    "third":    "apestara"
+                },
+                "plural": {
+                    "first":    "apestáramos",
+                    "second":   "apestarais",
+                    "third":    "apestaran"
+                }
+            },
+            "imperfect -se": {
+                "singular": {
+                    "first":    "apestase",
+                    "second":   "apestases",
+                    "third":    "apestase"
+                },
+                "plural": {
+                    "first":    "apestásemos",
+                    "second":   "apestaseis",
+                    "third":    "apestasen"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first":    "apestare",
+                    "second":   "apestares",
+                    "third":    "apestare"
+                },
+                "plural": {
+                    "first":    "apestáremos",
+                    "second":   "apestareis",
+                    "third":    "apestaren"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first":    "haya apestado",
+                    "second":   "hayas apestado",
+                    "third":    "haya apestado"
+                },
+                "plural": {
+                    "first":    "hayamos apestado",
+                    "second":   "hayáis apestado",
+                    "third":    "hayan apestado"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "hubiera apestado",
+                    "second":   "hubieras apestado",
+                    "third":    "hubiera apestado"
+                },
+                "plural": {
+                    "first":    "hubiéramos apestado",
+                    "second":   "hubierais apestado",
+                    "third":    "hubieran apestado"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "hubiere apestado",
+                    "second":   "hubieres apestado",
+                    "third":    "hubiere apestado"
+                },
+                "plural": {
+                    "first":    "hubiéremos apestado",
+                    "second":   "hubiereis apestado",
+                    "third":    "hubieren apestado"
+                }
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "singular": {
+                    "second": "apesta",
+                    "third": "apeste"
+                },
+                "plural": {
+                    "first": "apestemos",
+                    "second": "apestad",
+                    "third": "apesten"
+                }
+            },
+            "negative": {
+                "singular": {
+                    "second": "apestes",
+                    "third": "apeste"
+                },
+                "plural": {
+                    "first": "apestemos",
+                    "second": "apestéis",
+                    "third": "apesten"
+                }
+            }
+        },
+        "conditional": {
+            "present": {
+                "singular": {
+                    "first": "apestaría",
+                    "second": "apestarías",
+                    "third": "apestaría"
+                },
+                "plural": {
+                    "first": "apestaríamos",
+                    "second": "apestaríais",
+                    "third": "apestarían"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "apestaría",
+                    "second": "apestarías",
+                    "third": "apestaría"
+                },
+                "plural": {
+                    "first": "apestaríamos",
+                    "second": "apestaríais",
+                    "third": "apestarían"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "habría apestado",
+                    "second": "habrías apestado",
+                    "third": "habría apestado"
+                },
+                "plural": {
+                    "first": "habríamos apestado",
+                    "second": "habríais apestado",
+                    "third": "habrían apestado"
+                }
+            }
+        }
+    }
 };
 
 var irregularPastParticiples = {
@@ -2091,6 +2592,257 @@ var irregularVerbs = {
         }
     },
 
+    // IE stem change -ir
+    "venir": {
+        "indicative": {
+            "present": {
+                "singular": {
+                    "first":    "vengo",
+                    "second":   "vienes",
+                    "third":    "viene"
+                },
+                "plural": {
+                    "first":    "venimos",
+                    "second":   "venís",
+                    "third":    "vienen"
+                }
+            },
+            "preterite": {
+                "singular": {
+                    "first":    "vine",
+                    "second":   "viniste",
+                    "third":    "vino"
+                },
+                "plural": {
+                    "first":    "vinimos",
+                    "second":   "vinisteis",
+                    "third":    "vinieron"
+                }
+            },
+            "imperfect": {
+                "singular": {
+                    "first":    "venía",
+                    "second":   "venías",
+                    "third":    "venía",
+                },
+                "plural": {
+                    "first":    "veníamos",
+                    "second":   "veníais",
+                    "third":    "venían"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first":    "vendré",
+                    "second":   "vendrás",
+                    "third":    "vendrá"
+                },
+                "plural": {
+                    "first":    "vendremos",
+                    "second":   "vendréis",
+                    "third":    "vendrán"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first":    "he venido",
+                    "second":   "has venido",
+                    "third":    "ha venido"
+                },
+                "plural": {
+                    "first":    "hemos venido",
+                    "second":   "habéis venido",
+                    "third":    "han venido"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "había venido",
+                    "second":   "habías venido",
+                    "third":    "había venido"
+                },
+                "plural": {
+                    "first":    "habíamos venido",
+                    "second":   "habíais venido",
+                    "third":    "habían venido"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "habré venido",
+                    "second":   "habrás venido",
+                    "third":    "habrá venido"
+                },
+                "plural": {
+                    "first":    "habremos venido",
+                    "second":   "habréis venido",
+                    "third":    "habrán venido"
+                }
+            },
+            "preterite perfect": {
+                "singular": {
+                    "first":    "hube venido",
+                    "second":   "hubiste venido",
+                    "third":    "hubo venido"
+                },
+                "plural": {
+                    "first":    "hubimos venido",
+                    "second":   "hubisteis venido",
+                    "third":    "hubieron venido"
+                }
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "singular": {
+                    "first":    "venga",
+                    "second":   "vengas",
+                    "third":    "venga"
+                },
+                "plural": {
+                    "first":    "vengamos",
+                    "second":   "vengáis",
+                    "third":    "vengan"
+                }
+            },
+            "imperfect -ra": {
+                "singular": {
+                    "first":    "viniera",
+                    "second":   "vinieras",
+                    "third":    "viniera"
+                },
+                "plural": {
+                    "first":    "viniéramos",
+                    "second":   "vinierais",
+                    "third":    "vinieran"
+                }
+            },
+            "imperfect -se": {
+                "singular": {
+                    "first":    "viniese",
+                    "second":   "vinieses",
+                    "third":    "viniese"
+                },
+                "plural": {
+                    "first":    "viniésemos",
+                    "second":   "vinieseis",
+                    "third":    "viniesen"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first":    "viniere",
+                    "second":   "vinieres",
+                    "third":    "viniere"
+                },
+                "plural": {
+                    "first":    "viniéremos",
+                    "second":   "viniereis",
+                    "third":    "vinieren"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first":    "haya venido",
+                    "second":   "hayas venido",
+                    "third":    "haya venido"
+                },
+                "plural": {
+                    "first":    "hayamos venido",
+                    "second":   "hayáis venido",
+                    "third":    "hayan venido"
+                }
+            },
+            "pluperfect": {
+                "singular": {
+                    "first":    "hubiera venido",
+                    "second":   "hubieras venido",
+                    "third":    "hubiera venido"
+                },
+                "plural": {
+                    "first":    "hubiéramos venido",
+                    "second":   "hubierais venido",
+                    "third":    "hubieran venido"
+                }
+            },
+            "future perfect": {
+                "singular": {
+                    "first":    "hubiere venido",
+                    "second":   "hubieres venido",
+                    "third":    "hubiere venido"
+                },
+                "plural": {
+                    "first":    "hubiéremos venido",
+                    "second":   "hubiereis venido",
+                    "third":    "hubieren venido"
+                }
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "singular": {
+                    "second": "ven",
+                    "third": "venga"
+                },
+                "plural": {
+                    "first": "vengamos",
+                    "second": "venid",
+                    "third": "vengan"
+                }
+            },
+            "negative": {
+                "singular": {
+                    "second": "vengas",
+                    "third": "venga"
+                },
+                "plural": {
+                    "first": "vengamos",
+                    "second": "vengáis",
+                    "third": "vengan"
+                }
+            }
+        },
+        "conditional": {
+            "present": {
+                "singular": {
+                    "first": "vendría",
+                    "second": "vendrías",
+                    "third": "vendría"
+                },
+                "plural": {
+                    "first": "vendríamos",
+                    "second": "vendríais",
+                    "third": "vendrían"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "vendriría",
+                    "second": "vendrirías",
+                    "third": "vendriría"
+                },
+                "plural": {
+                    "first": "vendriríamos",
+                    "second": "vendriríais",
+                    "third": "vendrirían"
+                }
+            },
+            "perfect": {
+                "singular": {
+                    "first": "habría venido",
+                    "second": "habrías venido",
+                    "third": "habría venido"
+                },
+                "plural": {
+                    "first": "habríamos venido",
+                    "second": "habríais venido",
+                    "third": "habrían venido"
+                }
+            }
+        }
+    },
+
+
     // IAR stem change i-í
     "chirriar": {
         "indicative": {
@@ -2596,14 +3348,14 @@ var irregularVerbs = {
 	    "indicative": {
 	        "present": {
 	            "singular": {
-	                "first": "corrijo",
-	                "second": "corriges",
-	                "third": "corrige"
+	                "first": "corrija",
+	                "second": "corrigas",
+	                "third": "corrija"
 	            },
 	            "plural": {
-	                "first": "corregimos",
-	                "second": "corregís",
-	                "third": "corrigen"
+	                "first": "corrijamos",
+	                "second": "corrijaís",
+	                "third": "corrijan"
 	            }
 	        },
 	        "imperfect": {
