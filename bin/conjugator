@@ -123,7 +123,9 @@ if (argv.length > 3) {
 			options.usePronouns = true;
 		} else if (argv[i] === "list") {
 			options.list = true;
-		}
+		} else if (argv[i] === "verbOnly") {
+            options.verbOnly = true;
+        }
 	}
 }
 

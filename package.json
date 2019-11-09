@@ -1,13 +1,13 @@
 {
     "name": "conjugator",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "main": "./conjugator.js",
     "description": "Conjugator inflects and conjugates Spanish verbs",
     "keywords": [
-        "conjugation", 
-        "inflection", 
-        "linguistic", 
-        "globalization", 
+        "conjugation",
+        "inflection",
+        "linguistic",
+        "globalization",
         "es",
         "Spanish",
         "Espanol",
@@ -15,24 +15,22 @@
     ],
     "homepage": "https://github.com/ehoogerbeets/conjugator",
     "bugs": "https://github.com/ehoogerbeets/issues",
-    "email": "contact@healthtap.com",
     "license": "Apache-2.0",
     "author": {
         "name": "Edwin Hoogerbeets",
-        "web": "http://www.healthtap.com/",
-        "email": "edwin.hoogerbeets@healthtap.com"
+        "email": "ehoogerbeets@gmail.com"
     },
     "contributors": [
         {
             "name": "Edwin Hoogerbeets",
-            "email": "ehoogerbeets@healthtap.com" 
+            "email": "ehoogerbeets@gmail.com"
         }
     ],
     "files": [
-		"bin",
+        "bin",
         "conjugator.js",
         "lib",
-		"data",
+        "data",
         "README.md",
         "LICENSE.txt"
     ],
@@ -55,7 +53,7 @@
         "nodeunit": "^1.0.0"
     },
     "dependencies": {
-        "log4js": "^1.0.0"
+        "log4js": "^1.1.1"
     },
     "bin": "./bin/conjugator"
 }

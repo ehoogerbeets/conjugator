@@ -1,5 +1,4 @@
 {
-	
 	"pronouns": {
 		"first": {
 			"singular": "me",
@@ -26,6 +25,7 @@
 				"subjunctive": {
 					"perfect": "haya",
 					"pluperfect": "hubiera",
+					"imperfect -se": "hubiese",
 					"future perfect": "hubiere"
 				},
 				"conditional": {
@@ -42,6 +42,7 @@
 				"subjunctive": {
 					"perfect": "hayamos",
 					"pluperfect": "hubiéramos",
+                    "imperfect -se": "hubiésemos",
 					"future perfect": "hubiéremos"
 				},
 				"conditional": {
@@ -60,6 +61,7 @@
 				"subjunctive": {
 					"perfect": "hayas",
 					"pluperfect": "hubieras",
+                    "imperfect -se": "hubieses",
 					"future perfect": "hubieres" 
 				},
 				"conditional": {
@@ -76,6 +78,7 @@
 				"subjunctive": {
 					"perfect": "hayáis",
 					"pluperfect": "hubierais",
+                    "imperfect -se": "hubieseis",
 					"future perfect": "hubiereis"
 				},
 				"conditional": {
@@ -94,6 +97,7 @@
 				"subjunctive": {
 					"perfect": "haya",
 					"pluperfect": "hubiera",
+                    "imperfect -se": "hubiese",
 					"future perfect": "hubiere" 
 				},
 				"conditional": {
@@ -110,6 +114,7 @@
 				"subjunctive": {
 					"perfect": "hayan",
 					"pluperfect": "hubieran",
+                    "imperfect -se": "hubiese",
 					"future perfect": "hubieren" 
 				},
 				"conditional": {
