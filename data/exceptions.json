@@ -93,7 +93,7 @@
 			}
 		}
 	},
-	
+
 	"ser": {
 		"indicative": {
 			"present": {
@@ -448,7 +448,19 @@
 					"second": "tendríais",
 					"third": "tendrían"
 				}
-			}
+			},
+			"future": {
+                "singular": {
+                    "first": "tendría",
+                    "second": "tendrías",
+                    "third": "tendría"
+                },
+                "plural": {
+                    "first": "tendríamos",
+                    "second": "tendríais",
+                    "third": "tendrían"
+                }
+            }
 		},
 		"imperative": {
 			"affirmative": {
@@ -474,6 +486,107 @@
 			}
 		}
 	},
+
+	"contener": "tener",
+    "detener": "tener",
+    "entretener": "tener",
+    "mantener": "tener",
+    "obtener": "tener",
+    "retener": "tener",
+
+    "venir": {
+        "indicative": {
+            "present": {
+                "singular": {
+                    "first":    "vengo",
+                    "second":   "vienes",
+                    "third":    "viene"
+                },
+                "plural": {
+                    "third":    "vienen"
+                }
+            },
+            "preterite": {
+                "singular": {
+                    "first":    "vine",
+                    "third":    "vino"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first":    "vendré",
+                    "second":   "vendrás",
+                    "third":    "vendrá"
+                },
+                "plural": {
+                    "first":    "vendremos",
+                    "second":   "vendréis",
+                    "third":    "vendrán"
+                }
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "plural": {
+                    "first": "vengamos",
+                    "second": "vengáis"
+                }
+            },
+            "future": {
+                "singular": {
+                    "first": "viniere",
+                    "second": "vinieres",
+                    "third": "viniere"
+                },
+                "plural": {
+                    "first": "viniéremos",
+                    "second": "viniereis",
+                    "third": "vinieren"
+                }
+            }
+        },
+        "conditional": {
+            "present": {
+                "singular": {
+                    "first": "vendría",
+                    "second": "vendrías",
+                    "third": "vendría"
+                },
+                "plural": {
+                    "first": "vendríamos",
+                    "second": "vendríais",
+                    "third": "vendrían"
+                }
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "singular": {
+                    "second": "ven",
+                    "third": "venga"
+                },
+                "plural": {
+                    "first": "vengamos",
+                    "third": "vengan"
+                }
+            },
+            "negative": {
+                "singular": {
+                    "second": "vengas",
+                    "third": "venga"
+                },
+                "plural": {
+                    "first": "vengamos",
+                    "second": "vengáis",
+                    "third": "vengan"
+                }
+            }
+        }
+    },
+
+    "convenir": "venir",
+    "intervenir": "venir",
+    "prevenir": "venir",
 
 	"poder": {
 		"indicative": {
