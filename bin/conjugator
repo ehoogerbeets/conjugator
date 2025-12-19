@@ -88,7 +88,7 @@ if (argv.length > 2 && argv[2] !== '-') {
 	];
 	
 	files.forEach(function(file) {
-		var contents = fs.readFileSync(path.join(path.dirname(module.filename), "data", file), "utf-8");
+		var contents = fs.readFileSync(path.join(path.dirname(module.filename), "..", "data", file), "utf-8");
 		var json = csv.toJS(contents);
 		
 		verbs = verbs.concat(json.map(function(verbform) {
@@ -96,7 +96,7 @@ if (argv.length > 2 && argv[2] !== '-') {
 		}));
 	});
 	
-	var contents = fs.readFileSync(path.join(path.dirname(module.filename), "data/exceptions.json"), "utf-8");
+	var contents = fs.readFileSync(path.join(path.dirname(module.filename), "..", "data", "exceptions.json"), "utf-8");
 	var irregulars = JSON.parse(contents);
 	verbs = verbs.concat(Object.keys(irregulars));
 }

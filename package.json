@@ -1,6 +1,6 @@
 {
     "name": "conjugator",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "main": "./conjugator.js",
     "description": "Conjugator inflects and conjugates Spanish verbs",
     "keywords": [
@@ -39,10 +39,15 @@
         "url": "git@github.com:ehoogerbeets/conjugator.git"
     },
     "engines": {
-        "nodejs": ">= 0.10"
+        "node": ">= 14.0.0"
     },
     "scripts": {
-        "test": "nodeunit test/testInflect.js"
+        "build": "tsc",
+        "clean": "rm -rf lib/*.js lib/*.d.ts lib/*.map",
+        "prebuild": "npm run clean",
+        "test": "npm run build && jest",
+        "test:e2e": "npm run build && cd test-e2e && npm install && npm test",
+        "prepublishOnly": "npm run build"
     },
     "directories": {
         "test": "test",
@@ -50,7 +55,9 @@
         "data": "data"
     },
     "devDependencies": {
-        "nodeunit": "^0.11.3"
+        "@types/node": "^25.0.3",
+        "jest": "^30.2.0",
+        "typescript": "^5.9.3"
     },
     "dependencies": {
         "log4js": "^1.1.1"
