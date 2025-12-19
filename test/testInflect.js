@@ -3983,6 +3983,56 @@ module.exports = {
         test.done();
     },
 
+    testFormalityAffectsEndings: function(test) {
+
+        test.equal("habla", inflect("hablar", {
+            person: "second",
+            number: "singular",
+            mood: "indicative",
+            tense: "present",
+            formality: "formal",
+            style: "castillano"
+        }));
+
+        test.equal("hablan", inflect("hablar", {
+            person: "second",
+            number: "plural",
+            mood: "indicative",
+            tense: "present",
+            formality: "formal",
+            style: "castillano"
+        }));
+
+        test.equal("hablas", inflect("hablar", {
+            person: "second",
+            number: "singular",
+            mood: "indicative",
+            tense: "present",
+            formality: "informal",
+            style: "castillano"
+        }));
+
+        test.equal("habláis", inflect("hablar", {
+            person: "second",
+            number: "plural",
+            mood: "indicative",
+            tense: "present",
+            formality: "informal",
+            style: "castillano"
+        }));
+
+        test.equal("hablas", inflect("hablar", {
+            person: "second",
+            number: "singular",
+            mood: "indicative",
+            tense: "present",
+            formality: "formal",
+            style: "caribeno"
+        }));
+
+        test.done();
+    },
+
     testConjugateRegularVerbs: function(test) {
 
         Object.keys(tests).forEach(function(verb) {
