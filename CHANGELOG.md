@@ -48,6 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dropped support for Node.js versions below 14.0.0
 - Removed nodeunit test framework
 - Removed CommonJS `require()` support (use ESM `import` instead)
+- Removed unused `log4js` dependency
 
 ### Migration Guide
 
