@@ -8,11 +8,15 @@
  * - Package installation and exports work correctly
  */
 
-const { execSync } = require('child_process');
-const path = require('path');
+import { execSync } from 'child_process';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Path to the CLI executable - use the installed version from node_modules
-const CLI_PATH = path.join(__dirname, 'node_modules', '.bin', 'conjugator');
+const CLI_PATH = join(__dirname, 'node_modules', '.bin', 'conjugator');
 
 /**
  * Helper to run the CLI with given arguments
@@ -317,16 +321,16 @@ describe('CLI verbOnly option', () => {
 });
 
 describe('Package exports', () => {
-    test('can require conjugateVerb from package', () => {
-        const conjugateVerb = require('conjugator/lib/conjugateVerb.js');
+    test('can import conjugateVerb from package', async () => {
+        const { default: conjugateVerb } = await import('conjugator/lib/conjugateVerb.js');
         expect(typeof conjugateVerb).toBe('function');
         
         const result = conjugateVerb('hablar', { mood: 'indicative', tense: 'present' });
         expect(result).toMatchSnapshot();
     });
 
-    test('can require inflect from package', () => {
-        const inflect = require('conjugator/lib/inflect.js');
+    test('can import inflect from package', async () => {
+        const { default: inflect } = await import('conjugator/lib/inflect.js');
         expect(typeof inflect).toBe('function');
         
         const result = inflect('hablar', { 
@@ -338,8 +342,8 @@ describe('Package exports', () => {
         expect(result).toBe('hablo');
     });
 
-    test('can require CSV from package', () => {
-        const CSV = require('conjugator/lib/CSV.js');
+    test('can import CSV from package', async () => {
+        const { default: CSV } = await import('conjugator/lib/CSV.js');
         expect(typeof CSV).toBe('function');
         
         const csv = new CSV({ columnSeparator: ',' });
@@ -347,8 +351,8 @@ describe('Package exports', () => {
         expect(result).toEqual([{ a: '1', b: '2', c: '3' }]);
     });
 
-    test('can require styles from package', () => {
-        const getStyle = require('conjugator/lib/styles.js');
+    test('can import styles from package', async () => {
+        const { default: getStyle } = await import('conjugator/lib/styles.js');
         expect(typeof getStyle).toBe('function');
         
         const castillano = getStyle('castillano');
@@ -442,4 +446,3 @@ describe('Edge cases', () => {
         expect(parseJSON(output)).toMatchSnapshot();
     });
 });
-

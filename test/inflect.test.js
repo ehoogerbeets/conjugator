@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-const inflect = require("../lib/inflect.js");
-const conjugateVerb = require("../lib/conjugateVerb.js");
+import inflect from "../lib/inflect.js";
+import conjugateVerb from "../lib/conjugateVerb.js";
 
 var tests = {
 	"amar": {

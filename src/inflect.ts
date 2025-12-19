@@ -18,23 +18,27 @@
  * limitations under the License.
  */
 
-import * as fs from "fs";
-import * as path from "path";
-import CSV = require("./CSV");
+import { readFileSync } from "fs";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
+import CSV from "./CSV.js";
 
-type Person = "first" | "second" | "third";
-type NumberType = "singular" | "plural";
-type Mood = "indicative" | "subjunctive" | "conditional" | "imperative";
-type Tense = "present" | "imperfect" | "preterite" | "future" | "perfect" |
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+export type Person = "first" | "second" | "third";
+export type NumberType = "singular" | "plural";
+export type Mood = "indicative" | "subjunctive" | "conditional" | "imperative";
+export type Tense = "present" | "imperfect" | "preterite" | "future" | "perfect" |
     "pluperfect" | "future perfect" | "preterite perfect" |
     "imperfect -ra" | "imperfect -se";
-type Gender = "masculine" | "feminine";
-type Positivity = "affirmative" | "negative";
-type Formality = "formal" | "informal";
-type StyleName = "castillano" | "rioplatense" | "chileano" | "centroamericano" |
+export type Gender = "masculine" | "feminine";
+export type Positivity = "affirmative" | "negative";
+export type Formality = "formal" | "informal";
+export type StyleName = "castillano" | "rioplatense" | "chileano" | "centroamericano" |
     "mexicano" | "caribeno" | "andino";
 
-interface InflectOptions {
+export interface InflectOptions {
     person?: Person;
     number?: NumberType;
     mood?: Mood;
@@ -104,10 +108,10 @@ interface EndingsStructure {
 }
 
 // Load data files
-const endingsJson = fs.readFileSync(path.join(__dirname, "../data/endings.json"), "utf-8");
+const endingsJson = readFileSync(join(__dirname, "../data/endings.json"), "utf-8");
 const endings: EndingsStructure = JSON.parse(endingsJson);
 
-const stylesJson = fs.readFileSync(path.join(__dirname, "../data/styles-es.json"), "utf-8");
+const stylesJson = readFileSync(join(__dirname, "../data/styles-es.json"), "utf-8");
 const styles: StylesMap = JSON.parse(stylesJson);
 
 const csv = new CSV({
@@ -116,27 +120,27 @@ const csv = new CSV({
 
 const exceptionRules: ExceptionRulesMap = {};
 
-const verbsIARCSV = fs.readFileSync(path.join(__dirname, "../data/regularVerbsIAR.tsv"), "utf-8");
+const verbsIARCSV = readFileSync(join(__dirname, "../data/regularVerbsIAR.tsv"), "utf-8");
 csv.toJS(verbsIARCSV).forEach((row) => {
     exceptionRules[row.infinitive] = row as unknown as ExceptionRule;
 });
 
-const verbsOUECSV = fs.readFileSync(path.join(__dirname, "../data/verbsOUE.tsv"), "utf-8");
+const verbsOUECSV = readFileSync(join(__dirname, "../data/verbsOUE.tsv"), "utf-8");
 const verbsOUE = csv.toJS(verbsOUECSV).map((info) => {
     return info.infinitive;
 });
 
-const verbsIECSV = fs.readFileSync(path.join(__dirname, "../data/verbsIE.tsv"), "utf-8");
+const verbsIECSV = readFileSync(join(__dirname, "../data/verbsIE.tsv"), "utf-8");
 csv.toJS(verbsIECSV).forEach((row) => {
     exceptionRules[row.infinitive] = row as unknown as ExceptionRule;
 });
 
-const verbsEIECSV = fs.readFileSync(path.join(__dirname, "../data/verbsEIE.tsv"), "utf-8");
+const verbsEIECSV = readFileSync(join(__dirname, "../data/verbsEIE.tsv"), "utf-8");
 csv.toJS(verbsEIECSV).forEach((row) => {
     exceptionRules[row.infinitive] = row as unknown as ExceptionRule;
 });
 
-const exceptionContents = fs.readFileSync(path.join(__dirname, "../data/exceptions.json"), "utf-8");
+const exceptionContents = readFileSync(join(__dirname, "../data/exceptions.json"), "utf-8");
 const exceptions: ExceptionsMap = JSON.parse(exceptionContents);
 
 function reverse(str: string): string {
@@ -446,6 +450,4 @@ const inflect = function(verb: string, options?: InflectOptions): string {
     return ret;
 };
 
-// CommonJS export for backwards compatibility
-export = inflect;
-
+export default inflect;

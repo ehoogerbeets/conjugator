@@ -18,20 +18,24 @@
  * limitations under the License.
  */
 
-import * as fs from "fs";
-import * as path from "path";
+import { readFileSync } from "fs";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
 
-interface Style {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+export interface Style {
     tuteo?: boolean;
     voseo?: boolean;
     ustedes?: boolean;
 }
 
-interface StylesMap {
+export interface StylesMap {
     [styleName: string]: Style;
 }
 
-const stylesJson = fs.readFileSync(path.join(__dirname, "../data/styles-es.json"), "utf-8");
+const stylesJson = readFileSync(join(__dirname, "../data/styles-es.json"), "utf-8");
 const styles: StylesMap = JSON.parse(stylesJson);
 
 const getStyle = function(styleName?: string): Style {
@@ -39,6 +43,4 @@ const getStyle = function(styleName?: string): Style {
     return styles[style];
 };
 
-// CommonJS export for backwards compatibility
-export = getStyle;
-
+export default getStyle;

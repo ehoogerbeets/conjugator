@@ -1,11 +1,8 @@
 /** @type {import('jest').Config} */
 export default {
     testEnvironment: 'node',
-    testMatch: ['**/*.test.js'],
+    testMatch: ['**/test/**/*.test.js'],
     transform: {},
     moduleFileExtensions: ['js', 'mjs', 'json'],
-    snapshotFormat: {
-        escapeString: false,
-        printBasicPrototype: false
-    }
+    testPathIgnorePatterns: ['/node_modules/', '/test-e2e/']
 };

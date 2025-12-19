@@ -2,10 +2,11 @@
     "name": "conjugator-e2e-tests",
     "version": "1.0.0",
     "description": "End-to-end tests for the conjugator CLI",
+    "type": "module",
     "private": true,
     "scripts": {
-        "test": "jest",
-        "test:update": "jest --updateSnapshot"
+        "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+        "test:update": "NODE_OPTIONS='--experimental-vm-modules' jest --updateSnapshot"
     },
     "devDependencies": {
         "jest": "^29.7.0"
@@ -14,4 +15,3 @@
         "conjugator": "file:.."
     }
 }
-

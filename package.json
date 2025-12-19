@@ -1,7 +1,27 @@
 {
     "name": "conjugator",
     "version": "2.0.0",
-    "main": "./conjugator.js",
+    "type": "module",
+    "main": "./lib/conjugateVerb.js",
+    "exports": {
+        ".": {
+            "import": "./lib/conjugateVerb.js",
+            "types": "./lib/conjugateVerb.d.ts"
+        },
+        "./inflect": {
+            "import": "./lib/inflect.js",
+            "types": "./lib/inflect.d.ts"
+        },
+        "./styles": {
+            "import": "./lib/styles.js",
+            "types": "./lib/styles.d.ts"
+        },
+        "./CSV": {
+            "import": "./lib/CSV.js",
+            "types": "./lib/CSV.d.ts"
+        },
+        "./lib/*": "./lib/*"
+    },
     "description": "Conjugator inflects and conjugates Spanish verbs",
     "keywords": [
         "conjugation",
@@ -28,10 +48,10 @@
     ],
     "files": [
         "bin",
-        "conjugator.js",
         "lib",
         "data",
         "README.md",
+        "CHANGELOG.md",
         "LICENSE.txt"
     ],
     "repository": {
@@ -45,7 +65,7 @@
         "build": "tsc",
         "clean": "rm -rf lib/*.js lib/*.d.ts lib/*.map",
         "prebuild": "npm run clean",
-        "test": "npm run build && jest",
+        "test": "npm run build && NODE_OPTIONS='--experimental-vm-modules' jest",
         "test:e2e": "npm run build && cd test-e2e && npm install && npm test",
         "prepublishOnly": "npm run build"
     },

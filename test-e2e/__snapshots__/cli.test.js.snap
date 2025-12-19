@@ -4531,7 +4531,7 @@ exports[`Edge cases handles very short input 1`] = `
 }
 `;
 
-exports[`Package exports can require conjugateVerb from package 1`] = `
+exports[`Package exports can import conjugateVerb from package 1`] = `
 {
   "indicative": {
     "present": {

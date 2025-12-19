@@ -20,13 +20,13 @@
 
 const whiteSpaceChars = [' ', '\t', '\f', '\n', '\r', '\v'];
 
-interface CSVOptions {
+export interface CSVOptions {
     rowSeparatorRegex?: string;
     rowSeparator?: string;
     columnSeparator?: string;
 }
 
-interface CSVRecord {
+export interface CSVRecord {
     [key: string]: string;
 }
 
@@ -241,6 +241,4 @@ class CSV {
     }
 }
 
-// CommonJS export for backwards compatibility
-export = CSV;
-
+export default CSV;

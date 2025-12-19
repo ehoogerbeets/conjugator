@@ -18,35 +18,11 @@
  * limitations under the License.
  */
 
-import inflect = require("./inflect");
-import getStyle = require("./styles");
+import inflect from "./inflect.js";
+import type { Person, NumberType, Mood, Tense, Positivity, Gender, Formality, StyleName, InflectOptions } from "./inflect.js";
+import getStyle from "./styles.js";
 
-type Person = "first" | "second" | "third";
-type NumberType = "singular" | "plural";
-type Mood = "indicative" | "subjunctive" | "conditional" | "imperative";
-type Tense = "present" | "imperfect" | "preterite" | "future" | "perfect" |
-    "pluperfect" | "future perfect" | "preterite perfect" |
-    "imperfect -ra" | "imperfect -se";
-type Gender = "masculine" | "feminine";
-type Positivity = "affirmative" | "negative";
-type Formality = "formal" | "informal";
-type StyleName = "castillano" | "rioplatense" | "chileano" | "centroamericano" |
-    "mexicano" | "caribeno" | "andino";
-
-interface InflectOptions {
-    person?: Person;
-    number?: NumberType;
-    mood?: Mood;
-    tense?: Tense;
-    gender?: Gender;
-    positivity?: Positivity;
-    formality?: Formality;
-    style?: StyleName;
-    reflection?: boolean;
-    verbOnly?: boolean;
-}
-
-interface ConjugateOptions {
+export interface ConjugateOptions {
     person?: Person;
     number?: NumberType;
     mood?: Mood;
@@ -72,7 +48,7 @@ interface ConjugationParams {
     reflection?: boolean;
 }
 
-interface Conjugation {
+export interface Conjugation {
     [mood: string]: {
         [tense: string]: {
             [number: string]: {
@@ -376,6 +352,4 @@ const conjugateVerb = function(infinitive: string, options?: ConjugateOptions): 
     return conjugation;
 };
 
-// CommonJS export for backwards compatibility
-export = conjugateVerb;
-
+export default conjugateVerb;
