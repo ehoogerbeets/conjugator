@@ -41,6 +41,7 @@ typings/
 
 # Optional npm cache directory
 .npm
+.npm-cache/
 
 # Optional eslint cache
 .eslintcache
@@ -50,6 +51,9 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
+
+# npm lockfile (legacy repo)
+package-lock.json
 
 # Yarn Integrity file
 .yarn-integrity

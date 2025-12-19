@@ -3348,14 +3348,14 @@ var irregularVerbs = {
 	    "indicative": {
 	        "present": {
 	            "singular": {
-	                "first": "corrija",
-	                "second": "corrigas",
-	                "third": "corrija"
+	                "first": "corrijo",
+	                "second": "corriges",
+	                "third": "corrige"
 	            },
 	            "plural": {
-	                "first": "corrijamos",
-	                "second": "corrijaís",
-	                "third": "corrijan"
+	                "first": "corregimos",
+	                "second": "corregís",
+	                "third": "corrigen"
 	            }
 	        },
 	        "imperfect": {
@@ -3979,6 +3979,20 @@ module.exports = {
     			});
     		});
     	});
+
+        test.done();
+    },
+
+    testSubjunctiveImperativeYoIrregulars: function(test) {
+        test.equal("digamos", inflect("decir", {mood: "subjunctive", tense: "present", person: "first", number: "plural"}));
+        test.equal("digáis", inflect("decir", {mood: "subjunctive", tense: "present", person: "second", number: "plural"}));
+        test.equal("diga", inflect("decir", {mood: "imperative", positivity: "affirmative", person: "third", number: "singular"}));
+        test.equal("digas", inflect("decir", {mood: "imperative", positivity: "negative", person: "second", number: "singular"}));
+
+        test.equal("corrijamos", inflect("corregir", {mood: "subjunctive", tense: "present", person: "first", number: "plural"}));
+        test.equal("corrijáis", inflect("corregir", {mood: "subjunctive", tense: "present", person: "second", number: "plural"}));
+        test.equal("corrija", inflect("corregir", {mood: "imperative", positivity: "affirmative", person: "third", number: "singular"}));
+        test.equal("corrijas", inflect("corregir", {mood: "imperative", positivity: "negative", person: "second", number: "singular"}));
 
         test.done();
     },
