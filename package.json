@@ -65,10 +65,10 @@
     },
     "scripts": {
         "build": "tsc",
-        "clean": "rm -rf lib/*.js lib/*.d.ts lib/*.map",
+        "clean": "node scripts/clean.mjs",
         "prebuild": "npm run clean",
         "test": "npm run test:unit && npm run test:e2e",
-        "test:unit": "npm run build && NODE_OPTIONS='--experimental-vm-modules' jest",
+        "test:unit": "npm run build && node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
         "test:e2e": "npm run build && cd test-e2e && npm install && npm test",
         "prepublishOnly": "npm run build"
     },
