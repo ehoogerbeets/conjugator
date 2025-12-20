@@ -1,9 +1,19 @@
 # Conjugator
 
+[![npm version](https://img.shields.io/npm/v/conjugator.svg)](https://www.npmjs.com/package/conjugator)
+[![npm downloads](https://img.shields.io/npm/dm/conjugator.svg)](https://www.npmjs.com/package/conjugator)
+[![License](https://img.shields.io/npm/l/conjugator.svg)](https://github.com/ehoogerbeets/conjugator/blob/main/LICENSE.txt)
+[![Node.js Version](https://img.shields.io/node/v/conjugator.svg)](https://nodejs.org)
+
 <meta charset="UTF-8">
 
 Conjugator is a tool/library that allows you to inflect and conjugate Spanish verbs. There are plans for the future to
 expand to other languages as well, but for now, it is only Spanish.
+
+Requirements
+====
+
+- Node.js 18.0.0 or later
 
 Installation
 ====
@@ -18,6 +28,9 @@ or from github:
 
 ~~~~~
 git clone git@github.com:ehoogerbeets/conjugator.git
+cd conjugator
+npm install
+npm run build
 ~~~~~
 
 How to Use Conjugator From the Command-line
@@ -240,13 +253,15 @@ on the command-line. Here are the genders supported:
 Using Conjugator From Code
 ====
 
-You can use conjugator in your own code and retrieve the same json object that is pretty-printed on the screen
-when you use the command-line interface. Example:
+Conjugator is an ES module. You can use it in your own code and retrieve the same JSON object 
+that is pretty-printed on the screen when you use the command-line interface.
 
-~~~~
-var conjugateVerb = require("conjugator/lib/conjugateVerb.js");
+**JavaScript (ESM):**
 
-var comerConjugation = conjugateVerb("comer");
+~~~~javascript
+import conjugateVerb from "conjugator";
+
+const comerConjugation = conjugateVerb("comer");
 
 console.log("The first person plural future subjunctive is: " + 
   comerConjugation.subjunctive.future.plural.first);
@@ -254,12 +269,12 @@ console.log("The first person plural future subjunctive is: " +
 
 You can filter the results by passing a second "options" argument:
 
-~~~~
-var conjugateVerb = require("conjugator/lib/conjugateVerb.js");
+~~~~javascript
+import conjugateVerb from "conjugator";
 
-var comerConjugation = conjugateVerb("comer", {
-	mood: "indicative",
-	tense: "present"
+const comerConjugation = conjugateVerb("comer", {
+    mood: "indicative",
+    tense: "present"
 });
 
 console.log("The first person plural present indicative is: " + 
@@ -271,17 +286,44 @@ can use the "inflect" function. The conjugateVerb function above
 calls inflect multiple times to get each of the forms, but you can
 call inflect directly:
 
-~~~~
-var inflect = require("conjugator/lib/inflect.js");
+~~~~javascript
+import inflect from "conjugator/inflect";
 
-var comerForm = inflect("comer", {
-	mood: "indicative",
-	tense: "present",
-	number: "plural",
-	person: "first"
+const comerForm = inflect("comer", {
+    mood: "indicative",
+    tense: "present",
+    number: "plural",
+    person: "first"
 });
 
 console.log("The first person plural present indicative is: " + comerForm);
+~~~~
+
+**TypeScript:**
+
+Full TypeScript definitions are included. You can import types for better IDE support:
+
+~~~~typescript
+import conjugateVerb from "conjugator";
+import type { ConjugateOptions, Conjugation } from "conjugator";
+import inflect from "conjugator/inflect";
+import type { InflectOptions } from "conjugator/inflect";
+
+const options: ConjugateOptions = {
+    mood: "indicative",
+    tense: "present"
+};
+
+const comerConjugation: Conjugation = conjugateVerb("comer", options);
+
+const inflectOptions: InflectOptions = {
+    mood: "indicative",
+    tense: "present",
+    number: "plural",
+    person: "first"
+};
+
+const comerForm: string = inflect("comer", inflectOptions);
 ~~~~
 
 Note that if any of the above 4 options are not given, inflect will use the
@@ -296,8 +338,36 @@ Development
 
 New PRs are welcome! 
 
+Setup
+----
+
+Clone the repository and install dependencies:
+
+~~~~~
+git clone git@github.com:ehoogerbeets/conjugator.git
+cd conjugator
+npm install
+~~~~~
+
+Build the TypeScript source:
+
+~~~~~
+npm run build
+~~~~~
+
+Run the tests:
+
+~~~~~
+npm test           # Run all tests (unit + e2e)
+npm run test:unit  # Run unit tests only
+npm run test:e2e   # Run end-to-end tests only
+~~~~~
+
 Code
 ----
+
+The source code is written in TypeScript and located in the `src/` directory. The compiled 
+JavaScript is output to the `lib/` directory.
 
 If you would like to update the code to fix bugs or, even better, add support for another language, 
 please go right ahead!
@@ -421,6 +491,8 @@ Copyright and License
 ====
 
 Copyright &copy; 2017, HealthTap, Inc.
+Copyright © 2025, Edwin Hoogerbeets
+
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -434,6 +506,5 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 See the License for the specific language governing permissions and
 limitations under the License.
-
 
 

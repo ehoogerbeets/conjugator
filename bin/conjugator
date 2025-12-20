@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
 /*
- * conjugate.js - read the list of Spanish verbs and conjugate them to produce all of the 2nd person plural verb forms
+ * conjugator - CLI for conjugating Spanish verbs
  *
  * Copyright © 2017, HealthTap, Inc.
+ * Copyright © 2025, Edwin Hoogerbeets
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,137 +20,137 @@
  * limitations under the License.
  */
 
-var fs = require("fs");
-var path = require("path");
-var log4js = require("log4js");
+import { readFileSync } from "fs";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
 
-var CSV = require("../lib/CSV.js");
-var conjugateVerb = require("../lib/conjugateVerb.js");
+import CSV from "../lib/CSV.js";
+import conjugateVerb from "../lib/conjugateVerb.js";
 
-var logger = log4js.getLogger("loctool.esES.conjugate");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
-var moods = [
-	"indicative",
-	"subjunctive",
-	"conditional",
-	"imperative"
+const moods = [
+    "indicative",
+    "subjunctive",
+    "conditional",
+    "imperative"
 ];
 
-var tenses = [
-	"present",
-	"imperfect",
-	"preterite",
-	"future",
-	"perfect",
-	"pluperfect",
-	"future perfect",
-	"preterite perfect",
-	"imperfect -ra",
-	"imperfect -se"
+const tenses = [
+    "present",
+    "imperfect",
+    "preterite",
+    "future",
+    "perfect",
+    "pluperfect",
+    "future perfect",
+    "preterite perfect",
+    "imperfect -ra",
+    "imperfect -se"
 ];
 
-var persons = ["first", "second", "third"];
-var numbers = ["singular", "plural"];
-var formalities = ["formal", "informal"];
-var styles = [
-	"castillano", 
-	"rioplatense",
-	"chileano",
-	"centroamericano",
-	"mexicano",
-	"caribeno",
-	"andino"
+const persons = ["first", "second", "third"];
+const numbers = ["singular", "plural"];
+const formalities = ["formal", "informal"];
+const styles = [
+    "castillano",
+    "rioplatense",
+    "chileano",
+    "centroamericano",
+    "mexicano",
+    "caribeno",
+    "andino"
 ];
-var genders = ["masculine", "feminine", "inanimate"];
-var positivities = ["affirmative", "negative"];
+const genders = ["masculine", "feminine", "inanimate"];
+const positivities = ["affirmative", "negative"];
 
-var verbs = [];
-var argv = process.argv;
-var options = {};
+let verbs = [];
+const argv = process.argv;
+const options = {};
 
 if (argv.length > 2 && argv[2] !== '-') {
-	verbs = [argv[2]];
+    verbs = [argv[2]];
 } else {
-	var csv = new CSV({
-		columnSeparator: '\t'
-	});
-	
-	var files = [
-		"regularVerbsAR.tsv",
-		"regularVerbsCAR.tsv",
-		"regularVerbsER.tsv",
-		"regularVerbsGAR.tsv",
-		"regularVerbsIAR.tsv",
-		"regularVerbsIR.tsv",
-		"regularVerbsZAR.tsv",
-		"verbsEIE.tsv",
-		"verbsIE.tsv",
-		"verbsOUE.tsv"
-	];
-	
-	files.forEach(function(file) {
-		var contents = fs.readFileSync(path.join(path.dirname(module.filename), "data", file), "utf-8");
-		var json = csv.toJS(contents);
-		
-		verbs = verbs.concat(json.map(function(verbform) {
-			return verbform.infinitive;
-		}));
-	});
-	
-	var contents = fs.readFileSync(path.join(path.dirname(module.filename), "data/exceptions.json"), "utf-8");
-	var irregulars = JSON.parse(contents);
-	verbs = verbs.concat(Object.keys(irregulars));
+    const csv = new CSV({
+        columnSeparator: '\t'
+    });
+
+    const files = [
+        "regularVerbsAR.tsv",
+        "regularVerbsCAR.tsv",
+        "regularVerbsER.tsv",
+        "regularVerbsGAR.tsv",
+        "regularVerbsIAR.tsv",
+        "regularVerbsIR.tsv",
+        "regularVerbsZAR.tsv",
+        "verbsEIE.tsv",
+        "verbsIE.tsv",
+        "verbsOUE.tsv"
+    ];
+
+    files.forEach(function(file) {
+        const contents = readFileSync(join(__dirname, "..", "data", file), "utf-8");
+        const json = csv.toJS(contents);
+
+        verbs = verbs.concat(json.map(function(verbform) {
+            return verbform.infinitive;
+        }));
+    });
+
+    const contents = readFileSync(join(__dirname, "..", "data", "exceptions.json"), "utf-8");
+    const irregulars = JSON.parse(contents);
+    verbs = verbs.concat(Object.keys(irregulars));
 }
 
 if (argv.length > 3) {
-	for (var i = 2; i < argv.length; i++) {
-		if (moods.indexOf(argv[i]) > -1) {
-			options.mood = argv[i];
-		} else if (tenses.indexOf(argv[i]) > -1) {
-			options.tense = argv[i];
-		} else if (persons.indexOf(argv[i]) > -1) {
-			options.person = argv[i];
-		} else if (numbers.indexOf(argv[i]) > -1) {
-			options.number = argv[i];
-		} else if (formalities.indexOf(argv[i]) > -1) {
-			options.formality = argv[i];
-		} else if (styles.indexOf(argv[i]) > -1) {
-			options.style = argv[i];
-		} else if (genders.indexOf(argv[i]) > -1) {
-			options.gender = argv[i];
-		} else if (positivities.indexOf(argv[i]) > -1) {
-			options.positivity = argv[i];
-		} else if (argv[i] === "pronouns") {
-			options.usePronouns = true;
-		} else if (argv[i] === "list") {
-			options.list = true;
-		} else if (argv[i] === "verbOnly") {
+    for (let i = 2; i < argv.length; i++) {
+        if (moods.indexOf(argv[i]) > -1) {
+            options.mood = argv[i];
+        } else if (tenses.indexOf(argv[i]) > -1) {
+            options.tense = argv[i];
+        } else if (persons.indexOf(argv[i]) > -1) {
+            options.person = argv[i];
+        } else if (numbers.indexOf(argv[i]) > -1) {
+            options.number = argv[i];
+        } else if (formalities.indexOf(argv[i]) > -1) {
+            options.formality = argv[i];
+        } else if (styles.indexOf(argv[i]) > -1) {
+            options.style = argv[i];
+        } else if (genders.indexOf(argv[i]) > -1) {
+            options.gender = argv[i];
+        } else if (positivities.indexOf(argv[i]) > -1) {
+            options.positivity = argv[i];
+        } else if (argv[i] === "pronouns") {
+            options.usePronouns = true;
+        } else if (argv[i] === "list") {
+            options.list = true;
+        } else if (argv[i] === "verbOnly") {
             options.verbOnly = true;
         }
-	}
+    }
 }
 
 function visit(conjugation, list) {
-	if (typeof(conjugation) === "string") {
-		list.push(conjugation);
-	} else {
-		for (prop in conjugation) {
-			visit(conjugation[prop], list);
-		}
-	}
+    if (typeof conjugation === "string") {
+        list.push(conjugation);
+    } else {
+        for (const prop in conjugation) {
+            visit(conjugation[prop], list);
+        }
+    }
 }
 
 verbs.forEach(function(verb) {
-	var conjugation = conjugateVerb(verb, options);
-	
-	if (options.list) {
-		var list = [];
-		visit(conjugation, list);
-		// console.log("Conjugating verb " + verb);
-		list.forEach(function(item) {
-			console.log("  " + item);
-		});
-	} else {
-		console.log(JSON.stringify(conjugation, undefined, 4));
-	}
+    const conjugation = conjugateVerb(verb, options);
+
+    if (options.list) {
+        const list = [];
+        visit(conjugation, list);
+        list.forEach(function(item) {
+            console.log("  " + item);
+        });
+    } else {
+        console.log(JSON.stringify(conjugation, undefined, 4));
+    }
 });

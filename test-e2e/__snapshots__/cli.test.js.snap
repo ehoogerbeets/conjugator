@@ -1,0 +1,5726 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CLI Basic Functionality JSON output format conjugates a regular -ar verb (hablar) 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos hablado",
+        "second": "habríais hablado",
+        "third": "habrían hablado",
+      },
+      "singular": {
+        "first": "habría hablado",
+        "second": "habrías hablado",
+        "third": "habría hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No hablemos!",
+        "second": "¡No habléis!",
+        "third": "¡No hablen!",
+      },
+      "singular": {
+        "second": "¡No hables!",
+        "third": "¡No hable!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "hablaremos",
+        "second": "hablaréis",
+        "third": "hablarán",
+      },
+      "singular": {
+        "first": "hablaré",
+        "second": "hablarás",
+        "third": "hablará",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos hablado",
+        "second": "habréis hablado",
+        "third": "habrán hablado",
+      },
+      "singular": {
+        "first": "habré hablado",
+        "second": "habrás hablado",
+        "third": "habrá hablado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "hablábamos",
+        "second": "hablabais",
+        "third": "hablaban",
+      },
+      "singular": {
+        "first": "hablaba",
+        "second": "hablabas",
+        "third": "hablaba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos hablado",
+        "second": "habéis hablado",
+        "third": "han hablado",
+      },
+      "singular": {
+        "first": "he hablado",
+        "second": "has hablado",
+        "third": "ha hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos hablado",
+        "second": "habíais hablado",
+        "third": "habían hablado",
+      },
+      "singular": {
+        "first": "había hablado",
+        "second": "habías hablado",
+        "third": "había hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablamos",
+        "second": "habláis",
+        "third": "hablan",
+      },
+      "singular": {
+        "first": "hablo",
+        "second": "hablas",
+        "third": "habla",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "hablamos",
+        "second": "hablasteis",
+        "third": "hablaron",
+      },
+      "singular": {
+        "first": "hablé",
+        "second": "hablaste",
+        "third": "habló",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos hablado",
+        "second": "hubisteis hablado",
+        "third": "hubieron hablado",
+      },
+      "singular": {
+        "first": "hube hablado",
+        "second": "hubiste hablado",
+        "third": "hubo hablado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "habláremos",
+        "second": "hablareis",
+        "third": "hablaren",
+      },
+      "singular": {
+        "first": "hablare",
+        "second": "hablares",
+        "third": "hablare",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos hablado",
+        "second": "hubiereis hablado",
+        "third": "hubieren hablado",
+      },
+      "singular": {
+        "first": "hubiere hablado",
+        "second": "hubieres hablado",
+        "third": "hubiere hablado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "habláramos",
+        "second": "hablarais",
+        "third": "hablaran",
+      },
+      "singular": {
+        "first": "hablara",
+        "second": "hablaras",
+        "third": "hablara",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "hablásemos",
+        "second": "hablaseis",
+        "third": "hablasen",
+      },
+      "singular": {
+        "first": "hablase",
+        "second": "hablases",
+        "third": "hablase",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos hablado",
+        "second": "hayáis hablado",
+        "third": "hayan hablado",
+      },
+      "singular": {
+        "first": "haya hablado",
+        "second": "hayas hablado",
+        "third": "haya hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos hablado",
+        "second": "hubierais hablado",
+        "third": "hubieran hablado",
+      },
+      "singular": {
+        "first": "hubiera hablado",
+        "second": "hubieras hablado",
+        "third": "hubiera hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablemos",
+        "second": "habléis",
+        "third": "hablen",
+      },
+      "singular": {
+        "first": "hable",
+        "second": "hables",
+        "third": "hable",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Basic Functionality JSON output format conjugates a regular -er verb (comer) 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "comeríamos",
+        "second": "comeríais",
+        "third": "comerían",
+      },
+      "singular": {
+        "first": "comería",
+        "second": "comerías",
+        "third": "comería",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos comido",
+        "second": "habríais comido",
+        "third": "habrían comido",
+      },
+      "singular": {
+        "first": "habría comido",
+        "second": "habrías comido",
+        "third": "habría comido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "comeríamos",
+        "second": "comeríais",
+        "third": "comerían",
+      },
+      "singular": {
+        "first": "comería",
+        "second": "comerías",
+        "third": "comería",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Comamos!",
+        "second": "¡Comed!",
+        "third": "¡Coman!",
+      },
+      "singular": {
+        "second": "¡Come!",
+        "third": "¡Coma!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No comamos!",
+        "second": "¡No comáis!",
+        "third": "¡No coman!",
+      },
+      "singular": {
+        "second": "¡No comas!",
+        "third": "¡No coma!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "comeremos",
+        "second": "comeréis",
+        "third": "comerán",
+      },
+      "singular": {
+        "first": "comeré",
+        "second": "comerás",
+        "third": "comerá",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos comido",
+        "second": "habréis comido",
+        "third": "habrán comido",
+      },
+      "singular": {
+        "first": "habré comido",
+        "second": "habrás comido",
+        "third": "habrá comido",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "comíamos",
+        "second": "comíais",
+        "third": "comían",
+      },
+      "singular": {
+        "first": "comía",
+        "second": "comías",
+        "third": "comía",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos comido",
+        "second": "habéis comido",
+        "third": "han comido",
+      },
+      "singular": {
+        "first": "he comido",
+        "second": "has comido",
+        "third": "ha comido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos comido",
+        "second": "habíais comido",
+        "third": "habían comido",
+      },
+      "singular": {
+        "first": "había comido",
+        "second": "habías comido",
+        "third": "había comido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "comemos",
+        "second": "coméis",
+        "third": "comen",
+      },
+      "singular": {
+        "first": "como",
+        "second": "comes",
+        "third": "come",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "comimos",
+        "second": "comisteis",
+        "third": "comieron",
+      },
+      "singular": {
+        "first": "comí",
+        "second": "comiste",
+        "third": "comió",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos comido",
+        "second": "hubisteis comido",
+        "third": "hubieron comido",
+      },
+      "singular": {
+        "first": "hube comido",
+        "second": "hubiste comido",
+        "third": "hubo comido",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "comiéremos",
+        "second": "comiereis",
+        "third": "comieren",
+      },
+      "singular": {
+        "first": "comiere",
+        "second": "comieres",
+        "third": "comiere",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos comido",
+        "second": "hubiereis comido",
+        "third": "hubieren comido",
+      },
+      "singular": {
+        "first": "hubiere comido",
+        "second": "hubieres comido",
+        "third": "hubiere comido",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "comiéramos",
+        "second": "comierais",
+        "third": "comieran",
+      },
+      "singular": {
+        "first": "comiera",
+        "second": "comieras",
+        "third": "comiera",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "comiésemos",
+        "second": "comieseis",
+        "third": "comiesen",
+      },
+      "singular": {
+        "first": "comiese",
+        "second": "comieses",
+        "third": "comiese",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos comido",
+        "second": "hayáis comido",
+        "third": "hayan comido",
+      },
+      "singular": {
+        "first": "haya comido",
+        "second": "hayas comido",
+        "third": "haya comido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos comido",
+        "second": "hubierais comido",
+        "third": "hubieran comido",
+      },
+      "singular": {
+        "first": "hubiera comido",
+        "second": "hubieras comido",
+        "third": "hubiera comido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "comamos",
+        "second": "comáis",
+        "third": "coman",
+      },
+      "singular": {
+        "first": "coma",
+        "second": "comas",
+        "third": "coma",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Basic Functionality JSON output format conjugates a regular -ir verb (vivir) 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "viviríamos",
+        "second": "viviríais",
+        "third": "vivirían",
+      },
+      "singular": {
+        "first": "viviría",
+        "second": "vivirías",
+        "third": "viviría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos vivido",
+        "second": "habríais vivido",
+        "third": "habrían vivido",
+      },
+      "singular": {
+        "first": "habría vivido",
+        "second": "habrías vivido",
+        "third": "habría vivido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "viviríamos",
+        "second": "viviríais",
+        "third": "vivirían",
+      },
+      "singular": {
+        "first": "viviría",
+        "second": "vivirías",
+        "third": "viviría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Vivamos!",
+        "second": "¡Vivid!",
+        "third": "¡Vivan!",
+      },
+      "singular": {
+        "second": "¡Vive!",
+        "third": "¡Viva!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No vivamos!",
+        "second": "¡No viváis!",
+        "third": "¡No vivan!",
+      },
+      "singular": {
+        "second": "¡No vivas!",
+        "third": "¡No viva!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "viviremos",
+        "second": "viviréis",
+        "third": "vivirán",
+      },
+      "singular": {
+        "first": "viviré",
+        "second": "vivirás",
+        "third": "vivirá",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos vivido",
+        "second": "habréis vivido",
+        "third": "habrán vivido",
+      },
+      "singular": {
+        "first": "habré vivido",
+        "second": "habrás vivido",
+        "third": "habrá vivido",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "vivíamos",
+        "second": "vivíais",
+        "third": "vivían",
+      },
+      "singular": {
+        "first": "vivía",
+        "second": "vivías",
+        "third": "vivía",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos vivido",
+        "second": "habéis vivido",
+        "third": "han vivido",
+      },
+      "singular": {
+        "first": "he vivido",
+        "second": "has vivido",
+        "third": "ha vivido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos vivido",
+        "second": "habíais vivido",
+        "third": "habían vivido",
+      },
+      "singular": {
+        "first": "había vivido",
+        "second": "habías vivido",
+        "third": "había vivido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "vivimos",
+        "second": "vivís",
+        "third": "viven",
+      },
+      "singular": {
+        "first": "vivo",
+        "second": "vives",
+        "third": "vive",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "vivimos",
+        "second": "vivisteis",
+        "third": "vivieron",
+      },
+      "singular": {
+        "first": "viví",
+        "second": "viviste",
+        "third": "vivió",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos vivido",
+        "second": "hubisteis vivido",
+        "third": "hubieron vivido",
+      },
+      "singular": {
+        "first": "hube vivido",
+        "second": "hubiste vivido",
+        "third": "hubo vivido",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "viviéremos",
+        "second": "viviereis",
+        "third": "vivieren",
+      },
+      "singular": {
+        "first": "viviere",
+        "second": "vivieres",
+        "third": "viviere",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos vivido",
+        "second": "hubiereis vivido",
+        "third": "hubieren vivido",
+      },
+      "singular": {
+        "first": "hubiere vivido",
+        "second": "hubieres vivido",
+        "third": "hubiere vivido",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "viviéramos",
+        "second": "vivierais",
+        "third": "vivieran",
+      },
+      "singular": {
+        "first": "viviera",
+        "second": "vivieras",
+        "third": "viviera",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "viviésemos",
+        "second": "vivieseis",
+        "third": "viviesen",
+      },
+      "singular": {
+        "first": "viviese",
+        "second": "vivieses",
+        "third": "viviese",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos vivido",
+        "second": "hayáis vivido",
+        "third": "hayan vivido",
+      },
+      "singular": {
+        "first": "haya vivido",
+        "second": "hayas vivido",
+        "third": "haya vivido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos vivido",
+        "second": "hubierais vivido",
+        "third": "hubieran vivido",
+      },
+      "singular": {
+        "first": "hubiera vivido",
+        "second": "hubieras vivido",
+        "third": "hubiera vivido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "vivamos",
+        "second": "viváis",
+        "third": "vivan",
+      },
+      "singular": {
+        "first": "viva",
+        "second": "vivas",
+        "third": "viva",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Basic Functionality JSON output format conjugates an irregular verb (estar) 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "estaríamos",
+        "second": "estaríais",
+        "third": "estarían",
+      },
+      "singular": {
+        "first": "estaría",
+        "second": "estarías",
+        "third": "estaría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos estado",
+        "second": "habríais estado",
+        "third": "habrían estado",
+      },
+      "singular": {
+        "first": "habría estado",
+        "second": "habrías estado",
+        "third": "habría estado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "estaríamos",
+        "second": "estaríais",
+        "third": "estarían",
+      },
+      "singular": {
+        "first": "estaría",
+        "second": "estarías",
+        "third": "estaría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Estemos!",
+        "second": "¡Estad!",
+        "third": "¡Estén!",
+      },
+      "singular": {
+        "second": "¡Está!",
+        "third": "¡Esté!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No estemos!",
+        "second": "¡No estéis!",
+        "third": "¡No estén!",
+      },
+      "singular": {
+        "second": "¡No estés!",
+        "third": "¡No esté!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "estaremos",
+        "second": "estaréis",
+        "third": "estarán",
+      },
+      "singular": {
+        "first": "estaré",
+        "second": "estarás",
+        "third": "estará",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos estado",
+        "second": "habréis estado",
+        "third": "habrán estado",
+      },
+      "singular": {
+        "first": "habré estado",
+        "second": "habrás estado",
+        "third": "habrá estado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "estábamos",
+        "second": "estabais",
+        "third": "estaban",
+      },
+      "singular": {
+        "first": "estaba",
+        "second": "estabas",
+        "third": "estaba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos estado",
+        "second": "habéis estado",
+        "third": "han estado",
+      },
+      "singular": {
+        "first": "he estado",
+        "second": "has estado",
+        "third": "ha estado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos estado",
+        "second": "habíais estado",
+        "third": "habían estado",
+      },
+      "singular": {
+        "first": "había estado",
+        "second": "habías estado",
+        "third": "había estado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "estamos",
+        "second": "estáis",
+        "third": "están",
+      },
+      "singular": {
+        "first": "estoy",
+        "second": "estás",
+        "third": "está",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "estuvimos",
+        "second": "estuvisteis",
+        "third": "estuvieron",
+      },
+      "singular": {
+        "first": "estuve",
+        "second": "estuviste",
+        "third": "estuvo",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos estado",
+        "second": "hubisteis estado",
+        "third": "hubieron estado",
+      },
+      "singular": {
+        "first": "hube estado",
+        "second": "hubiste estado",
+        "third": "hubo estado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "estuviéremos",
+        "second": "estuviereis",
+        "third": "estuvieren",
+      },
+      "singular": {
+        "first": "estuviere",
+        "second": "estuvieres",
+        "third": "estuviere",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos estado",
+        "second": "hubiereis estado",
+        "third": "hubieren estado",
+      },
+      "singular": {
+        "first": "hubiere estado",
+        "second": "hubieres estado",
+        "third": "hubiere estado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "estuviéramos",
+        "second": "estuvierais",
+        "third": "estuvieran",
+      },
+      "singular": {
+        "first": "estuviera",
+        "second": "estuvieras",
+        "third": "estuviera",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "estuviésemos",
+        "second": "estuvieseis",
+        "third": "estuviesen",
+      },
+      "singular": {
+        "first": "estuviese",
+        "second": "estuvieses",
+        "third": "estuviese",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos estado",
+        "second": "hayáis estado",
+        "third": "hayan estado",
+      },
+      "singular": {
+        "first": "haya estado",
+        "second": "hayas estado",
+        "third": "haya estado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos estado",
+        "second": "hubierais estado",
+        "third": "hubieran estado",
+      },
+      "singular": {
+        "first": "hubiera estado",
+        "second": "hubieras estado",
+        "third": "hubiera estado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "estemos",
+        "second": "estéis",
+        "third": "estén",
+      },
+      "singular": {
+        "first": "esté",
+        "second": "estés",
+        "third": "esté",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Basic Functionality JSON output format conjugates an irregular verb (ir) 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "iríamos",
+        "second": "iríais",
+        "third": "irían",
+      },
+      "singular": {
+        "first": "iría",
+        "second": "irías",
+        "third": "iría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos ido",
+        "second": "habríais ido",
+        "third": "habrían ido",
+      },
+      "singular": {
+        "first": "habría ido",
+        "second": "habrías ido",
+        "third": "habría ido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "iríamos",
+        "second": "iríais",
+        "third": "irían",
+      },
+      "singular": {
+        "first": "iría",
+        "second": "irías",
+        "third": "iría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Vayamos!",
+        "second": "¡Id!",
+        "third": "¡Vayan!",
+      },
+      "singular": {
+        "second": "¡Ve!",
+        "third": "¡Vaya!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No vayamos!",
+        "second": "¡No vayáis!",
+        "third": "¡No vayan!",
+      },
+      "singular": {
+        "second": "¡No vayas!",
+        "third": "¡No vaya!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "iremos",
+        "second": "iréis",
+        "third": "irán",
+      },
+      "singular": {
+        "first": "iré",
+        "second": "irás",
+        "third": "irá",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos ido",
+        "second": "habréis ido",
+        "third": "habrán ido",
+      },
+      "singular": {
+        "first": "habré ido",
+        "second": "habrás ido",
+        "third": "habrá ido",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "íbamos",
+        "second": "ibais",
+        "third": "iban",
+      },
+      "singular": {
+        "first": "iba",
+        "second": "ibas",
+        "third": "iba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos ido",
+        "second": "habéis ido",
+        "third": "han ido",
+      },
+      "singular": {
+        "first": "he ido",
+        "second": "has ido",
+        "third": "ha ido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos ido",
+        "second": "habíais ido",
+        "third": "habían ido",
+      },
+      "singular": {
+        "first": "había ido",
+        "second": "habías ido",
+        "third": "había ido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "vamos",
+        "second": "vais",
+        "third": "van",
+      },
+      "singular": {
+        "first": "voy",
+        "second": "vas",
+        "third": "va",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "fuimos",
+        "second": "fuisteis",
+        "third": "fueron",
+      },
+      "singular": {
+        "first": "fui",
+        "second": "fuiste",
+        "third": "fue",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos ido",
+        "second": "hubisteis ido",
+        "third": "hubieron ido",
+      },
+      "singular": {
+        "first": "hube ido",
+        "second": "hubiste ido",
+        "third": "hubo ido",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "fuéremos",
+        "second": "fuereis",
+        "third": "fueren",
+      },
+      "singular": {
+        "first": "fuere",
+        "second": "fueres",
+        "third": "fuere",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos ido",
+        "second": "hubiereis ido",
+        "third": "hubieren ido",
+      },
+      "singular": {
+        "first": "hubiere ido",
+        "second": "hubieres ido",
+        "third": "hubiere ido",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "fuéramos",
+        "second": "fuerais",
+        "third": "fueran",
+      },
+      "singular": {
+        "first": "fuera",
+        "second": "fueras",
+        "third": "fuera",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "fuésemos",
+        "second": "fueseis",
+        "third": "fuesen",
+      },
+      "singular": {
+        "first": "fuese",
+        "second": "fueses",
+        "third": "fuese",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos ido",
+        "second": "hayáis ido",
+        "third": "hayan ido",
+      },
+      "singular": {
+        "first": "haya ido",
+        "second": "hayas ido",
+        "third": "haya ido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos ido",
+        "second": "hubierais ido",
+        "third": "hubieran ido",
+      },
+      "singular": {
+        "first": "hubiera ido",
+        "second": "hubieras ido",
+        "third": "hubiera ido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "vayamos",
+        "second": "vayáis",
+        "third": "vayan",
+      },
+      "singular": {
+        "first": "vaya",
+        "second": "vayas",
+        "third": "vaya",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Basic Functionality JSON output format conjugates an irregular verb (ser) 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "seríamos",
+        "second": "seríais",
+        "third": "serían",
+      },
+      "singular": {
+        "first": "sería",
+        "second": "serías",
+        "third": "sería",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos sido",
+        "second": "habríais sido",
+        "third": "habrían sido",
+      },
+      "singular": {
+        "first": "habría sido",
+        "second": "habrías sido",
+        "third": "habría sido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "seríamos",
+        "second": "seríais",
+        "third": "serían",
+      },
+      "singular": {
+        "first": "sería",
+        "second": "serías",
+        "third": "sería",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Seamos!",
+        "second": "¡Sed!",
+        "third": "¡Sean!",
+      },
+      "singular": {
+        "second": "¡Sé!",
+        "third": "¡Sea!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No seamos!",
+        "second": "¡No seáis!",
+        "third": "¡No sean!",
+      },
+      "singular": {
+        "second": "¡No seas!",
+        "third": "¡No sea!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "seremos",
+        "second": "seréis",
+        "third": "serán",
+      },
+      "singular": {
+        "first": "seré",
+        "second": "serás",
+        "third": "será",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos sido",
+        "second": "habréis sido",
+        "third": "habrán sido",
+      },
+      "singular": {
+        "first": "habré sido",
+        "second": "habrás sido",
+        "third": "habrá sido",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "éramos",
+        "second": "erais",
+        "third": "eran",
+      },
+      "singular": {
+        "first": "era",
+        "second": "eras",
+        "third": "era",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos sido",
+        "second": "habéis sido",
+        "third": "han sido",
+      },
+      "singular": {
+        "first": "he sido",
+        "second": "has sido",
+        "third": "ha sido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos sido",
+        "second": "habíais sido",
+        "third": "habían sido",
+      },
+      "singular": {
+        "first": "había sido",
+        "second": "habías sido",
+        "third": "había sido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "somos",
+        "second": "sois",
+        "third": "son",
+      },
+      "singular": {
+        "first": "soy",
+        "second": "eres",
+        "third": "es",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "fuimos",
+        "second": "fuisteis",
+        "third": "fueron",
+      },
+      "singular": {
+        "first": "fui",
+        "second": "fuiste",
+        "third": "fue",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos sido",
+        "second": "hubisteis sido",
+        "third": "hubieron sido",
+      },
+      "singular": {
+        "first": "hube sido",
+        "second": "hubiste sido",
+        "third": "hubo sido",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "fuéremos",
+        "second": "fuereis",
+        "third": "fueren",
+      },
+      "singular": {
+        "first": "fuere",
+        "second": "fueres",
+        "third": "fuere",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos sido",
+        "second": "hubiereis sido",
+        "third": "hubieren sido",
+      },
+      "singular": {
+        "first": "hubiere sido",
+        "second": "hubieres sido",
+        "third": "hubiere sido",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "fuéramos",
+        "second": "fuéramos",
+        "third": "fueran",
+      },
+      "singular": {
+        "first": "fuera",
+        "second": "fueras",
+        "third": "fuera",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "fuésemos",
+        "second": "fueseis",
+        "third": "fuesen",
+      },
+      "singular": {
+        "first": "fuese",
+        "second": "fueses",
+        "third": "fuese",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos sido",
+        "second": "hayáis sido",
+        "third": "hayan sido",
+      },
+      "singular": {
+        "first": "haya sido",
+        "second": "hayas sido",
+        "third": "haya sido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos sido",
+        "second": "hubierais sido",
+        "third": "hubieran sido",
+      },
+      "singular": {
+        "first": "hubiera sido",
+        "second": "hubieras sido",
+        "third": "hubiera sido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "seamos",
+        "second": "seáis",
+        "third": "sean",
+      },
+      "singular": {
+        "first": "sea",
+        "second": "seas",
+        "third": "sea",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Basic Functionality JSON output format conjugates an irregular verb (tener) 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "tendríamos",
+        "second": "tendríais",
+        "third": "tendrían",
+      },
+      "singular": {
+        "first": "tendría",
+        "second": "tendrías",
+        "third": "tendría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos tenido",
+        "second": "habríais tenido",
+        "third": "habrían tenido",
+      },
+      "singular": {
+        "first": "habría tenido",
+        "second": "habrías tenido",
+        "third": "habría tenido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "tendríamos",
+        "second": "tendríais",
+        "third": "tendrían",
+      },
+      "singular": {
+        "first": "tendría",
+        "second": "tendrías",
+        "third": "tendría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Tengamos!",
+        "second": "¡Tened!",
+        "third": "¡Tengan!",
+      },
+      "singular": {
+        "second": "¡Ten!",
+        "third": "¡Tenga!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No tengamos!",
+        "second": "¡No tengáis!",
+        "third": "¡No tengan!",
+      },
+      "singular": {
+        "second": "¡No tengas!",
+        "third": "¡No tenga!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "tendremos",
+        "second": "tendréis",
+        "third": "tendrán",
+      },
+      "singular": {
+        "first": "tendré",
+        "second": "tendrás",
+        "third": "tendrá",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos tenido",
+        "second": "habréis tenido",
+        "third": "habrán tenido",
+      },
+      "singular": {
+        "first": "habré tenido",
+        "second": "habrás tenido",
+        "third": "habrá tenido",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "teníamos",
+        "second": "teníais",
+        "third": "tenían",
+      },
+      "singular": {
+        "first": "tenía",
+        "second": "tenías",
+        "third": "tenía",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos tenido",
+        "second": "habéis tenido",
+        "third": "han tenido",
+      },
+      "singular": {
+        "first": "he tenido",
+        "second": "has tenido",
+        "third": "ha tenido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos tenido",
+        "second": "habíais tenido",
+        "third": "habían tenido",
+      },
+      "singular": {
+        "first": "había tenido",
+        "second": "habías tenido",
+        "third": "había tenido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "tenemos",
+        "second": "tenéis",
+        "third": "tienen",
+      },
+      "singular": {
+        "first": "tengo",
+        "second": "tienes",
+        "third": "tiene",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "tuvimos",
+        "second": "tuvisteis",
+        "third": "tuvieron",
+      },
+      "singular": {
+        "first": "tuve",
+        "second": "tuviste",
+        "third": "tuvo",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos tenido",
+        "second": "hubisteis tenido",
+        "third": "hubieron tenido",
+      },
+      "singular": {
+        "first": "hube tenido",
+        "second": "hubiste tenido",
+        "third": "hubo tenido",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "tuviéremos",
+        "second": "tuviereis",
+        "third": "tuvieren",
+      },
+      "singular": {
+        "first": "tuviere",
+        "second": "tuvieres",
+        "third": "tuviere",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos tenido",
+        "second": "hubiereis tenido",
+        "third": "hubieren tenido",
+      },
+      "singular": {
+        "first": "hubiere tenido",
+        "second": "hubieres tenido",
+        "third": "hubiere tenido",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "tuviéramos",
+        "second": "tuvierais",
+        "third": "tuvieran",
+      },
+      "singular": {
+        "first": "tuviera",
+        "second": "tuvieras",
+        "third": "tuviera",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "tuviésemos",
+        "second": "tuvieseis",
+        "third": "tuviesen",
+      },
+      "singular": {
+        "first": "tuviese",
+        "second": "tuvieses",
+        "third": "tuviese",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos tenido",
+        "second": "hayáis tenido",
+        "third": "hayan tenido",
+      },
+      "singular": {
+        "first": "haya tenido",
+        "second": "hayas tenido",
+        "third": "haya tenido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos tenido",
+        "second": "hubierais tenido",
+        "third": "hubieran tenido",
+      },
+      "singular": {
+        "first": "hubiera tenido",
+        "second": "hubieras tenido",
+        "third": "hubiera tenido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "tengamos",
+        "second": "tengáis",
+        "third": "tengan",
+      },
+      "singular": {
+        "first": "tenga",
+        "second": "tengas",
+        "third": "tenga",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Basic Functionality list output format outputs list format for hablar 1`] = `
+"  hablo
+  hablas
+  habla
+  hablamos
+  habláis
+  hablan
+  hablaba
+  hablabas
+  hablaba
+  hablábamos
+  hablabais
+  hablaban
+  hablé
+  hablaste
+  habló
+  hablamos
+  hablasteis
+  hablaron
+  hablaré
+  hablarás
+  hablará
+  hablaremos
+  hablaréis
+  hablarán
+  he hablado
+  has hablado
+  ha hablado
+  hemos hablado
+  habéis hablado
+  han hablado
+  había hablado
+  habías hablado
+  había hablado
+  habíamos hablado
+  habíais hablado
+  habían hablado
+  habré hablado
+  habrás hablado
+  habrá hablado
+  habremos hablado
+  habréis hablado
+  habrán hablado
+  hube hablado
+  hubiste hablado
+  hubo hablado
+  hubimos hablado
+  hubisteis hablado
+  hubieron hablado
+  hable
+  hables
+  hable
+  hablemos
+  habléis
+  hablen
+  hablara
+  hablaras
+  hablara
+  habláramos
+  hablarais
+  hablaran
+  hablase
+  hablases
+  hablase
+  hablásemos
+  hablaseis
+  hablasen
+  hablare
+  hablares
+  hablare
+  habláremos
+  hablareis
+  hablaren
+  haya hablado
+  hayas hablado
+  haya hablado
+  hayamos hablado
+  hayáis hablado
+  hayan hablado
+  hubiera hablado
+  hubieras hablado
+  hubiera hablado
+  hubiéramos hablado
+  hubierais hablado
+  hubieran hablado
+  hubiere hablado
+  hubieres hablado
+  hubiere hablado
+  hubiéremos hablado
+  hubiereis hablado
+  hubieren hablado
+  hablaría
+  hablarías
+  hablaría
+  hablaríamos
+  hablaríais
+  hablarían
+  habría hablado
+  habrías hablado
+  habría hablado
+  habríamos hablado
+  habríais hablado
+  habrían hablado
+  hablaría
+  hablarías
+  hablaría
+  hablaríamos
+  hablaríais
+  hablarían
+  ¡Habla!
+  ¡Hable!
+  ¡Hablemos!
+  ¡Hablad!
+  ¡Hablen!
+  ¡No hables!
+  ¡No hable!
+  ¡No hablemos!
+  ¡No habléis!
+  ¡No hablen!
+"
+`;
+
+exports[`CLI Basic Functionality list output format outputs list format for ir 1`] = `
+"  voy
+  vas
+  va
+  vamos
+  vais
+  van
+  iba
+  ibas
+  iba
+  íbamos
+  ibais
+  iban
+  fui
+  fuiste
+  fue
+  fuimos
+  fuisteis
+  fueron
+  iré
+  irás
+  irá
+  iremos
+  iréis
+  irán
+  he ido
+  has ido
+  ha ido
+  hemos ido
+  habéis ido
+  han ido
+  había ido
+  habías ido
+  había ido
+  habíamos ido
+  habíais ido
+  habían ido
+  habré ido
+  habrás ido
+  habrá ido
+  habremos ido
+  habréis ido
+  habrán ido
+  hube ido
+  hubiste ido
+  hubo ido
+  hubimos ido
+  hubisteis ido
+  hubieron ido
+  vaya
+  vayas
+  vaya
+  vayamos
+  vayáis
+  vayan
+  fuera
+  fueras
+  fuera
+  fuéramos
+  fuerais
+  fueran
+  fuese
+  fueses
+  fuese
+  fuésemos
+  fueseis
+  fuesen
+  fuere
+  fueres
+  fuere
+  fuéremos
+  fuereis
+  fueren
+  haya ido
+  hayas ido
+  haya ido
+  hayamos ido
+  hayáis ido
+  hayan ido
+  hubiera ido
+  hubieras ido
+  hubiera ido
+  hubiéramos ido
+  hubierais ido
+  hubieran ido
+  hubiere ido
+  hubieres ido
+  hubiere ido
+  hubiéremos ido
+  hubiereis ido
+  hubieren ido
+  iría
+  irías
+  iría
+  iríamos
+  iríais
+  irían
+  habría ido
+  habrías ido
+  habría ido
+  habríamos ido
+  habríais ido
+  habrían ido
+  iría
+  irías
+  iría
+  iríamos
+  iríais
+  irían
+  ¡Ve!
+  ¡Vaya!
+  ¡Vayamos!
+  ¡Id!
+  ¡Vayan!
+  ¡No vayas!
+  ¡No vaya!
+  ¡No vayamos!
+  ¡No vayáis!
+  ¡No vayan!
+"
+`;
+
+exports[`CLI Basic Functionality with pronouns outputs JSON with pronouns for hablar 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "nosotros hablaríamos",
+        "second": "vosotros hablaríais",
+        "third": "ellos hablarían",
+      },
+      "singular": {
+        "first": "yo hablaría",
+        "second": "tú hablarías",
+        "third": "él hablaría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "nosotros habríamos hablado",
+        "second": "vosotros habríais hablado",
+        "third": "ellos habrían hablado",
+      },
+      "singular": {
+        "first": "yo habría hablado",
+        "second": "tú habrías hablado",
+        "third": "él habría hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "nosotros hablaríamos",
+        "second": "vosotros hablaríais",
+        "third": "ellos hablarían",
+      },
+      "singular": {
+        "first": "yo hablaría",
+        "second": "tú hablarías",
+        "third": "él hablaría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Nosotros hablemos!",
+        "second": "¡Vosotros hablad!",
+        "third": "¡Ellos hablen!",
+      },
+      "singular": {
+        "second": "¡Tú habla!",
+        "third": "¡Él hable!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡Nosotros no hablemos!",
+        "second": "¡Vosotros no habléis!",
+        "third": "¡Ellos no hablen!",
+      },
+      "singular": {
+        "second": "¡Tú no hables!",
+        "third": "¡Él no hable!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "nosotros hablaremos",
+        "second": "vosotros hablaréis",
+        "third": "ellos hablarán",
+      },
+      "singular": {
+        "first": "yo hablaré",
+        "second": "tú hablarás",
+        "third": "él hablará",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "nosotros habremos hablado",
+        "second": "vosotros habréis hablado",
+        "third": "ellos habrán hablado",
+      },
+      "singular": {
+        "first": "yo habré hablado",
+        "second": "tú habrás hablado",
+        "third": "él habrá hablado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "nosotros hablábamos",
+        "second": "vosotros hablabais",
+        "third": "ellos hablaban",
+      },
+      "singular": {
+        "first": "yo hablaba",
+        "second": "tú hablabas",
+        "third": "él hablaba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "nosotros hemos hablado",
+        "second": "vosotros habéis hablado",
+        "third": "ellos han hablado",
+      },
+      "singular": {
+        "first": "yo he hablado",
+        "second": "tú has hablado",
+        "third": "él ha hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "nosotros habíamos hablado",
+        "second": "vosotros habíais hablado",
+        "third": "ellos habían hablado",
+      },
+      "singular": {
+        "first": "yo había hablado",
+        "second": "tú habías hablado",
+        "third": "él había hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "nosotros hablamos",
+        "second": "vosotros habláis",
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "first": "yo hablo",
+        "second": "tú hablas",
+        "third": "él habla",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "nosotros hablamos",
+        "second": "vosotros hablasteis",
+        "third": "ellos hablaron",
+      },
+      "singular": {
+        "first": "yo hablé",
+        "second": "tú hablaste",
+        "third": "él habló",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "nosotros hubimos hablado",
+        "second": "vosotros hubisteis hablado",
+        "third": "ellos hubieron hablado",
+      },
+      "singular": {
+        "first": "yo hube hablado",
+        "second": "tú hubiste hablado",
+        "third": "él hubo hablado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "nosotros habláremos",
+        "second": "vosotros hablareis",
+        "third": "ellos hablaren",
+      },
+      "singular": {
+        "first": "yo hablare",
+        "second": "tú hablares",
+        "third": "él hablare",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "nosotros hubiéremos hablado",
+        "second": "vosotros hubiereis hablado",
+        "third": "ellos hubieren hablado",
+      },
+      "singular": {
+        "first": "yo hubiere hablado",
+        "second": "tú hubieres hablado",
+        "third": "él hubiere hablado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "nosotros habláramos",
+        "second": "vosotros hablarais",
+        "third": "ellos hablaran",
+      },
+      "singular": {
+        "first": "yo hablara",
+        "second": "tú hablaras",
+        "third": "él hablara",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "nosotros hablásemos",
+        "second": "vosotros hablaseis",
+        "third": "ellos hablasen",
+      },
+      "singular": {
+        "first": "yo hablase",
+        "second": "tú hablases",
+        "third": "él hablase",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "nosotros hayamos hablado",
+        "second": "vosotros hayáis hablado",
+        "third": "ellos hayan hablado",
+      },
+      "singular": {
+        "first": "yo haya hablado",
+        "second": "tú hayas hablado",
+        "third": "él haya hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "nosotros hubiéramos hablado",
+        "second": "vosotros hubierais hablado",
+        "third": "ellos hubieran hablado",
+      },
+      "singular": {
+        "first": "yo hubiera hablado",
+        "second": "tú hubieras hablado",
+        "third": "él hubiera hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "nosotros hablemos",
+        "second": "vosotros habléis",
+        "third": "ellos hablen",
+      },
+      "singular": {
+        "first": "yo hable",
+        "second": "tú hables",
+        "third": "él hable",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Basic Functionality with pronouns outputs list with pronouns for hablar 1`] = `
+"  yo hablo
+  tú hablas
+  él habla
+  nosotros hablamos
+  vosotros habláis
+  ellos hablan
+  yo hablaba
+  tú hablabas
+  él hablaba
+  nosotros hablábamos
+  vosotros hablabais
+  ellos hablaban
+  yo hablé
+  tú hablaste
+  él habló
+  nosotros hablamos
+  vosotros hablasteis
+  ellos hablaron
+  yo hablaré
+  tú hablarás
+  él hablará
+  nosotros hablaremos
+  vosotros hablaréis
+  ellos hablarán
+  yo he hablado
+  tú has hablado
+  él ha hablado
+  nosotros hemos hablado
+  vosotros habéis hablado
+  ellos han hablado
+  yo había hablado
+  tú habías hablado
+  él había hablado
+  nosotros habíamos hablado
+  vosotros habíais hablado
+  ellos habían hablado
+  yo habré hablado
+  tú habrás hablado
+  él habrá hablado
+  nosotros habremos hablado
+  vosotros habréis hablado
+  ellos habrán hablado
+  yo hube hablado
+  tú hubiste hablado
+  él hubo hablado
+  nosotros hubimos hablado
+  vosotros hubisteis hablado
+  ellos hubieron hablado
+  yo hable
+  tú hables
+  él hable
+  nosotros hablemos
+  vosotros habléis
+  ellos hablen
+  yo hablara
+  tú hablaras
+  él hablara
+  nosotros habláramos
+  vosotros hablarais
+  ellos hablaran
+  yo hablase
+  tú hablases
+  él hablase
+  nosotros hablásemos
+  vosotros hablaseis
+  ellos hablasen
+  yo hablare
+  tú hablares
+  él hablare
+  nosotros habláremos
+  vosotros hablareis
+  ellos hablaren
+  yo haya hablado
+  tú hayas hablado
+  él haya hablado
+  nosotros hayamos hablado
+  vosotros hayáis hablado
+  ellos hayan hablado
+  yo hubiera hablado
+  tú hubieras hablado
+  él hubiera hablado
+  nosotros hubiéramos hablado
+  vosotros hubierais hablado
+  ellos hubieran hablado
+  yo hubiere hablado
+  tú hubieres hablado
+  él hubiere hablado
+  nosotros hubiéremos hablado
+  vosotros hubiereis hablado
+  ellos hubieren hablado
+  yo hablaría
+  tú hablarías
+  él hablaría
+  nosotros hablaríamos
+  vosotros hablaríais
+  ellos hablarían
+  yo habría hablado
+  tú habrías hablado
+  él habría hablado
+  nosotros habríamos hablado
+  vosotros habríais hablado
+  ellos habrían hablado
+  yo hablaría
+  tú hablarías
+  él hablaría
+  nosotros hablaríamos
+  vosotros hablaríais
+  ellos hablarían
+  ¡Tú habla!
+  ¡Él hable!
+  ¡Nosotros hablemos!
+  ¡Vosotros hablad!
+  ¡Ellos hablen!
+  ¡Tú no hables!
+  ¡Él no hable!
+  ¡Nosotros no hablemos!
+  ¡Vosotros no habléis!
+  ¡Ellos no hablen!
+"
+`;
+
+exports[`CLI Basic Functionality with pronouns outputs list with pronouns for ir 1`] = `
+"  yo voy
+  tú vas
+  él va
+  nosotros vamos
+  vosotros vais
+  ellos van
+  yo iba
+  tú ibas
+  él iba
+  nosotros íbamos
+  vosotros ibais
+  ellos iban
+  yo fui
+  tú fuiste
+  él fue
+  nosotros fuimos
+  vosotros fuisteis
+  ellos fueron
+  yo iré
+  tú irás
+  él irá
+  nosotros iremos
+  vosotros iréis
+  ellos irán
+  yo he ido
+  tú has ido
+  él ha ido
+  nosotros hemos ido
+  vosotros habéis ido
+  ellos han ido
+  yo había ido
+  tú habías ido
+  él había ido
+  nosotros habíamos ido
+  vosotros habíais ido
+  ellos habían ido
+  yo habré ido
+  tú habrás ido
+  él habrá ido
+  nosotros habremos ido
+  vosotros habréis ido
+  ellos habrán ido
+  yo hube ido
+  tú hubiste ido
+  él hubo ido
+  nosotros hubimos ido
+  vosotros hubisteis ido
+  ellos hubieron ido
+  yo vaya
+  tú vayas
+  él vaya
+  nosotros vayamos
+  vosotros vayáis
+  ellos vayan
+  yo fuera
+  tú fueras
+  él fuera
+  nosotros fuéramos
+  vosotros fuerais
+  ellos fueran
+  yo fuese
+  tú fueses
+  él fuese
+  nosotros fuésemos
+  vosotros fueseis
+  ellos fuesen
+  yo fuere
+  tú fueres
+  él fuere
+  nosotros fuéremos
+  vosotros fuereis
+  ellos fueren
+  yo haya ido
+  tú hayas ido
+  él haya ido
+  nosotros hayamos ido
+  vosotros hayáis ido
+  ellos hayan ido
+  yo hubiera ido
+  tú hubieras ido
+  él hubiera ido
+  nosotros hubiéramos ido
+  vosotros hubierais ido
+  ellos hubieran ido
+  yo hubiere ido
+  tú hubieres ido
+  él hubiere ido
+  nosotros hubiéremos ido
+  vosotros hubiereis ido
+  ellos hubieren ido
+  yo iría
+  tú irías
+  él iría
+  nosotros iríamos
+  vosotros iríais
+  ellos irían
+  yo habría ido
+  tú habrías ido
+  él habría ido
+  nosotros habríamos ido
+  vosotros habríais ido
+  ellos habrían ido
+  yo iría
+  tú irías
+  él iría
+  nosotros iríamos
+  vosotros iríais
+  ellos irían
+  ¡Tú ve!
+  ¡Él vaya!
+  ¡Nosotros vayamos!
+  ¡Vosotros id!
+  ¡Ellos vayan!
+  ¡Tú no vayas!
+  ¡Él no vaya!
+  ¡Nosotros no vayamos!
+  ¡Vosotros no vayáis!
+  ¡Ellos no vayan!
+"
+`;
+
+exports[`CLI Filter Arguments combined filters combined filters for ser - indicative present 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "somos",
+        "second": "sois",
+        "third": "son",
+      },
+      "singular": {
+        "first": "soy",
+        "second": "eres",
+        "third": "es",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments combined filters combined filters with pronouns and list 1`] = `
+"  yo como
+  tú comes
+  él come
+  nosotros comemos
+  vosotros coméis
+  ellos comen
+"
+`;
+
+exports[`CLI Filter Arguments combined filters filters by indicative present first singular 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "hablo",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments combined filters filters by subjunctive present third plural 1`] = `
+{
+  "subjunctive": {
+    "present": {
+      "plural": {
+        "third": "hablen",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments mood filters filters by conditional mood 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos hablado",
+        "second": "habríais hablado",
+        "third": "habrían hablado",
+      },
+      "singular": {
+        "first": "habría hablado",
+        "second": "habrías hablado",
+        "third": "habría hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments mood filters filters by imperative mood 1`] = `
+{
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No hablemos!",
+        "second": "¡No habléis!",
+        "third": "¡No hablen!",
+      },
+      "singular": {
+        "second": "¡No hables!",
+        "third": "¡No hable!",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments mood filters filters by indicative mood 1`] = `
+{
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "hablaremos",
+        "second": "hablaréis",
+        "third": "hablarán",
+      },
+      "singular": {
+        "first": "hablaré",
+        "second": "hablarás",
+        "third": "hablará",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos hablado",
+        "second": "habréis hablado",
+        "third": "habrán hablado",
+      },
+      "singular": {
+        "first": "habré hablado",
+        "second": "habrás hablado",
+        "third": "habrá hablado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "hablábamos",
+        "second": "hablabais",
+        "third": "hablaban",
+      },
+      "singular": {
+        "first": "hablaba",
+        "second": "hablabas",
+        "third": "hablaba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos hablado",
+        "second": "habéis hablado",
+        "third": "han hablado",
+      },
+      "singular": {
+        "first": "he hablado",
+        "second": "has hablado",
+        "third": "ha hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos hablado",
+        "second": "habíais hablado",
+        "third": "habían hablado",
+      },
+      "singular": {
+        "first": "había hablado",
+        "second": "habías hablado",
+        "third": "había hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablamos",
+        "second": "habláis",
+        "third": "hablan",
+      },
+      "singular": {
+        "first": "hablo",
+        "second": "hablas",
+        "third": "habla",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "hablamos",
+        "second": "hablasteis",
+        "third": "hablaron",
+      },
+      "singular": {
+        "first": "hablé",
+        "second": "hablaste",
+        "third": "habló",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos hablado",
+        "second": "hubisteis hablado",
+        "third": "hubieron hablado",
+      },
+      "singular": {
+        "first": "hube hablado",
+        "second": "hubiste hablado",
+        "third": "hubo hablado",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments mood filters filters by subjunctive mood 1`] = `
+{
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "habláremos",
+        "second": "hablareis",
+        "third": "hablaren",
+      },
+      "singular": {
+        "first": "hablare",
+        "second": "hablares",
+        "third": "hablare",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos hablado",
+        "second": "hubiereis hablado",
+        "third": "hubieren hablado",
+      },
+      "singular": {
+        "first": "hubiere hablado",
+        "second": "hubieres hablado",
+        "third": "hubiere hablado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "habláramos",
+        "second": "hablarais",
+        "third": "hablaran",
+      },
+      "singular": {
+        "first": "hablara",
+        "second": "hablaras",
+        "third": "hablara",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "hablásemos",
+        "second": "hablaseis",
+        "third": "hablasen",
+      },
+      "singular": {
+        "first": "hablase",
+        "second": "hablases",
+        "third": "hablase",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos hablado",
+        "second": "hayáis hablado",
+        "third": "hayan hablado",
+      },
+      "singular": {
+        "first": "haya hablado",
+        "second": "hayas hablado",
+        "third": "haya hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos hablado",
+        "second": "hubierais hablado",
+        "third": "hubieran hablado",
+      },
+      "singular": {
+        "first": "hubiera hablado",
+        "second": "hubieras hablado",
+        "third": "hubiera hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablemos",
+        "second": "habléis",
+        "third": "hablen",
+      },
+      "singular": {
+        "first": "hable",
+        "second": "hables",
+        "third": "hable",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments number filters filters by plural 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos hablado",
+        "second": "habríais hablado",
+        "third": "habrían hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No hablemos!",
+        "second": "¡No habléis!",
+        "third": "¡No hablen!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "hablaremos",
+        "second": "hablaréis",
+        "third": "hablarán",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos hablado",
+        "second": "habréis hablado",
+        "third": "habrán hablado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "hablábamos",
+        "second": "hablabais",
+        "third": "hablaban",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos hablado",
+        "second": "habéis hablado",
+        "third": "han hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos hablado",
+        "second": "habíais hablado",
+        "third": "habían hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablamos",
+        "second": "habláis",
+        "third": "hablan",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "hablamos",
+        "second": "hablasteis",
+        "third": "hablaron",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos hablado",
+        "second": "hubisteis hablado",
+        "third": "hubieron hablado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "habláremos",
+        "second": "hablareis",
+        "third": "hablaren",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos hablado",
+        "second": "hubiereis hablado",
+        "third": "hubieren hablado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "habláramos",
+        "second": "hablarais",
+        "third": "hablaran",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "hablásemos",
+        "second": "hablaseis",
+        "third": "hablasen",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos hablado",
+        "second": "hayáis hablado",
+        "third": "hayan hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos hablado",
+        "second": "hubierais hablado",
+        "third": "hubieran hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablemos",
+        "second": "habléis",
+        "third": "hablen",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments number filters filters by singular 1`] = `
+{
+  "conditional": {
+    "future": {
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+    "perfect": {
+      "singular": {
+        "first": "habría hablado",
+        "second": "habrías hablado",
+        "third": "habría hablado",
+      },
+    },
+    "present": {
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+    "negative": {
+      "singular": {
+        "second": "¡No hables!",
+        "third": "¡No hable!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "singular": {
+        "first": "hablaré",
+        "second": "hablarás",
+        "third": "hablará",
+      },
+    },
+    "future perfect": {
+      "singular": {
+        "first": "habré hablado",
+        "second": "habrás hablado",
+        "third": "habrá hablado",
+      },
+    },
+    "imperfect": {
+      "singular": {
+        "first": "hablaba",
+        "second": "hablabas",
+        "third": "hablaba",
+      },
+    },
+    "perfect": {
+      "singular": {
+        "first": "he hablado",
+        "second": "has hablado",
+        "third": "ha hablado",
+      },
+    },
+    "pluperfect": {
+      "singular": {
+        "first": "había hablado",
+        "second": "habías hablado",
+        "third": "había hablado",
+      },
+    },
+    "present": {
+      "singular": {
+        "first": "hablo",
+        "second": "hablas",
+        "third": "habla",
+      },
+    },
+    "preterite": {
+      "singular": {
+        "first": "hablé",
+        "second": "hablaste",
+        "third": "habló",
+      },
+    },
+    "preterite perfect": {
+      "singular": {
+        "first": "hube hablado",
+        "second": "hubiste hablado",
+        "third": "hubo hablado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "singular": {
+        "first": "hablare",
+        "second": "hablares",
+        "third": "hablare",
+      },
+    },
+    "future perfect": {
+      "singular": {
+        "first": "hubiere hablado",
+        "second": "hubieres hablado",
+        "third": "hubiere hablado",
+      },
+    },
+    "imperfect -ra": {
+      "singular": {
+        "first": "hablara",
+        "second": "hablaras",
+        "third": "hablara",
+      },
+    },
+    "imperfect -se": {
+      "singular": {
+        "first": "hablase",
+        "second": "hablases",
+        "third": "hablase",
+      },
+    },
+    "perfect": {
+      "singular": {
+        "first": "haya hablado",
+        "second": "hayas hablado",
+        "third": "haya hablado",
+      },
+    },
+    "pluperfect": {
+      "singular": {
+        "first": "hubiera hablado",
+        "second": "hubieras hablado",
+        "third": "hubiera hablado",
+      },
+    },
+    "present": {
+      "singular": {
+        "first": "hable",
+        "second": "hables",
+        "third": "hable",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments person filters filters by first person 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "hablaríamos",
+      },
+      "singular": {
+        "first": "hablaría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos hablado",
+      },
+      "singular": {
+        "first": "habría hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablaríamos",
+      },
+      "singular": {
+        "first": "hablaría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Hablemos!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No hablemos!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "hablaremos",
+      },
+      "singular": {
+        "first": "hablaré",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos hablado",
+      },
+      "singular": {
+        "first": "habré hablado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "hablábamos",
+      },
+      "singular": {
+        "first": "hablaba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos hablado",
+      },
+      "singular": {
+        "first": "he hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos hablado",
+      },
+      "singular": {
+        "first": "había hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablamos",
+      },
+      "singular": {
+        "first": "hablo",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "hablamos",
+      },
+      "singular": {
+        "first": "hablé",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos hablado",
+      },
+      "singular": {
+        "first": "hube hablado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "habláremos",
+      },
+      "singular": {
+        "first": "hablare",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos hablado",
+      },
+      "singular": {
+        "first": "hubiere hablado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "habláramos",
+      },
+      "singular": {
+        "first": "hablara",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "hablásemos",
+      },
+      "singular": {
+        "first": "hablase",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos hablado",
+      },
+      "singular": {
+        "first": "haya hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos hablado",
+      },
+      "singular": {
+        "first": "hubiera hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "hablemos",
+      },
+      "singular": {
+        "first": "hable",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments person filters filters by second person 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "second": "hablaríais",
+      },
+      "singular": {
+        "second": "hablarías",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "second": "habríais hablado",
+      },
+      "singular": {
+        "second": "habrías hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "second": "hablaríais",
+      },
+      "singular": {
+        "second": "hablarías",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "second": "¡Hablad!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "second": "¡No habléis!",
+      },
+      "singular": {
+        "second": "¡No hables!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "second": "hablaréis",
+      },
+      "singular": {
+        "second": "hablarás",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "second": "habréis hablado",
+      },
+      "singular": {
+        "second": "habrás hablado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "second": "hablabais",
+      },
+      "singular": {
+        "second": "hablabas",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "second": "habéis hablado",
+      },
+      "singular": {
+        "second": "has hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "second": "habíais hablado",
+      },
+      "singular": {
+        "second": "habías hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "second": "habláis",
+      },
+      "singular": {
+        "second": "hablas",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "second": "hablasteis",
+      },
+      "singular": {
+        "second": "hablaste",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "second": "hubisteis hablado",
+      },
+      "singular": {
+        "second": "hubiste hablado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "second": "hablareis",
+      },
+      "singular": {
+        "second": "hablares",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "second": "hubiereis hablado",
+      },
+      "singular": {
+        "second": "hubieres hablado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "second": "hablarais",
+      },
+      "singular": {
+        "second": "hablaras",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "second": "hablaseis",
+      },
+      "singular": {
+        "second": "hablases",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "second": "hayáis hablado",
+      },
+      "singular": {
+        "second": "hayas hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "second": "hubierais hablado",
+      },
+      "singular": {
+        "second": "hubieras hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "second": "habléis",
+      },
+      "singular": {
+        "second": "hables",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments person filters filters by third person 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "third": "hablarían",
+      },
+      "singular": {
+        "third": "hablaría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "third": "habrían hablado",
+      },
+      "singular": {
+        "third": "habría hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "third": "hablarían",
+      },
+      "singular": {
+        "third": "hablaría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "third": "¡Hable!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "third": "¡No hablen!",
+      },
+      "singular": {
+        "third": "¡No hable!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "third": "hablarán",
+      },
+      "singular": {
+        "third": "hablará",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "third": "habrán hablado",
+      },
+      "singular": {
+        "third": "habrá hablado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "third": "hablaban",
+      },
+      "singular": {
+        "third": "hablaba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "third": "han hablado",
+      },
+      "singular": {
+        "third": "ha hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "third": "habían hablado",
+      },
+      "singular": {
+        "third": "había hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "third": "hablan",
+      },
+      "singular": {
+        "third": "habla",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "third": "hablaron",
+      },
+      "singular": {
+        "third": "habló",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "third": "hubieron hablado",
+      },
+      "singular": {
+        "third": "hubo hablado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "third": "hablaren",
+      },
+      "singular": {
+        "third": "hablare",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "third": "hubieren hablado",
+      },
+      "singular": {
+        "third": "hubiere hablado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "third": "hablaran",
+      },
+      "singular": {
+        "third": "hablara",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "third": "hablasen",
+      },
+      "singular": {
+        "third": "hablase",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "third": "hayan hablado",
+      },
+      "singular": {
+        "third": "haya hablado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "third": "hubieran hablado",
+      },
+      "singular": {
+        "third": "hubiera hablado",
+      },
+    },
+    "present": {
+      "plural": {
+        "third": "hablen",
+      },
+      "singular": {
+        "third": "hable",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments positivity filters (imperative) filters by affirmative imperative 1`] = `
+{
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments positivity filters (imperative) filters by negative imperative 1`] = `
+{
+  "imperative": {
+    "negative": {
+      "plural": {
+        "first": "¡No hablemos!",
+        "second": "¡No habléis!",
+        "third": "¡No hablen!",
+      },
+      "singular": {
+        "second": "¡No hables!",
+        "third": "¡No hable!",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments tense filters filters by future tense 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+  },
+  "imperative": {
+    "undefined": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "hablaremos",
+        "second": "hablaréis",
+        "third": "hablarán",
+      },
+      "singular": {
+        "first": "hablaré",
+        "second": "hablarás",
+        "third": "hablará",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "habláremos",
+        "second": "hablareis",
+        "third": "hablaren",
+      },
+      "singular": {
+        "first": "hablare",
+        "second": "hablares",
+        "third": "hablare",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments tense filters filters by imperfect tense 1`] = `
+{
+  "conditional": {
+    "imperfect": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+  },
+  "imperative": {
+    "undefined": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+  },
+  "indicative": {
+    "imperfect": {
+      "plural": {
+        "first": "hablábamos",
+        "second": "hablabais",
+        "third": "hablaban",
+      },
+      "singular": {
+        "first": "hablaba",
+        "second": "hablabas",
+        "third": "hablaba",
+      },
+    },
+  },
+  "subjunctive": {
+    "imperfect": {
+      "plural": {
+        "first": "hablar",
+        "second": "hablar",
+        "third": "hablar",
+      },
+      "singular": {
+        "first": "hablar",
+        "second": "hablar",
+        "third": "hablar",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments tense filters filters by perfect tense 1`] = `
+{
+  "conditional": {
+    "perfect": {
+      "plural": {
+        "first": "habríamos hablado",
+        "second": "habríais hablado",
+        "third": "habrían hablado",
+      },
+      "singular": {
+        "first": "habría hablado",
+        "second": "habrías hablado",
+        "third": "habría hablado",
+      },
+    },
+  },
+  "imperative": {
+    "undefined": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+  },
+  "indicative": {
+    "perfect": {
+      "plural": {
+        "first": "hemos hablado",
+        "second": "habéis hablado",
+        "third": "han hablado",
+      },
+      "singular": {
+        "first": "he hablado",
+        "second": "has hablado",
+        "third": "ha hablado",
+      },
+    },
+  },
+  "subjunctive": {
+    "perfect": {
+      "plural": {
+        "first": "hayamos hablado",
+        "second": "hayáis hablado",
+        "third": "hayan hablado",
+      },
+      "singular": {
+        "first": "haya hablado",
+        "second": "hayas hablado",
+        "third": "haya hablado",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments tense filters filters by present tense 1`] = `
+{
+  "conditional": {
+    "present": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+  },
+  "imperative": {
+    "undefined": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+  },
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "hablamos",
+        "second": "habláis",
+        "third": "hablan",
+      },
+      "singular": {
+        "first": "hablo",
+        "second": "hablas",
+        "third": "habla",
+      },
+    },
+  },
+  "subjunctive": {
+    "present": {
+      "plural": {
+        "first": "hablemos",
+        "second": "habléis",
+        "third": "hablen",
+      },
+      "singular": {
+        "first": "hable",
+        "second": "hables",
+        "third": "hable",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Filter Arguments tense filters filters by preterite tense 1`] = `
+{
+  "conditional": {
+    "preterite": {
+      "plural": {
+        "first": "hablaríamos",
+        "second": "hablaríais",
+        "third": "hablarían",
+      },
+      "singular": {
+        "first": "hablaría",
+        "second": "hablarías",
+        "third": "hablaría",
+      },
+    },
+  },
+  "imperative": {
+    "undefined": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+  },
+  "indicative": {
+    "preterite": {
+      "plural": {
+        "first": "hablamos",
+        "second": "hablasteis",
+        "third": "hablaron",
+      },
+      "singular": {
+        "first": "hablé",
+        "second": "hablaste",
+        "third": "habló",
+      },
+    },
+  },
+  "subjunctive": {
+    "preterite": {
+      "plural": {
+        "first": "hablar",
+        "second": "hablar",
+        "third": "hablar",
+      },
+      "singular": {
+        "first": "hablar",
+        "second": "hablar",
+        "third": "hablar",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Formality Variations formal second person 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "second": "ustedes hablan",
+      },
+      "singular": {
+        "second": "usted habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Formality Variations formal vs informal comparison - plural 1`] = `
+{
+  "formal": {
+    "indicative": {
+      "present": {
+        "plural": {
+          "second": "hablan",
+        },
+      },
+    },
+  },
+  "informal": {
+    "indicative": {
+      "present": {
+        "plural": {
+          "second": "habláis",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Formality Variations formal vs informal comparison - singular 1`] = `
+{
+  "formal": {
+    "indicative": {
+      "present": {
+        "singular": {
+          "second": "habla",
+        },
+      },
+    },
+  },
+  "informal": {
+    "indicative": {
+      "present": {
+        "singular": {
+          "second": "hablas",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Formality Variations informal second person 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "second": "vosotros habláis",
+      },
+      "singular": {
+        "second": "tú hablas",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Gender Variations feminine pronouns 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "third": "ellas hablan",
+      },
+      "singular": {
+        "third": "ella habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Gender Variations inanimate pronouns 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "third": "ello habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Gender Variations masculine pronouns 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "third": "él habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Style Variations Spanish regional styles andino style 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "nosotros hablamos",
+        "second": "ustedes hablan",
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "first": "yo hablo",
+        "second": "tú hablas",
+        "third": "él habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Style Variations Spanish regional styles caribeno style 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "nosotros hablamos",
+        "second": "ustedes hablan",
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "first": "yo hablo",
+        "second": "tú hablas",
+        "third": "él habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Style Variations Spanish regional styles castillano style (default) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "nosotros hablamos",
+        "second": "vosotros habláis",
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "first": "yo hablo",
+        "second": "tú hablas",
+        "third": "él habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Style Variations Spanish regional styles centroamericano style 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "nosotros hablamos",
+        "second": "ustedes hablan",
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "first": "yo hablo",
+        "second": "vos hablás",
+        "third": "él habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Style Variations Spanish regional styles chileano style 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "nosotros hablamos",
+        "second": "ustedes hablan",
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "first": "yo hablo",
+        "second": "tú hablas",
+        "third": "él habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Style Variations Spanish regional styles mexicano style 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "nosotros hablamos",
+        "second": "ustedes hablan",
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "first": "yo hablo",
+        "second": "tú hablas",
+        "third": "él habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI Style Variations Spanish regional styles rioplatense style 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "nosotros hablamos",
+        "second": "ustedes hablan",
+        "third": "ellos hablan",
+      },
+      "singular": {
+        "first": "yo hablo",
+        "second": "vos hablás",
+        "third": "él habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI verbOnly option imperative with verbOnly 1`] = `
+{
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "hablemos",
+        "second": "hablad",
+        "third": "hablen",
+      },
+      "singular": {
+        "second": "habla",
+        "third": "hable",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "hablemos",
+        "second": "habléis",
+        "third": "hablen",
+      },
+      "singular": {
+        "second": "hables",
+        "third": "hable",
+      },
+    },
+  },
+}
+`;
+
+exports[`CLI verbOnly option imperative without verbOnly (default) 1`] = `
+{
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Hablemos!",
+        "second": "¡Hablad!",
+        "third": "¡Hablen!",
+      },
+      "singular": {
+        "second": "¡Habla!",
+        "third": "¡Hable!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No hablemos!",
+        "second": "¡No habléis!",
+        "third": "¡No hablen!",
+      },
+      "singular": {
+        "second": "¡No hables!",
+        "third": "¡No hable!",
+      },
+    },
+  },
+}
+`;
+
+exports[`Edge cases handles unknown verb gracefully 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Xyzabc!",
+        "second": "¡Xyzabc!",
+        "third": "¡Xyzabc!",
+      },
+      "singular": {
+        "second": "¡Xyzabc!",
+        "third": "¡Xyzabc!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No xyzabc!",
+        "second": "¡No xyzabc!",
+        "third": "¡No xyzabc!",
+      },
+      "singular": {
+        "second": "¡No xyzabc!",
+        "third": "¡No xyzabc!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+  },
+}
+`;
+
+exports[`Edge cases handles very short input 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "iríamos",
+        "second": "iríais",
+        "third": "irían",
+      },
+      "singular": {
+        "first": "iría",
+        "second": "irías",
+        "third": "iría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos ido",
+        "second": "habríais ido",
+        "third": "habrían ido",
+      },
+      "singular": {
+        "first": "habría ido",
+        "second": "habrías ido",
+        "third": "habría ido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "iríamos",
+        "second": "iríais",
+        "third": "irían",
+      },
+      "singular": {
+        "first": "iría",
+        "second": "irías",
+        "third": "iría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Vayamos!",
+        "second": "¡Id!",
+        "third": "¡Vayan!",
+      },
+      "singular": {
+        "second": "¡Ve!",
+        "third": "¡Vaya!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No vayamos!",
+        "second": "¡No vayáis!",
+        "third": "¡No vayan!",
+      },
+      "singular": {
+        "second": "¡No vayas!",
+        "third": "¡No vaya!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "iremos",
+        "second": "iréis",
+        "third": "irán",
+      },
+      "singular": {
+        "first": "iré",
+        "second": "irás",
+        "third": "irá",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos ido",
+        "second": "habréis ido",
+        "third": "habrán ido",
+      },
+      "singular": {
+        "first": "habré ido",
+        "second": "habrás ido",
+        "third": "habrá ido",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "íbamos",
+        "second": "ibais",
+        "third": "iban",
+      },
+      "singular": {
+        "first": "iba",
+        "second": "ibas",
+        "third": "iba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos ido",
+        "second": "habéis ido",
+        "third": "han ido",
+      },
+      "singular": {
+        "first": "he ido",
+        "second": "has ido",
+        "third": "ha ido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos ido",
+        "second": "habíais ido",
+        "third": "habían ido",
+      },
+      "singular": {
+        "first": "había ido",
+        "second": "habías ido",
+        "third": "había ido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "vamos",
+        "second": "vais",
+        "third": "van",
+      },
+      "singular": {
+        "first": "voy",
+        "second": "vas",
+        "third": "va",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "fuimos",
+        "second": "fuisteis",
+        "third": "fueron",
+      },
+      "singular": {
+        "first": "fui",
+        "second": "fuiste",
+        "third": "fue",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos ido",
+        "second": "hubisteis ido",
+        "third": "hubieron ido",
+      },
+      "singular": {
+        "first": "hube ido",
+        "second": "hubiste ido",
+        "third": "hubo ido",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "fuéremos",
+        "second": "fuereis",
+        "third": "fueren",
+      },
+      "singular": {
+        "first": "fuere",
+        "second": "fueres",
+        "third": "fuere",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos ido",
+        "second": "hubiereis ido",
+        "third": "hubieren ido",
+      },
+      "singular": {
+        "first": "hubiere ido",
+        "second": "hubieres ido",
+        "third": "hubiere ido",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "fuéramos",
+        "second": "fuerais",
+        "third": "fueran",
+      },
+      "singular": {
+        "first": "fuera",
+        "second": "fueras",
+        "third": "fuera",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "fuésemos",
+        "second": "fueseis",
+        "third": "fuesen",
+      },
+      "singular": {
+        "first": "fuese",
+        "second": "fueses",
+        "third": "fuese",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos ido",
+        "second": "hayáis ido",
+        "third": "hayan ido",
+      },
+      "singular": {
+        "first": "haya ido",
+        "second": "hayas ido",
+        "third": "haya ido",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos ido",
+        "second": "hubierais ido",
+        "third": "hubieran ido",
+      },
+      "singular": {
+        "first": "hubiera ido",
+        "second": "hubieras ido",
+        "third": "hubiera ido",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "vayamos",
+        "second": "vayáis",
+        "third": "vayan",
+      },
+      "singular": {
+        "first": "vaya",
+        "second": "vayas",
+        "third": "vaya",
+      },
+    },
+  },
+}
+`;
+
+exports[`Package exports can import conjugateVerb from package 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "hablamos",
+        "second": "habláis",
+        "third": "hablan",
+      },
+      "singular": {
+        "first": "hablo",
+        "second": "hablas",
+        "third": "habla",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types compound verbs (prefix + irregular) contener (prefix of tener) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "contenemos",
+        "second": "contenéis",
+        "third": "contienen",
+      },
+      "singular": {
+        "first": "contengo",
+        "second": "contienes",
+        "third": "contiene",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types compound verbs (prefix + irregular) mantener (prefix of tener) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "mantenemos",
+        "second": "mantenéis",
+        "third": "mantienen",
+      },
+      "singular": {
+        "first": "mantengo",
+        "second": "mantienes",
+        "third": "mantiene",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types highly irregular verbs decir 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "decimos",
+        "second": "decís",
+        "third": "dicen",
+      },
+      "singular": {
+        "first": "digo",
+        "second": "dices",
+        "third": "dice",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types highly irregular verbs haber (auxiliary verb) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "hemos",
+        "second": "habéis",
+        "third": "han",
+      },
+      "singular": {
+        "first": "he",
+        "second": "has",
+        "third": "hay",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types highly irregular verbs hacer 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "hacemos",
+        "second": "hacéis",
+        "third": "hacen",
+      },
+      "singular": {
+        "first": "hago",
+        "second": "haces",
+        "third": "hace",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types highly irregular verbs venir 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "venimos",
+        "second": "venís",
+        "third": "vienen",
+      },
+      "singular": {
+        "first": "vengo",
+        "second": "vienes",
+        "third": "viene",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types stem-changing verbs e->i stem change (pedir) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "pedimos",
+        "second": "pedís",
+        "third": "piden",
+      },
+      "singular": {
+        "first": "pido",
+        "second": "pides",
+        "third": "pide",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types stem-changing verbs e->ie stem change (pensar) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "pensamos",
+        "second": "pensáis",
+        "third": "piensan",
+      },
+      "singular": {
+        "first": "pienso",
+        "second": "piensas",
+        "third": "piensa",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types stem-changing verbs o->ue stem change (poder) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "podemos",
+        "second": "podéis",
+        "third": "pueden",
+      },
+      "singular": {
+        "first": "puedo",
+        "second": "puedes",
+        "third": "puede",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types verbs with spelling changes -car verb (buscar) - c->qu before e 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "buscaríamos",
+        "second": "buscaríais",
+        "third": "buscarían",
+      },
+      "singular": {
+        "first": "buscaría",
+        "second": "buscarías",
+        "third": "buscaría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos buscado",
+        "second": "habríais buscado",
+        "third": "habrían buscado",
+      },
+      "singular": {
+        "first": "habría buscado",
+        "second": "habrías buscado",
+        "third": "habría buscado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "buscaríamos",
+        "second": "buscaríais",
+        "third": "buscarían",
+      },
+      "singular": {
+        "first": "buscaría",
+        "second": "buscarías",
+        "third": "buscaría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Busquemos!",
+        "second": "¡Buscad!",
+        "third": "¡Busquen!",
+      },
+      "singular": {
+        "second": "¡Busca!",
+        "third": "¡Busque!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No busquemos!",
+        "second": "¡No busquéis!",
+        "third": "¡No busquen!",
+      },
+      "singular": {
+        "second": "¡No busques!",
+        "third": "¡No busque!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "buscaremos",
+        "second": "buscaréis",
+        "third": "buscarán",
+      },
+      "singular": {
+        "first": "buscaré",
+        "second": "buscarás",
+        "third": "buscará",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos buscado",
+        "second": "habréis buscado",
+        "third": "habrán buscado",
+      },
+      "singular": {
+        "first": "habré buscado",
+        "second": "habrás buscado",
+        "third": "habrá buscado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "buscábamos",
+        "second": "buscabais",
+        "third": "buscaban",
+      },
+      "singular": {
+        "first": "buscaba",
+        "second": "buscabas",
+        "third": "buscaba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos buscado",
+        "second": "habéis buscado",
+        "third": "han buscado",
+      },
+      "singular": {
+        "first": "he buscado",
+        "second": "has buscado",
+        "third": "ha buscado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos buscado",
+        "second": "habíais buscado",
+        "third": "habían buscado",
+      },
+      "singular": {
+        "first": "había buscado",
+        "second": "habías buscado",
+        "third": "había buscado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "buscamos",
+        "second": "buscáis",
+        "third": "buscan",
+      },
+      "singular": {
+        "first": "busco",
+        "second": "buscas",
+        "third": "busca",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "buscamos",
+        "second": "buscasteis",
+        "third": "buscaron",
+      },
+      "singular": {
+        "first": "busqué",
+        "second": "buscaste",
+        "third": "buscó",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos buscado",
+        "second": "hubisteis buscado",
+        "third": "hubieron buscado",
+      },
+      "singular": {
+        "first": "hube buscado",
+        "second": "hubiste buscado",
+        "third": "hubo buscado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "buscáremos",
+        "second": "buscareis",
+        "third": "buscaren",
+      },
+      "singular": {
+        "first": "buscare",
+        "second": "buscares",
+        "third": "buscare",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos buscado",
+        "second": "hubiereis buscado",
+        "third": "hubieren buscado",
+      },
+      "singular": {
+        "first": "hubiere buscado",
+        "second": "hubieres buscado",
+        "third": "hubiere buscado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "buscáramos",
+        "second": "buscarais",
+        "third": "buscaran",
+      },
+      "singular": {
+        "first": "buscara",
+        "second": "buscaras",
+        "third": "buscara",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "buscásemos",
+        "second": "buscaseis",
+        "third": "buscasen",
+      },
+      "singular": {
+        "first": "buscase",
+        "second": "buscases",
+        "third": "buscase",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos buscado",
+        "second": "hayáis buscado",
+        "third": "hayan buscado",
+      },
+      "singular": {
+        "first": "haya buscado",
+        "second": "hayas buscado",
+        "third": "haya buscado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos buscado",
+        "second": "hubierais buscado",
+        "third": "hubieran buscado",
+      },
+      "singular": {
+        "first": "hubiera buscado",
+        "second": "hubieras buscado",
+        "third": "hubiera buscado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "busquemos",
+        "second": "busquéis",
+        "third": "busquen",
+      },
+      "singular": {
+        "first": "busque",
+        "second": "busques",
+        "third": "busque",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types verbs with spelling changes -gar verb (pagar) - g->gu before e 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "pagaríamos",
+        "second": "pagaríais",
+        "third": "pagarían",
+      },
+      "singular": {
+        "first": "pagaría",
+        "second": "pagarías",
+        "third": "pagaría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos pagado",
+        "second": "habríais pagado",
+        "third": "habrían pagado",
+      },
+      "singular": {
+        "first": "habría pagado",
+        "second": "habrías pagado",
+        "third": "habría pagado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "pagaríamos",
+        "second": "pagaríais",
+        "third": "pagarían",
+      },
+      "singular": {
+        "first": "pagaría",
+        "second": "pagarías",
+        "third": "pagaría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Paguemos!",
+        "second": "¡Pagad!",
+        "third": "¡Paguen!",
+      },
+      "singular": {
+        "second": "¡Paga!",
+        "third": "¡Pague!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No paguemos!",
+        "second": "¡No paguéis!",
+        "third": "¡No paguen!",
+      },
+      "singular": {
+        "second": "¡No pagues!",
+        "third": "¡No pague!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "pagaremos",
+        "second": "pagaréis",
+        "third": "pagarán",
+      },
+      "singular": {
+        "first": "pagaré",
+        "second": "pagarás",
+        "third": "pagará",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos pagado",
+        "second": "habréis pagado",
+        "third": "habrán pagado",
+      },
+      "singular": {
+        "first": "habré pagado",
+        "second": "habrás pagado",
+        "third": "habrá pagado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "pagábamos",
+        "second": "pagabais",
+        "third": "pagaban",
+      },
+      "singular": {
+        "first": "pagaba",
+        "second": "pagabas",
+        "third": "pagaba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos pagado",
+        "second": "habéis pagado",
+        "third": "han pagado",
+      },
+      "singular": {
+        "first": "he pagado",
+        "second": "has pagado",
+        "third": "ha pagado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos pagado",
+        "second": "habíais pagado",
+        "third": "habían pagado",
+      },
+      "singular": {
+        "first": "había pagado",
+        "second": "habías pagado",
+        "third": "había pagado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "pagamos",
+        "second": "pagáis",
+        "third": "pagan",
+      },
+      "singular": {
+        "first": "pago",
+        "second": "pagas",
+        "third": "paga",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "pagamos",
+        "second": "pagasteis",
+        "third": "pagaron",
+      },
+      "singular": {
+        "first": "pagué",
+        "second": "pagaste",
+        "third": "pagó",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos pagado",
+        "second": "hubisteis pagado",
+        "third": "hubieron pagado",
+      },
+      "singular": {
+        "first": "hube pagado",
+        "second": "hubiste pagado",
+        "third": "hubo pagado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "pagáremos",
+        "second": "pagareis",
+        "third": "pagaren",
+      },
+      "singular": {
+        "first": "pagare",
+        "second": "pagares",
+        "third": "pagare",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos pagado",
+        "second": "hubiereis pagado",
+        "third": "hubieren pagado",
+      },
+      "singular": {
+        "first": "hubiere pagado",
+        "second": "hubieres pagado",
+        "third": "hubiere pagado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "pagáramos",
+        "second": "pagarais",
+        "third": "pagaran",
+      },
+      "singular": {
+        "first": "pagara",
+        "second": "pagaras",
+        "third": "pagara",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "pagásemos",
+        "second": "pagaseis",
+        "third": "pagasen",
+      },
+      "singular": {
+        "first": "pagase",
+        "second": "pagases",
+        "third": "pagase",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos pagado",
+        "second": "hayáis pagado",
+        "third": "hayan pagado",
+      },
+      "singular": {
+        "first": "haya pagado",
+        "second": "hayas pagado",
+        "third": "haya pagado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos pagado",
+        "second": "hubierais pagado",
+        "third": "hubieran pagado",
+      },
+      "singular": {
+        "first": "hubiera pagado",
+        "second": "hubieras pagado",
+        "third": "hubiera pagado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "paguemos",
+        "second": "paguéis",
+        "third": "paguen",
+      },
+      "singular": {
+        "first": "pague",
+        "second": "pagues",
+        "third": "pague",
+      },
+    },
+  },
+}
+`;
+
+exports[`Various verb types verbs with spelling changes -zar verb (empezar) - z->c before e 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "empezaríamos",
+        "second": "empezaríais",
+        "third": "empezarían",
+      },
+      "singular": {
+        "first": "empezaría",
+        "second": "empezarías",
+        "third": "empezaría",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "habríamos empezado",
+        "second": "habríais empezado",
+        "third": "habrían empezado",
+      },
+      "singular": {
+        "first": "habría empezado",
+        "second": "habrías empezado",
+        "third": "habría empezado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "empezaríamos",
+        "second": "empezaríais",
+        "third": "empezarían",
+      },
+      "singular": {
+        "first": "empezaría",
+        "second": "empezarías",
+        "third": "empezaría",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Empecemos!",
+        "second": "¡Empezad!",
+        "third": "¡Empiequen!",
+      },
+      "singular": {
+        "second": "¡Empieza!",
+        "third": "¡Empieque!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No empecemos!",
+        "second": "¡No empecéis!",
+        "third": "¡No empiequen!",
+      },
+      "singular": {
+        "second": "¡No empieques!",
+        "third": "¡No empieque!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "empezaremos",
+        "second": "empezaréis",
+        "third": "empezarán",
+      },
+      "singular": {
+        "first": "empezaré",
+        "second": "empezarás",
+        "third": "empezará",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "habremos empezado",
+        "second": "habréis empezado",
+        "third": "habrán empezado",
+      },
+      "singular": {
+        "first": "habré empezado",
+        "second": "habrás empezado",
+        "third": "habrá empezado",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "empezábamos",
+        "second": "empezabais",
+        "third": "empezaban",
+      },
+      "singular": {
+        "first": "empezaba",
+        "second": "empezabas",
+        "third": "empezaba",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hemos empezado",
+        "second": "habéis empezado",
+        "third": "han empezado",
+      },
+      "singular": {
+        "first": "he empezado",
+        "second": "has empezado",
+        "third": "ha empezado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "habíamos empezado",
+        "second": "habíais empezado",
+        "third": "habían empezado",
+      },
+      "singular": {
+        "first": "había empezado",
+        "second": "habías empezado",
+        "third": "había empezado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "empezamos",
+        "second": "empezáis",
+        "third": "empiezan",
+      },
+      "singular": {
+        "first": "empiezo",
+        "second": "empiezas",
+        "third": "empieza",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "1st z-camos",
+        "second": "1st z-casteis",
+        "third": "1st z-caron",
+      },
+      "singular": {
+        "first": "1st z-qué",
+        "second": "1st z-caste",
+        "third": "1st z-có",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "hubimos empezado",
+        "second": "hubisteis empezado",
+        "third": "hubieron empezado",
+      },
+      "singular": {
+        "first": "hube empezado",
+        "second": "hubiste empezado",
+        "third": "hubo empezado",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "empezáremos",
+        "second": "empezareis",
+        "third": "empezaren",
+      },
+      "singular": {
+        "first": "empezare",
+        "second": "empezares",
+        "third": "empezare",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "hubiéremos empezado",
+        "second": "hubiereis empezado",
+        "third": "hubieren empezado",
+      },
+      "singular": {
+        "first": "hubiere empezado",
+        "second": "hubieres empezado",
+        "third": "hubiere empezado",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "empezáramos",
+        "second": "empezarais",
+        "third": "empezaran",
+      },
+      "singular": {
+        "first": "empezara",
+        "second": "empezaras",
+        "third": "empezara",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "empezásemos",
+        "second": "empezaseis",
+        "third": "empezasen",
+      },
+      "singular": {
+        "first": "empezase",
+        "second": "empezases",
+        "third": "empezase",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "hayamos empezado",
+        "second": "hayáis empezado",
+        "third": "hayan empezado",
+      },
+      "singular": {
+        "first": "haya empezado",
+        "second": "hayas empezado",
+        "third": "haya empezado",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "hubiéramos empezado",
+        "second": "hubierais empezado",
+        "third": "hubieran empezado",
+      },
+      "singular": {
+        "first": "hubiera empezado",
+        "second": "hubieras empezado",
+        "third": "hubiera empezado",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "empecemos",
+        "second": "empecéis",
+        "third": "empiequen",
+      },
+      "singular": {
+        "first": "empieque",
+        "second": "empieques",
+        "third": "empieque",
+      },
+    },
+  },
+}
+`;

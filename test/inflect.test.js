@@ -1,5 +1,5 @@
 /*
- * testInflect.js - nodeunit test for the Spanish verb inflection generator function.
+ * inflect.test.js - Jest tests for the Spanish verb inflection generator function.
  *
  * Copyright © 2017-2018, HealthTap, Inc.
  *
@@ -17,10 +17,8 @@
  * limitations under the License.
  */
 
-if (!inflect) {
-    var inflect = require("../lib/inflect.js");
-    var conjugateVerb = require("../lib/conjugateVerb.js");
-}
+import inflect from "../lib/inflect.js";
+import conjugateVerb from "../lib/conjugateVerb.js";
 
 var tests = {
 	"amar": {
@@ -3890,185 +3888,209 @@ function deepCompare(left, right) {
     return true;
 }
 
-module.exports = {
-    testInflectRegular: function(test) {
-    	Object.keys(tests).forEach(function(verb) {
-    		var expected = tests[verb];
+describe('inflect', () => {
+    describe('regular verbs', () => {
+        Object.keys(tests).forEach((verb) => {
+            const expected = tests[verb];
 
-    		Object.keys(expected).forEach(function(mood) {
-    			Object.keys(expected[mood]).forEach(function(tense) {
-    				Object.keys(expected[mood][tense]).forEach(function(number) {
-    					Object.keys(expected[mood][tense][number]).forEach(function(person) {
-    						var options = {
-								person: person,
-								number: number,
-								mood: mood
-    						};
+            Object.keys(expected).forEach((mood) => {
+                Object.keys(expected[mood]).forEach((tense) => {
+                    Object.keys(expected[mood][tense]).forEach((number) => {
+                        Object.keys(expected[mood][tense][number]).forEach((person) => {
+                            const options = {
+                                person: person,
+                                number: number,
+                                mood: mood
+                            };
 
-    						if (mood === "imperative") {
-    							options.positivity = tense;
-    						} else {
-    							options.tense = tense;
-    						}
+                            if (mood === "imperative") {
+                                options.positivity = tense;
+                            } else {
+                                options.tense = tense;
+                            }
 
-    						test.equal(expected[mood][tense][number][person], inflect(verb, options), JSON.stringify(options));
-    					});
-    				});
-    			});
-    		});
-    	});
+                            test(`${verb} ${mood} ${tense} ${number} ${person}`, () => {
+                                expect(inflect(verb, options)).toBe(expected[mood][tense][number][person]);
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    });
 
-        test.done();
-    },
+    describe('irregular past participles', () => {
+        Object.keys(irregularPastParticiples).forEach((verb) => {
+            const expected = irregularPastParticiples[verb];
 
-    testInflectIrregularPastParticples: function(test) {
+            Object.keys(expected).forEach((mood) => {
+                Object.keys(expected[mood]).forEach((tense) => {
+                    Object.keys(expected[mood][tense]).forEach((number) => {
+                        Object.keys(expected[mood][tense][number]).forEach((person) => {
+                            const options = {
+                                person: person,
+                                number: number,
+                                mood: mood
+                            };
 
-    	Object.keys(irregularPastParticiples).forEach(function(verb) {
-    		var expected = irregularPastParticiples[verb];
+                            if (mood === "imperative") {
+                                options.positivity = tense;
+                            } else {
+                                options.tense = tense;
+                            }
 
-    		Object.keys(expected).forEach(function(mood) {
-    			Object.keys(expected[mood]).forEach(function(tense) {
-    				Object.keys(expected[mood][tense]).forEach(function(number) {
-    					Object.keys(expected[mood][tense][number]).forEach(function(person) {
-    						var options = {
-								person: person,
-								number: number,
-								mood: mood
-    						};
+                            test(`${verb} ${mood} ${tense} ${number} ${person}`, () => {
+                                expect(inflect(verb, options)).toBe(expected[mood][tense][number][person]);
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    });
 
-    						if (mood === "imperative") {
-    							options.positivity = tense;
-    						} else {
-    							options.tense = tense;
-    						}
+    describe('irregular verbs', () => {
+        Object.keys(irregularVerbs).forEach((verb) => {
+            const expected = irregularVerbs[verb];
 
-    						test.equal(expected[mood][tense][number][person], inflect(verb, options), JSON.stringify(options));
-    					});
-    				});
-    			});
-    		});
-    	});
+            Object.keys(expected).forEach((mood) => {
+                Object.keys(expected[mood]).forEach((tense) => {
+                    Object.keys(expected[mood][tense]).forEach((number) => {
+                        Object.keys(expected[mood][tense][number]).forEach((person) => {
+                            const options = {
+                                person: person,
+                                number: number,
+                                mood: mood
+                            };
 
-        test.done();
-    },
+                            if (mood === "imperative") {
+                                options.positivity = tense;
+                            } else {
+                                options.tense = tense;
+                            }
 
-    testInflectIrregularVerbs: function(test) {
+                            test(`${verb} ${mood} ${tense} ${number} ${person}`, () => {
+                                expect(inflect(verb, options)).toBe(expected[mood][tense][number][person]);
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    });
 
-    	Object.keys(irregularVerbs).forEach(function(verb) {
-    		var expected = irregularVerbs[verb];
-
-    		Object.keys(expected).forEach(function(mood) {
-    			Object.keys(expected[mood]).forEach(function(tense) {
-    				Object.keys(expected[mood][tense]).forEach(function(number) {
-    					Object.keys(expected[mood][tense][number]).forEach(function(person) {
-    						var options = {
-								person: person,
-								number: number,
-								mood: mood
-    						};
-
-    						if (mood === "imperative") {
-    							options.positivity = tense;
-    						} else {
-    							options.tense = tense;
-    						}
-
-    						test.equal(expected[mood][tense][number][person], inflect(verb, options), JSON.stringify(options));
-    					});
-    				});
-    			});
-    		});
-    	});
-
-        test.done();
-    },
-
-    testSubjunctiveImperativeYoIrregulars: function(test) {
-        test.equal("digamos", inflect("decir", {mood: "subjunctive", tense: "present", person: "first", number: "plural"}));
-        test.equal("digáis", inflect("decir", {mood: "subjunctive", tense: "present", person: "second", number: "plural"}));
-        test.equal("diga", inflect("decir", {mood: "imperative", positivity: "affirmative", person: "third", number: "singular"}));
-        test.equal("digas", inflect("decir", {mood: "imperative", positivity: "negative", person: "second", number: "singular"}));
-
-        test.equal("corrijamos", inflect("corregir", {mood: "subjunctive", tense: "present", person: "first", number: "plural"}));
-        test.equal("corrijáis", inflect("corregir", {mood: "subjunctive", tense: "present", person: "second", number: "plural"}));
-        test.equal("corrija", inflect("corregir", {mood: "imperative", positivity: "affirmative", person: "third", number: "singular"}));
-        test.equal("corrijas", inflect("corregir", {mood: "imperative", positivity: "negative", person: "second", number: "singular"}));
-
-        test.done();
-    },
-
-    testFormalityAffectsEndings: function(test) {
-        test.equal("habla", inflect("hablar", {
-            person: "second",
-            number: "singular",
-            mood: "indicative",
-            tense: "present",
-            formality: "formal",
-            style: "castillano"
-        }));
-
-        test.equal("hablan", inflect("hablar", {
-            person: "second",
-            number: "plural",
-            mood: "indicative",
-            tense: "present",
-            formality: "formal",
-            style: "castillano"
-        }));
-
-        test.equal("hablas", inflect("hablar", {
-            person: "second",
-            number: "singular",
-            mood: "indicative",
-            tense: "present",
-            formality: "informal",
-            style: "castillano"
-        }));
-
-        test.equal("habláis", inflect("hablar", {
-            person: "second",
-            number: "plural",
-            mood: "indicative",
-            tense: "present",
-            formality: "informal",
-            style: "castillano"
-        }));
-
-        test.equal("hablas", inflect("hablar", {
-            person: "second",
-            number: "singular",
-            mood: "indicative",
-            tense: "present",
-            formality: "formal",
-            style: "caribeno"
-        }));
-
-        test.done();
-    },
-
-    testConjugateRegularVerbs: function(test) {
-
-        Object.keys(tests).forEach(function(verb) {
-            var expected = tests[verb];
-
-            var actual = conjugateVerb(verb, {verbOnly: true});
-            test.ok(deepCompare(actual, expected));
-            test.deepEqual(actual, expected);
+    describe('subjunctive imperative yo irregulars', () => {
+        test('decir subjunctive present first plural', () => {
+            expect(inflect("decir", {mood: "subjunctive", tense: "present", person: "first", number: "plural"})).toBe("digamos");
         });
 
-        test.done();
-    },
-
-    testConjugateIrregularVerbs: function(test) {
-
-        Object.keys(irregularVerbs).forEach(function(verb) {
-            var expected = irregularVerbs[verb];
-
-            var actual = conjugateVerb(verb, {verbOnly: true});
-            test.ok(deepCompare(actual, expected));
-            test.deepEqual(actual, expected);
+        test('decir subjunctive present second plural', () => {
+            expect(inflect("decir", {mood: "subjunctive", tense: "present", person: "second", number: "plural"})).toBe("digáis");
         });
 
-        test.done();
-    }
-};
+        test('decir imperative affirmative third singular', () => {
+            expect(inflect("decir", {mood: "imperative", positivity: "affirmative", person: "third", number: "singular"})).toBe("diga");
+        });
+
+        test('decir imperative negative second singular', () => {
+            expect(inflect("decir", {mood: "imperative", positivity: "negative", person: "second", number: "singular"})).toBe("digas");
+        });
+
+        test('corregir subjunctive present first plural', () => {
+            expect(inflect("corregir", {mood: "subjunctive", tense: "present", person: "first", number: "plural"})).toBe("corrijamos");
+        });
+
+        test('corregir subjunctive present second plural', () => {
+            expect(inflect("corregir", {mood: "subjunctive", tense: "present", person: "second", number: "plural"})).toBe("corrijáis");
+        });
+
+        test('corregir imperative affirmative third singular', () => {
+            expect(inflect("corregir", {mood: "imperative", positivity: "affirmative", person: "third", number: "singular"})).toBe("corrija");
+        });
+
+        test('corregir imperative negative second singular', () => {
+            expect(inflect("corregir", {mood: "imperative", positivity: "negative", person: "second", number: "singular"})).toBe("corrijas");
+        });
+    });
+
+    describe('formality affects endings', () => {
+        test('hablar formal second singular castillano', () => {
+            expect(inflect("hablar", {
+                person: "second",
+                number: "singular",
+                mood: "indicative",
+                tense: "present",
+                formality: "formal",
+                style: "castillano"
+            })).toBe("habla");
+        });
+
+        test('hablar formal second plural castillano', () => {
+            expect(inflect("hablar", {
+                person: "second",
+                number: "plural",
+                mood: "indicative",
+                tense: "present",
+                formality: "formal",
+                style: "castillano"
+            })).toBe("hablan");
+        });
+
+        test('hablar informal second singular castillano', () => {
+            expect(inflect("hablar", {
+                person: "second",
+                number: "singular",
+                mood: "indicative",
+                tense: "present",
+                formality: "informal",
+                style: "castillano"
+            })).toBe("hablas");
+        });
+
+        test('hablar informal second plural castillano', () => {
+            expect(inflect("hablar", {
+                person: "second",
+                number: "plural",
+                mood: "indicative",
+                tense: "present",
+                formality: "informal",
+                style: "castillano"
+            })).toBe("habláis");
+        });
+
+        test('hablar formal second singular caribeno', () => {
+            expect(inflect("hablar", {
+                person: "second",
+                number: "singular",
+                mood: "indicative",
+                tense: "present",
+                formality: "formal",
+                style: "caribeno"
+            })).toBe("hablas");
+        });
+    });
+});
+
+describe('conjugateVerb', () => {
+    describe('regular verbs', () => {
+        Object.keys(tests).forEach((verb) => {
+            test(`conjugates ${verb} correctly`, () => {
+                const expected = tests[verb];
+                const actual = conjugateVerb(verb, {verbOnly: true});
+                expect(deepCompare(actual, expected)).toBeTruthy();
+                expect(actual).toEqual(expected);
+            });
+        });
+    });
+
+    describe('irregular verbs', () => {
+        Object.keys(irregularVerbs).forEach((verb) => {
+            test(`conjugates ${verb} correctly`, () => {
+                const expected = irregularVerbs[verb];
+                const actual = conjugateVerb(verb, {verbOnly: true});
+                expect(deepCompare(actual, expected)).toBeTruthy();
+                expect(actual).toEqual(expected);
+            });
+        });
+    });
+});
