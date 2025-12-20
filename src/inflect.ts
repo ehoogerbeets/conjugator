@@ -32,7 +32,7 @@ export type Mood = "indicative" | "subjunctive" | "conditional" | "imperative";
 export type Tense = "present" | "imperfect" | "preterite" | "future" | "perfect" |
     "pluperfect" | "future perfect" | "preterite perfect" |
     "imperfect -ra" | "imperfect -se";
-export type Gender = "masculine" | "feminine";
+export type Gender = "masculine" | "feminine" | "inanimate";
 export type Positivity = "affirmative" | "negative";
 export type Formality = "formal" | "informal";
 export type StyleName = "castillano" | "rioplatense" | "chileano" | "centroamericano" |
@@ -284,7 +284,7 @@ function fixStem(stem: string, ending: string, suffix: string, options: InflectO
  * - number: "singular", "plural" (default: "singular")
  * - mood: "indicative", "subjunctive", "conditional", "imperative" (default: "indicative")
  * - tense: depends on mood (default: "present")
- * - gender: "masculine", "feminine" (default: "masculine")
+ * - gender: "masculine", "feminine", "inanimate" (default: "masculine")
  * - positivity: "affirmative", "negative" (default: "affirmative")
  * - formality: "formal", "informal"
  * - style: "castillano", "rioplatense", "chileano", etc. (default: "castillano")
