@@ -13,7 +13,7 @@ expand to other languages as well, but for now, it is only Spanish.
 Requirements
 ====
 
-- Node.js 14.0.0 or later
+- Node.js 18.0.0 or later
 
 Installation
 ====
@@ -506,6 +506,5 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 See the License for the specific language governing permissions and
 limitations under the License.
-
 
 

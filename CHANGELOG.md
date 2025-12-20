@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Breaking Changes
 
-- **Minimum Node.js version is now 14.0.0** (previously 0.10)
+- **Minimum Node.js version is now 18.0.0** (previously 0.10)
 - Package is now ESM-only. If you need CommonJS, use version 1.x
 - Module exports have changed:
   - Use `import conjugateVerb from 'conjugator'` instead of `require('conjugator')`
