@@ -24,17 +24,12 @@ const CLI_PATH = join(__dirname, 'node_modules', 'conjugator', 'bin', 'conjugato
  * @returns {string} - stdout output
  */
 function runCLI(args = []) {
-    try {
-        const result = execFileSync(process.execPath, [CLI_PATH, ...args], {
-            encoding: 'utf-8',
-            cwd: __dirname,
-            timeout: 30000
-        });
-        return result;
-    } catch (error) {
-        // If the command fails, return the error output
-        return error.stdout || error.stderr || error.message;
-    }
+    const result = execFileSync(process.execPath, [CLI_PATH, ...args], {
+        encoding: 'utf-8',
+        cwd: __dirname,
+        timeout: 30000
+    });
+    return result;
 }
 
 /**
@@ -438,7 +433,7 @@ describe('Edge cases', () => {
     test('handles unknown verb gracefully', () => {
         const output = runCLI(['xyzabc']);
         // Should still produce output (applies regular rules)
-        expect(output).toBeTruthy();
+        expect(parseJSON(output)).toMatchSnapshot();
     });
 
     test('handles very short input', () => {

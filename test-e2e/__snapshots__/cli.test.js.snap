@@ -4280,6 +4280,257 @@ exports[`CLI verbOnly option imperative without verbOnly (default) 1`] = `
 }
 `;
 
+exports[`Edge cases handles unknown verb gracefully 1`] = `
+{
+  "conditional": {
+    "future": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+  },
+  "imperative": {
+    "affirmative": {
+      "plural": {
+        "first": "¡Xyzabc!",
+        "second": "¡Xyzabc!",
+        "third": "¡Xyzabc!",
+      },
+      "singular": {
+        "second": "¡Xyzabc!",
+        "third": "¡Xyzabc!",
+      },
+    },
+    "negative": {
+      "plural": {
+        "first": "¡No xyzabc!",
+        "second": "¡No xyzabc!",
+        "third": "¡No xyzabc!",
+      },
+      "singular": {
+        "second": "¡No xyzabc!",
+        "third": "¡No xyzabc!",
+      },
+    },
+  },
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "imperfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "preterite": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "preterite perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+  },
+  "subjunctive": {
+    "future": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "future perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "imperfect -ra": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "imperfect -se": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "perfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "pluperfect": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+    "present": {
+      "plural": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+      "singular": {
+        "first": "xyzabc",
+        "second": "xyzabc",
+        "third": "xyzabc",
+      },
+    },
+  },
+}
+`;
+
 exports[`Edge cases handles very short input 1`] = `
 {
   "conditional": {
