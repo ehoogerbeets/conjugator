@@ -101,6 +101,7 @@ if (argv.length > 2 && argv[2] !== '-') {
     const contents = readFileSync(join(__dirname, "..", "data", "exceptions.json"), "utf-8");
     const irregulars = JSON.parse(contents);
     verbs = verbs.concat(Object.keys(irregulars));
+    verbs = [...new Set(verbs)];
 }
 
 if (argv.length > 3) {
