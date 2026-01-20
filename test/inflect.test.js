@@ -4298,4 +4298,78 @@ describe('newly added irregular verbs', () => {
             })).toBe("pido");
         });
     });
+
+    describe('imperative affirmative second singular', () => {
+        test('traer imperative affirmative second singular is trae', () => {
+            expect(inflect("traer", {
+                mood: "imperative",
+                positivity: "affirmative",
+                person: "second",
+                number: "singular"
+            })).toBe("trae");
+        });
+
+        test('atraer imperative affirmative second singular is atrae', () => {
+            expect(inflect("atraer", {
+                mood: "imperative",
+                positivity: "affirmative",
+                person: "second",
+                number: "singular"
+            })).toBe("atrae");
+        });
+
+        test('caer imperative affirmative second singular is cae', () => {
+            expect(inflect("caer", {
+                mood: "imperative",
+                positivity: "affirmative",
+                person: "second",
+                number: "singular"
+            })).toBe("cae");
+        });
+
+        test('conocer imperative affirmative second singular is conoce', () => {
+            expect(inflect("conocer", {
+                mood: "imperative",
+                positivity: "affirmative",
+                person: "second",
+                number: "singular"
+            })).toBe("conoce");
+        });
+
+        test('ver imperative affirmative second singular is ve', () => {
+            expect(inflect("ver", {
+                mood: "imperative",
+                positivity: "affirmative",
+                person: "second",
+                number: "singular"
+            })).toBe("ve");
+        });
+
+        test('oír imperative affirmative second singular is oye', () => {
+            expect(inflect("oír", {
+                mood: "imperative",
+                positivity: "affirmative",
+                person: "second",
+                number: "singular"
+            })).toBe("oye");
+        });
+
+        test('huir imperative affirmative second singular is huye', () => {
+            expect(inflect("huir", {
+                mood: "imperative",
+                positivity: "affirmative",
+                person: "second",
+                number: "singular"
+            })).toBe("huye");
+        });
+
+        test('construir imperative affirmative second singular is construye', () => {
+            expect(inflect("construir", {
+                mood: "imperative",
+                positivity: "affirmative",
+                person: "second",
+                number: "singular"
+            })).toBe("construye");
+        });
+    });
 });

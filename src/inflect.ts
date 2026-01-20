@@ -467,9 +467,9 @@ const inflect = function(verb: string, options?: InflectOptions): string {
                         ret = applyPrefix(exc[styling.voseo ? "vos" : "tu"]);
                     }
                 }
-                if (mood === "imperative" && ending === "er" && prefix &&
+                if (ret && mood === "imperative" && ending === "er" && prefix &&
                     personValue === "second" && positivity === "affirmative" && number === "singular") {
-                    ret = replaceLast(ret!, "e", "é"); // only replace the last one
+                    ret = replaceLast(ret, "e", "é"); // only replace the last one
                 }
             }
         }
