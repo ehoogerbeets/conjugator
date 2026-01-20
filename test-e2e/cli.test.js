@@ -441,3 +441,213 @@ describe('Edge cases', () => {
         expect(parseJSON(output)).toMatchSnapshot();
     });
 });
+
+describe('Additional irregular verbs', () => {
+    describe('traer and compounds', () => {
+        test('traer - preterite (traje, trajiste, etc.)', () => {
+            const output = runCLI('traer indicative preterite');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('atraer - follows traer pattern', () => {
+            const output = runCLI('atraer indicative preterite first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('caer and compounds', () => {
+        test('caer - present first singular (caigo)', () => {
+            const output = runCLI('caer indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('decaer - follows caer pattern', () => {
+            const output = runCLI('decaer indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('oír and compounds', () => {
+        test('oír - present (oigo, oyes, oye, oyen)', () => {
+            const output = runCLI('oír indicative present');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('desoír - follows oír pattern', () => {
+            const output = runCLI('desoír indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('conocer and compounds', () => {
+        test('conocer - present first singular (conozco)', () => {
+            const output = runCLI('conocer indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('reconocer - follows conocer pattern', () => {
+            const output = runCLI('reconocer subjunctive present');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('conducir and compounds', () => {
+        test('conducir - preterite (conduje, etc.)', () => {
+            const output = runCLI('conducir indicative preterite');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('producir - follows conducir pattern', () => {
+            const output = runCLI('producir indicative preterite first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('traducir - follows conducir pattern', () => {
+            const output = runCLI('traducir indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('caber', () => {
+        test('caber - present first singular (quepo)', () => {
+            const output = runCLI('caber indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('caber - future (cabré, cabrás, etc.)', () => {
+            const output = runCLI('caber indicative future');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('valer and compounds', () => {
+        test('valer - future (valdré, etc.)', () => {
+            const output = runCLI('valer indicative future');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('equivaler - follows valer pattern', () => {
+            const output = runCLI('equivaler indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('andar and compounds', () => {
+        test('andar - preterite (anduve, etc.)', () => {
+            const output = runCLI('andar indicative preterite');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('desandar - follows andar pattern', () => {
+            const output = runCLI('desandar indicative preterite first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('dormir', () => {
+        test('dormir - present (duermo, duermes, etc.)', () => {
+            const output = runCLI('dormir indicative present');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('dormir - preterite third person (durmió, durmieron)', () => {
+            const output = runCLI('dormir indicative preterite third');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('sentir and compounds', () => {
+        test('sentir - present (siento, sientes, etc.)', () => {
+            const output = runCLI('sentir indicative present');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('consentir - follows sentir pattern', () => {
+            const output = runCLI('consentir indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('pedir and compounds', () => {
+        test('pedir - present (pido, pides, etc.)', () => {
+            const output = runCLI('pedir indicative present');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('despedir - follows pedir pattern', () => {
+            const output = runCLI('despedir indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('servir - follows pedir pattern', () => {
+            const output = runCLI('servir indicative preterite third singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('reír and compounds', () => {
+        test('reír - present (río, ríes, etc.)', () => {
+            const output = runCLI('reír indicative present');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('sonreír - follows reír pattern', () => {
+            const output = runCLI('sonreír indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('huir and compounds', () => {
+        test('huir - present (huyo, huyes, etc.)', () => {
+            const output = runCLI('huir indicative present');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('construir - follows huir pattern', () => {
+            const output = runCLI('construir indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('destruir - follows huir pattern', () => {
+            const output = runCLI('destruir indicative preterite third singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+
+    describe('compound verbs of existing irregulars', () => {
+        test('componer - follows poner pattern', () => {
+            const output = runCLI('componer indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('suponer - follows poner pattern', () => {
+            const output = runCLI('suponer indicative future');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('deshacer - follows hacer pattern', () => {
+            const output = runCLI('deshacer indicative preterite');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('satisfacer - follows hacer pattern', () => {
+            const output = runCLI('satisfacer indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('prever - follows ver pattern', () => {
+            const output = runCLI('prever indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('predecir - follows decir pattern', () => {
+            const output = runCLI('predecir indicative present first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+
+        test('bendecir - follows decir pattern', () => {
+            const output = runCLI('bendecir indicative preterite first singular');
+            expect(parseJSON(output)).toMatchSnapshot();
+        });
+    });
+});

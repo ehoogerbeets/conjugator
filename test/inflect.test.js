@@ -4094,3 +4094,208 @@ describe('conjugateVerb', () => {
         });
     });
 });
+
+describe('newly added irregular verbs', () => {
+    describe('oír - verb with accent in infinitive', () => {
+        test('oír present indicative first singular is oigo', () => {
+            expect(inflect("oír", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("oigo");
+        });
+
+        test('oír present indicative second singular is oyes', () => {
+            expect(inflect("oír", {
+                mood: "indicative",
+                tense: "present",
+                person: "second",
+                number: "singular"
+            })).toBe("oyes");
+        });
+
+        test('oír present indicative third singular is oye', () => {
+            expect(inflect("oír", {
+                mood: "indicative",
+                tense: "present",
+                person: "third",
+                number: "singular"
+            })).toBe("oye");
+        });
+
+        test('desoír (compound) present first singular is desoigo', () => {
+            expect(inflect("desoír", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("desoigo");
+        });
+    });
+
+    describe('reír - verb with accent in infinitive', () => {
+        test('reír present indicative first singular is río', () => {
+            expect(inflect("reír", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("río");
+        });
+
+        test('reír present indicative second singular is ríes', () => {
+            expect(inflect("reír", {
+                mood: "indicative",
+                tense: "present",
+                person: "second",
+                number: "singular"
+            })).toBe("ríes");
+        });
+
+        test('sonreír (compound) present first singular is sonrío', () => {
+            expect(inflect("sonreír", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("sonrío");
+        });
+    });
+
+    describe('conducir compounds - prefix application', () => {
+        test('producir preterite first singular is produje', () => {
+            expect(inflect("producir", {
+                mood: "indicative",
+                tense: "preterite",
+                person: "first",
+                number: "singular"
+            })).toBe("produje");
+        });
+
+        test('traducir present first singular is traduzco', () => {
+            expect(inflect("traducir", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("traduzco");
+        });
+    });
+
+    describe('huir compounds - prefix application', () => {
+        test('construir present first singular is construyo', () => {
+            expect(inflect("construir", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("construyo");
+        });
+
+        test('destruir preterite third singular is destruyó', () => {
+            expect(inflect("destruir", {
+                mood: "indicative",
+                tense: "preterite",
+                person: "third",
+                number: "singular"
+            })).toBe("destruyó");
+        });
+    });
+
+    describe('pedir compounds - prefix application', () => {
+        test('servir preterite third singular is sirvió', () => {
+            expect(inflect("servir", {
+                mood: "indicative",
+                tense: "preterite",
+                person: "third",
+                number: "singular"
+            })).toBe("sirvió");
+        });
+    });
+
+    describe('hacer compounds - prefix application', () => {
+        test('satisfacer present first singular is satisfago', () => {
+            expect(inflect("satisfacer", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("satisfago");
+        });
+    });
+
+    describe('working irregular verbs - sanity checks', () => {
+        test('traer preterite first singular is traje', () => {
+            expect(inflect("traer", {
+                mood: "indicative",
+                tense: "preterite",
+                person: "first",
+                number: "singular"
+            })).toBe("traje");
+        });
+
+        test('atraer preterite first singular is atraje', () => {
+            expect(inflect("atraer", {
+                mood: "indicative",
+                tense: "preterite",
+                person: "first",
+                number: "singular"
+            })).toBe("atraje");
+        });
+
+        test('caber present first singular is quepo', () => {
+            expect(inflect("caber", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("quepo");
+        });
+
+        test('valer future first singular is valdré', () => {
+            expect(inflect("valer", {
+                mood: "indicative",
+                tense: "future",
+                person: "first",
+                number: "singular"
+            })).toBe("valdré");
+        });
+
+        test('andar preterite first singular is anduve', () => {
+            expect(inflect("andar", {
+                mood: "indicative",
+                tense: "preterite",
+                person: "first",
+                number: "singular"
+            })).toBe("anduve");
+        });
+
+        test('dormir present first singular is duermo', () => {
+            expect(inflect("dormir", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("duermo");
+        });
+
+        test('sentir present first singular is siento', () => {
+            expect(inflect("sentir", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("siento");
+        });
+
+        test('pedir present first singular is pido', () => {
+            expect(inflect("pedir", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("pido");
+        });
+    });
+});
