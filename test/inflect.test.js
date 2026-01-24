@@ -4093,6 +4093,43 @@ describe('conjugateVerb', () => {
             });
         });
     });
+
+    describe('input validation', () => {
+        test('returns empty conjugation for empty string', () => {
+            const result = conjugateVerb("");
+            expect(result).toEqual({});
+        });
+
+        test('returns empty conjugation for single character', () => {
+            const result = conjugateVerb("a");
+            expect(result).toEqual({});
+        });
+
+        test('returns empty conjugation for null/undefined', () => {
+            const result1 = conjugateVerb(null);
+            const result2 = conjugateVerb(undefined);
+            expect(result1).toEqual({});
+            expect(result2).toEqual({});
+        });
+
+        test('handles invalid verb ending gracefully', () => {
+            const result = conjugateVerb("invalid", {mood: "indicative", tense: "present", verbOnly: true});
+            // Should return empty or minimal conjugation, not crash
+            expect(result).toBeDefined();
+            expect(typeof result).toBe("object");
+        });
+
+        test('never crashes on valid verbs', () => {
+            const verbs = ["hablar", "comer", "vivir", "traer", "caer", "oír", "reír"];
+            verbs.forEach(verb => {
+                expect(() => {
+                    const result = conjugateVerb(verb, {verbOnly: true});
+                    expect(result).toBeDefined();
+                    expect(typeof result).toBe("object");
+                }).not.toThrow();
+            });
+        });
+    });
 });
 
 describe('newly added irregular verbs', () => {
@@ -4370,6 +4407,74 @@ describe('newly added irregular verbs', () => {
                 person: "second",
                 number: "singular"
             })).toBe("construye");
+        });
+    });
+
+    describe('edge cases - empty/invalid inputs', () => {
+        test('inflect returns empty string for empty input', () => {
+            expect(inflect("")).toBe("");
+        });
+
+        test('inflect returns empty string for single character', () => {
+            expect(inflect("a")).toBe("");
+        });
+
+        test('inflect returns verb unchanged for invalid verb ending', () => {
+            expect(inflect("invalid", {
+                mood: "indicative",
+                tense: "present",
+                person: "first",
+                number: "singular"
+            })).toBe("invalid");
+        });
+
+        test('inflect never returns undefined for valid verbs', () => {
+            const result = inflect("traer", {
+                mood: "indicative",
+                tense: "imperfect",
+                person: "first",
+                number: "singular"
+            });
+            expect(result).toBeDefined();
+            expect(typeof result).toBe("string");
+            expect(result.length).toBeGreaterThan(0);
+        });
+
+        test('inflect never returns undefined for compound verbs', () => {
+            const result = inflect("atraer", {
+                mood: "indicative",
+                tense: "imperfect",
+                person: "first",
+                number: "singular"
+            });
+            expect(result).toBeDefined();
+            expect(typeof result).toBe("string");
+            expect(result.length).toBeGreaterThan(0);
+        });
+
+        test('inflect never returns undefined for pattern-matched verbs', () => {
+            const result = inflect("producir", {
+                mood: "indicative",
+                tense: "imperfect",
+                person: "first",
+                number: "singular"
+            });
+            expect(result).toBeDefined();
+            expect(typeof result).toBe("string");
+            expect(result.length).toBeGreaterThan(0);
+        });
+
+        test('inflect handles missing exception entries gracefully', () => {
+            // Test a verb that has exceptions but not for all moods/tenses
+            const result = inflect("traer", {
+                mood: "indicative",
+                tense: "imperfect",
+                person: "second",
+                number: "plural"
+            });
+            expect(result).toBeDefined();
+            expect(typeof result).toBe("string");
+            expect(result.length).toBeGreaterThan(0);
         });
     });
 });
