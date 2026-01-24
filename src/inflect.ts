@@ -244,25 +244,25 @@ function fixStem(stem: string, ending: string, suffix: string, options: InflectO
     }
 
     if (ending === "ar") {
-        if (stem.substr(-1) === "c" && (suffix[0] === "e" || suffix[0] === "é")) {
+        if (stem.slice(-1) === "c" && (suffix[0] === "e" || suffix[0] === "é")) {
             stem = stem.substring(0, stem.length - 1) + "qu";
-        } else if (stem.substr(-1) === "g" && (suffix[0] === "e" || suffix[0] === "é")) {
+        } else if (stem.slice(-1) === "g" && (suffix[0] === "e" || suffix[0] === "é")) {
             stem = stem.substring(0, stem.length - 1) + "gu";
-        } else if (stem.substr(-1) === "z" && (suffix[0] === "e" || suffix[0] === 'é')) {
+        } else if (stem.slice(-1) === "z" && (suffix[0] === "e" || suffix[0] === 'é')) {
             stem = stem.substring(0, stem.length - 1) + "c";
         }
     }
 
     if (ending === "er") {
-        const stemEnd = stem.substr(-2);
+        const stemEnd = stem.slice(-2);
         if ((stemEnd === "oc" || stemEnd === "ec") && (suffix[0] === "a" || suffix[0] === 'á' || suffix[0] === 'o')) {
             stem = stem.substring(0, stem.length - 1) + "zc";
         }
     } else if (ending === "ir" && !exceptionRules[whole]) {
         if (suffix[0] === "a" || suffix[0] === 'á' || suffix[0] === 'o') {
-            if (stem.substr(-2) === "uc") {
+            if (stem.slice(-2) === "uc") {
                 stem = stem.substring(0, stem.length - 1) + "zc";
-            } else if (stem.substr(-1) === "g") {
+            } else if (stem.slice(-1) === "g") {
                 stem = stem.substring(0, stem.length - 1) + "j";
             }
         }
@@ -302,28 +302,85 @@ const inflect = function(verb: string, options?: InflectOptions): string {
 
     let ret: string | undefined;
     let original = "";
-    const ending = verb.substr(-2);
+
+    // Normalize accented infinitive endings (oír → oir, reír → reir for lookup purposes)
+    let normalizedVerb = verb;
+    if (verb.endsWith("ír")) {
+        normalizedVerb = verb.slice(0, -2) + "ir";
+    }
+
+    const ending = normalizedVerb.slice(-2);
 
     if (!(ending in endings)) {
         // not a verb -- can't inflect it!
         return verb;
     }
 
-    let stem = verb.substring(0, verb.length - 2);
+    let stem = normalizedVerb.substring(0, normalizedVerb.length - 2);
+    const originalStem = stem;
 
     // see if we can use other exception verbs because prefixes hardly
     // ever change the base irregular verb. Example: contener, detener,
     // mantener, etc., all act like tener
-    reverse(verb);
+    reverse(normalizedVerb);
     let prefix = "";
+    let basePrefix = ""; // The prefix of the base verb's stem (for pattern-matched verbs)
+    let isPatternMatch = false; // True if this is a pattern-match (e.g., producir→conducir) rather than true compound
     let base: string;
     if (typeof exceptions[verb] === "string") {
         original = verb;
         base = exceptions[verb] as string;
-        prefix = verb.substring(0, verb.length - base.length);
+        // Only calculate prefix if the base is a true suffix of the verb
+        // (e.g., contener → tener, componer → poner)
+        if (verb.endsWith(base)) {
+            prefix = verb.substring(0, verb.length - base.length);
+        } else {
+            // For verbs that share a pattern but aren't true compounds
+            // (e.g., producir → conducir), extract the differing stem prefix
+            const baseEnding = base.substring(base.length - 2);
+            const verbEnding = normalizedVerb.substring(normalizedVerb.length - 2);
+            if (baseEnding === verbEnding) {
+                // Find common suffix in stems (e.g., "duc" in "conduc" and "produc")
+                const baseStem = base.substring(0, base.length - 2);
+                const verbStem = stem;
+                // Find how much of the base stem matches the end of the verb stem
+                for (let i = baseStem.length; i >= 1; i--) {
+                    const baseSuffix = baseStem.substring(baseStem.length - i);
+                    if (verbStem.endsWith(baseSuffix)) {
+                        prefix = verbStem.substring(0, verbStem.length - i);
+                        basePrefix = baseStem.substring(0, baseStem.length - i);
+                        isPatternMatch = true;
+                        break;
+                    }
+                }
+            }
+        }
+        verb = base;
+        stem = base.substring(0, base.length - 2);
+    } else if (typeof exceptions[normalizedVerb] === "string") {
+        // Handle normalized verb lookups (for accented infinitives like oír)
+        original = verb;
+        base = exceptions[normalizedVerb] as string;
+        if (normalizedVerb.endsWith(base)) {
+            prefix = normalizedVerb.substring(0, normalizedVerb.length - base.length);
+        }
         verb = base;
         stem = base.substring(0, base.length - 2);
     }
+
+    // Helper function to apply prefix to an exception value
+    // For true compounds: just prepend prefix
+    // For pattern matches: replace the base prefix with the verb prefix
+    const applyPrefix = (exc: string): string => {
+        if (isPatternMatch && basePrefix) {
+            // Replace the base prefix with the verb prefix
+            // e.g., "conduje" with basePrefix="con", prefix="pro" → "produje"
+            if (exc.startsWith(basePrefix)) {
+                return prefix + exc.substring(basePrefix.length);
+            }
+        }
+        return prefix + exc;
+    };
 
     const person: Person = (options && options.person) || "first";
     let personValue: string = person;
@@ -351,6 +408,9 @@ const inflect = function(verb: string, options?: InflectOptions): string {
         personValue = "third";
     }
 
+    // For exception lookups, try the original verb first, then normalized
+    const lookupVerb = exceptions[verb] ? verb : (exceptions[normalizedVerb] ? normalizedVerb : verb);
+
     if (tense === "perfect" || tense === "pluperfect" || tense === "future perfect" || tense === "preterite perfect") {
         const personObj = endings.auxilliaries[personValue];
         if (personObj) {
@@ -362,14 +422,14 @@ const inflect = function(verb: string, options?: InflectOptions): string {
                     const endingObj = endings[ending] as Record<string, unknown>;
                     const pastParticiple = endingObj["past participle"] as Record<string, Record<string, string>>;
                     const suffix = pastParticiple.singular.masculine;
-                    const verbExc = exceptions[verb];
+                    const verbExc = exceptions[lookupVerb];
                     let pastPart: string;
                     if (typeof verbExc === "object" && verbExc["past participle"]) {
                         pastPart = verbExc["past participle"] as unknown as string;
                     } else {
                         pastPart = stem + suffix;
                     }
-                    ret = aux + " " + prefix + pastPart;
+                    ret = aux + " " + applyPrefix(pastPart);
                 }
             }
         }
@@ -392,9 +452,9 @@ const inflect = function(verb: string, options?: InflectOptions): string {
             }
         }
 
-        if (!ret && exceptions[verb] && typeof exceptions[verb] === "object") {
+        if (!ret && exceptions[lookupVerb] && typeof exceptions[lookupVerb] === "object") {
             // see if the requested options cause an exceptional inflection, else generate the regular inflection below
-            const excVerb = exceptions[verb] as VerbException;
+            const excVerb = exceptions[lookupVerb] as VerbException;
             if (excVerb[mood]) {
                 const moodObj = excVerb[mood] as Record<string, Record<string, Record<string, string | { tu: string; vos: string }>>>;
                 const property = (mood === "imperative") ? positivity : tense;
@@ -402,19 +462,25 @@ const inflect = function(verb: string, options?: InflectOptions): string {
                 if (tenseObj && tenseObj[number] && tenseObj[number][personValue]) {
                     const exc = tenseObj[number][personValue];
                     if (typeof exc === "string") {
-                        ret = prefix + exc;
+                        ret = applyPrefix(exc);
                     } else {
-                        ret = prefix + exc[styling.voseo ? "vos" : "tu"];
+                        ret = applyPrefix(exc[styling.voseo ? "vos" : "tu"]);
                     }
                 }
-                if (mood === "imperative" && ending === "er" && prefix &&
+                if (ret && mood === "imperative" && ending === "er" && prefix &&
                     personValue === "second" && positivity === "affirmative" && number === "singular") {
-                    ret = replaceLast(ret!, "e", "é"); // only replace the last one
+                    ret = replaceLast(ret, "e", "é"); // only replace the last one
                 }
             }
         }
 
         if (!ret) {
+            // For regular conjugations:
+            // - For pattern-matched verbs (like producir→conducir): use original stem, no prefix
+            // - For true compound verbs (like contener→tener): use base stem + prefix
+            const useOriginalStem = isPatternMatch;
+            const conjugationStem = useOriginalStem ? originalStem : stem;
+            const conjugationPrefix = useOriginalStem ? "" : prefix;
             const endingObj = endings[ending] as Record<string, unknown>;
             const personObj = endingObj[personValue] as Record<string, unknown> | undefined;
             if (personObj) {
@@ -423,19 +489,19 @@ const inflect = function(verb: string, options?: InflectOptions): string {
                     const moodObj = pluralityObj[mood] as string | Record<string, unknown> | undefined;
                     if (moodObj) {
                         if (typeof moodObj === "string") {
-                            stem = fixStem(stem, ending, moodObj, { ...options, person: personValue as Person });
-                            ret = prefix + stem + moodObj;
+                            let finalStem = fixStem(conjugationStem, ending, moodObj, { ...options, person: personValue as Person });
+                            ret = conjugationPrefix + finalStem + moodObj;
                         } else {
                             const property = (mood === "imperative") ? positivity : tense;
                             const tenseObj = moodObj[property] as string | EndingVariant | undefined;
                             if (tenseObj) {
                                 if (typeof tenseObj === "string") {
-                                    stem = fixStem(stem, ending, tenseObj, { ...options, person: personValue as Person });
-                                    ret = prefix + stem + tenseObj;
+                                    let finalStem = fixStem(conjugationStem, ending, tenseObj, { ...options, person: personValue as Person });
+                                    ret = conjugationPrefix + finalStem + tenseObj;
                                 } else {
                                     const suffix = tenseObj[styling.voseo ? "vos" : "tu"]!;
-                                    stem = fixStem(stem, ending, suffix, { ...options, person: personValue as Person });
-                                    ret = prefix + stem + suffix;
+                                    let finalStem = fixStem(conjugationStem, ending, suffix, { ...options, person: personValue as Person });
+                                    ret = conjugationPrefix + finalStem + suffix;
                                 }
                             }
                         }

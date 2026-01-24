@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2026-01-19
+
+### Added
+
+- **New irregular verbs**: Added comprehensive conjugation data for many common irregular verbs:
+  - traer (and compounds: atraer, contraer, distraer, extraer, sustraer)
+  - caer (and compounds: decaer, recaer)
+  - oír (and compound: desoír)
+  - conocer (and compounds: reconocer, desconocer)
+  - conducir (and compounds: producir, reducir, traducir, introducir, deducir, inducir, seducir)
+  - caber
+  - valer (and compound: equivaler)
+  - andar (and compound: desandar)
+  - dormir
+  - sentir (and compounds: consentir, presentir, resentir)
+  - pedir, medir, repetir, servir, vestir
+  - reír (and compounds: freír, sonreír)
+  - huir (and compounds: concluir, construir, contribuir, destruir, distribuir, excluir, incluir, influir, instruir, sustituir)
+- **Compound verb references**: Added references for compound forms of existing irregular verbs:
+  - poner compounds: componer, disponer, exponer, imponer, oponer, proponer, reponer, suponer
+  - hacer compounds: deshacer, rehacer, satisfacer
+  - ver compound: prever
+  - decir compounds: bendecir, maldecir, predecir
+
+### Fixed
+
+- **Accented infinitives**: Fixed conjugation of verbs with accented infinitives (oír, reír, etc.) which were previously not being conjugated
+- **Pattern-matched compound verbs**: Fixed prefix application for verbs that share conjugation patterns but aren't true compounds (e.g., producir→conducir, construir→huir)
+
 ## [2.0.0] - 2025-12-19
 
 ### Breaking Changes

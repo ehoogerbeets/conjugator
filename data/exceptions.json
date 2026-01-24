@@ -1836,5 +1836,1699 @@
 	},
 	"volver": {
 		"past participle": "vuelto"
-	}
+	},
+	"salir": {
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "salgo"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "saldré",
+					"second": "saldrás",
+					"third": "saldrá"
+				},
+				"plural": {
+					"first": "saldremos",
+					"second": "saldréis",
+					"third": "saldrán"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "salga",
+					"second": "salgas",
+					"third": "salga"
+				},
+				"plural": {
+					"first": "salgamos",
+					"second": "salgáis",
+					"third": "salgan"
+				}
+			}
+		},
+		"conditional": {
+			"present": {
+				"singular": {
+					"first": "saldría",
+					"second": "saldrías",
+					"third": "saldría"
+				},
+				"plural": {
+					"first": "saldríamos",
+					"second": "saldríais",
+					"third": "saldrían"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "sal",
+					"third": "salga"
+				},
+				"plural": {
+					"first": "salgamos",
+					"third": "salgan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "salgas",
+					"third": "salga"
+				},
+				"plural": {
+					"first": "salgamos",
+					"second": "salgáis",
+					"third": "salgan"
+				}
+			}
+		}
+	},
+
+	"traer": {
+		"past participle": "traído",
+		"gerund": "trayendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "traigo"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"first": "traje",
+					"second": "trajiste",
+					"third": "trajo"
+				},
+				"plural": {
+					"first": "trajimos",
+					"second": "trajisteis",
+					"third": "trajeron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "traiga",
+					"second": "traigas",
+					"third": "traiga"
+				},
+				"plural": {
+					"first": "traigamos",
+					"second": "traigáis",
+					"third": "traigan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "trajera",
+					"second": "trajeras",
+					"third": "trajera"
+				},
+				"plural": {
+					"first": "trajéramos",
+					"second": "trajerais",
+					"third": "trajeran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "trajese",
+					"second": "trajeses",
+					"third": "trajese"
+				},
+				"plural": {
+					"first": "trajésemos",
+					"second": "trajeseis",
+					"third": "trajesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "trajere",
+					"second": "trajeres",
+					"third": "trajere"
+				},
+				"plural": {
+					"first": "trajéremos",
+					"second": "trajereis",
+					"third": "trajeren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"third": "traiga"
+				},
+				"plural": {
+					"first": "traigamos",
+					"third": "traigan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "traigas",
+					"third": "traiga"
+				},
+				"plural": {
+					"first": "traigamos",
+					"second": "traigáis",
+					"third": "traigan"
+				}
+			}
+		}
+	},
+
+	"atraer": "traer",
+	"contraer": "traer",
+	"distraer": "traer",
+	"extraer": "traer",
+	"sustraer": "traer",
+
+	"caer": {
+		"past participle": "caído",
+		"gerund": "cayendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "caigo"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "cayó"
+				},
+				"plural": {
+					"third": "cayeron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "caiga",
+					"second": "caigas",
+					"third": "caiga"
+				},
+				"plural": {
+					"first": "caigamos",
+					"second": "caigáis",
+					"third": "caigan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "cayera",
+					"second": "cayeras",
+					"third": "cayera"
+				},
+				"plural": {
+					"first": "cayéramos",
+					"second": "cayerais",
+					"third": "cayeran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "cayese",
+					"second": "cayeses",
+					"third": "cayese"
+				},
+				"plural": {
+					"first": "cayésemos",
+					"second": "cayeseis",
+					"third": "cayesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "cayere",
+					"second": "cayeres",
+					"third": "cayere"
+				},
+				"plural": {
+					"first": "cayéremos",
+					"second": "cayereis",
+					"third": "cayeren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"third": "caiga"
+				},
+				"plural": {
+					"first": "caigamos",
+					"third": "caigan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "caigas",
+					"third": "caiga"
+				},
+				"plural": {
+					"first": "caigamos",
+					"second": "caigáis",
+					"third": "caigan"
+				}
+			}
+		}
+	},
+
+	"decaer": "caer",
+	"recaer": "caer",
+
+	"oír": {
+		"past participle": "oído",
+		"gerund": "oyendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "oigo",
+					"second": "oyes",
+					"third": "oye"
+				},
+				"plural": {
+					"first": "oímos",
+					"second": "oís",
+					"third": "oyen"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "oyó"
+				},
+				"plural": {
+					"third": "oyeron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "oiga",
+					"second": "oigas",
+					"third": "oiga"
+				},
+				"plural": {
+					"first": "oigamos",
+					"second": "oigáis",
+					"third": "oigan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "oyera",
+					"second": "oyeras",
+					"third": "oyera"
+				},
+				"plural": {
+					"first": "oyéramos",
+					"second": "oyerais",
+					"third": "oyeran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "oyese",
+					"second": "oyeses",
+					"third": "oyese"
+				},
+				"plural": {
+					"first": "oyésemos",
+					"second": "oyeseis",
+					"third": "oyesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "oyere",
+					"second": "oyeres",
+					"third": "oyere"
+				},
+				"plural": {
+					"first": "oyéremos",
+					"second": "oyereis",
+					"third": "oyeren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "oye",
+					"third": "oiga"
+				},
+				"plural": {
+					"first": "oigamos",
+					"third": "oigan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "oigas",
+					"third": "oiga"
+				},
+				"plural": {
+					"first": "oigamos",
+					"second": "oigáis",
+					"third": "oigan"
+				}
+			}
+		}
+	},
+
+	"desoír": "oír",
+
+	"conocer": {
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "conozco"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "conozca",
+					"second": "conozcas",
+					"third": "conozca"
+				},
+				"plural": {
+					"first": "conozcamos",
+					"second": "conozcáis",
+					"third": "conozcan"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"third": "conozca"
+				},
+				"plural": {
+					"first": "conozcamos",
+					"third": "conozcan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "conozcas",
+					"third": "conozca"
+				},
+				"plural": {
+					"first": "conozcamos",
+					"second": "conozcáis",
+					"third": "conozcan"
+				}
+			}
+		}
+	},
+
+	"reconocer": "conocer",
+	"desconocer": "conocer",
+
+	"conducir": {
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "conduzco"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"first": "conduje",
+					"second": "condujiste",
+					"third": "condujo"
+				},
+				"plural": {
+					"first": "condujimos",
+					"second": "condujisteis",
+					"third": "condujeron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "conduzca",
+					"second": "conduzcas",
+					"third": "conduzca"
+				},
+				"plural": {
+					"first": "conduzcamos",
+					"second": "conduzcáis",
+					"third": "conduzcan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "condujera",
+					"second": "condujeras",
+					"third": "condujera"
+				},
+				"plural": {
+					"first": "condujéramos",
+					"second": "condujerais",
+					"third": "condujeran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "condujese",
+					"second": "condujeses",
+					"third": "condujese"
+				},
+				"plural": {
+					"first": "condujésemos",
+					"second": "condujeseis",
+					"third": "condujesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "condujere",
+					"second": "condujeres",
+					"third": "condujere"
+				},
+				"plural": {
+					"first": "condujéremos",
+					"second": "condujereis",
+					"third": "condujeren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"third": "conduzca"
+				},
+				"plural": {
+					"first": "conduzcamos",
+					"third": "conduzcan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "conduzcas",
+					"third": "conduzca"
+				},
+				"plural": {
+					"first": "conduzcamos",
+					"second": "conduzcáis",
+					"third": "conduzcan"
+				}
+			}
+		}
+	},
+
+	"producir": "conducir",
+	"reducir": "conducir",
+	"traducir": "conducir",
+	"introducir": "conducir",
+	"deducir": "conducir",
+	"inducir": "conducir",
+	"seducir": "conducir",
+
+	"caber": {
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "quepo"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"first": "cupe",
+					"second": "cupiste",
+					"third": "cupo"
+				},
+				"plural": {
+					"first": "cupimos",
+					"second": "cupisteis",
+					"third": "cupieron"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "cabré",
+					"second": "cabrás",
+					"third": "cabrá"
+				},
+				"plural": {
+					"first": "cabremos",
+					"second": "cabréis",
+					"third": "cabrán"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "quepa",
+					"second": "quepas",
+					"third": "quepa"
+				},
+				"plural": {
+					"first": "quepamos",
+					"second": "quepáis",
+					"third": "quepan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "cupiera",
+					"second": "cupieras",
+					"third": "cupiera"
+				},
+				"plural": {
+					"first": "cupiéramos",
+					"second": "cupierais",
+					"third": "cupieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "cupiese",
+					"second": "cupieses",
+					"third": "cupiese"
+				},
+				"plural": {
+					"first": "cupiésemos",
+					"second": "cupieseis",
+					"third": "cupiesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "cupiere",
+					"second": "cupieres",
+					"third": "cupiere"
+				},
+				"plural": {
+					"first": "cupiéremos",
+					"second": "cupiereis",
+					"third": "cupieren"
+				}
+			}
+		},
+		"conditional": {
+			"present": {
+				"singular": {
+					"first": "cabría",
+					"second": "cabrías",
+					"third": "cabría"
+				},
+				"plural": {
+					"first": "cabríamos",
+					"second": "cabríais",
+					"third": "cabrían"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"third": "quepa"
+				},
+				"plural": {
+					"first": "quepamos",
+					"third": "quepan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "quepas",
+					"third": "quepa"
+				},
+				"plural": {
+					"first": "quepamos",
+					"second": "quepáis",
+					"third": "quepan"
+				}
+			}
+		}
+	},
+
+	"valer": {
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "valgo"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "valdré",
+					"second": "valdrás",
+					"third": "valdrá"
+				},
+				"plural": {
+					"first": "valdremos",
+					"second": "valdréis",
+					"third": "valdrán"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "valga",
+					"second": "valgas",
+					"third": "valga"
+				},
+				"plural": {
+					"first": "valgamos",
+					"second": "valgáis",
+					"third": "valgan"
+				}
+			}
+		},
+		"conditional": {
+			"present": {
+				"singular": {
+					"first": "valdría",
+					"second": "valdrías",
+					"third": "valdría"
+				},
+				"plural": {
+					"first": "valdríamos",
+					"second": "valdríais",
+					"third": "valdrían"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "val",
+					"third": "valga"
+				},
+				"plural": {
+					"first": "valgamos",
+					"third": "valgan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "valgas",
+					"third": "valga"
+				},
+				"plural": {
+					"first": "valgamos",
+					"second": "valgáis",
+					"third": "valgan"
+				}
+			}
+		}
+	},
+
+	"equivaler": "valer",
+
+	"andar": {
+		"indicative": {
+			"preterite": {
+				"singular": {
+					"first": "anduve",
+					"second": "anduviste",
+					"third": "anduvo"
+				},
+				"plural": {
+					"first": "anduvimos",
+					"second": "anduvisteis",
+					"third": "anduvieron"
+				}
+			}
+		},
+		"subjunctive": {
+			"imperfect -ra": {
+				"singular": {
+					"first": "anduviera",
+					"second": "anduvieras",
+					"third": "anduviera"
+				},
+				"plural": {
+					"first": "anduviéramos",
+					"second": "anduvierais",
+					"third": "anduvieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "anduviese",
+					"second": "anduvieses",
+					"third": "anduviese"
+				},
+				"plural": {
+					"first": "anduviésemos",
+					"second": "anduvieseis",
+					"third": "anduviesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "anduviere",
+					"second": "anduvieres",
+					"third": "anduviere"
+				},
+				"plural": {
+					"first": "anduviéremos",
+					"second": "anduviereis",
+					"third": "anduvieren"
+				}
+			}
+		}
+	},
+
+	"desandar": "andar",
+
+	"dormir": {
+		"gerund": "durmiendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "duermo",
+					"second": "duermes",
+					"third": "duerme"
+				},
+				"plural": {
+					"third": "duermen"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "durmió"
+				},
+				"plural": {
+					"third": "durmieron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "duerma",
+					"second": "duermas",
+					"third": "duerma"
+				},
+				"plural": {
+					"first": "durmamos",
+					"second": "durmáis",
+					"third": "duerman"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "durmiera",
+					"second": "durmieras",
+					"third": "durmiera"
+				},
+				"plural": {
+					"first": "durmiéramos",
+					"second": "durmierais",
+					"third": "durmieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "durmiese",
+					"second": "durmieses",
+					"third": "durmiese"
+				},
+				"plural": {
+					"first": "durmiésemos",
+					"second": "durmieseis",
+					"third": "durmiesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "durmiere",
+					"second": "durmieres",
+					"third": "durmiere"
+				},
+				"plural": {
+					"first": "durmiéremos",
+					"second": "durmiereis",
+					"third": "durmieren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "duerme",
+					"third": "duerma"
+				},
+				"plural": {
+					"first": "durmamos",
+					"third": "duerman"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "duermas",
+					"third": "duerma"
+				},
+				"plural": {
+					"first": "durmamos",
+					"second": "durmáis",
+					"third": "duerman"
+				}
+			}
+		}
+	},
+
+	"sentir": {
+		"gerund": "sintiendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "siento",
+					"second": "sientes",
+					"third": "siente"
+				},
+				"plural": {
+					"third": "sienten"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "sintió"
+				},
+				"plural": {
+					"third": "sintieron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "sienta",
+					"second": "sientas",
+					"third": "sienta"
+				},
+				"plural": {
+					"first": "sintamos",
+					"second": "sintáis",
+					"third": "sientan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "sintiera",
+					"second": "sintieras",
+					"third": "sintiera"
+				},
+				"plural": {
+					"first": "sintiéramos",
+					"second": "sintierais",
+					"third": "sintieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "sintiese",
+					"second": "sintieses",
+					"third": "sintiese"
+				},
+				"plural": {
+					"first": "sintiésemos",
+					"second": "sintieseis",
+					"third": "sintiesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "sintiere",
+					"second": "sintieres",
+					"third": "sintiere"
+				},
+				"plural": {
+					"first": "sintiéremos",
+					"second": "sintiereis",
+					"third": "sintieren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "siente",
+					"third": "sienta"
+				},
+				"plural": {
+					"first": "sintamos",
+					"third": "sientan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "sientas",
+					"third": "sienta"
+				},
+				"plural": {
+					"first": "sintamos",
+					"second": "sintáis",
+					"third": "sientan"
+				}
+			}
+		}
+	},
+
+	"consentir": "sentir",
+	"presentir": "sentir",
+	"resentir": "sentir",
+
+	"pedir": {
+		"gerund": "pidiendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "pido",
+					"second": "pides",
+					"third": "pide"
+				},
+				"plural": {
+					"third": "piden"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "pidió"
+				},
+				"plural": {
+					"third": "pidieron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "pida",
+					"second": "pidas",
+					"third": "pida"
+				},
+				"plural": {
+					"first": "pidamos",
+					"second": "pidáis",
+					"third": "pidan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "pidiera",
+					"second": "pidieras",
+					"third": "pidiera"
+				},
+				"plural": {
+					"first": "pidiéramos",
+					"second": "pidierais",
+					"third": "pidieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "pidiese",
+					"second": "pidieses",
+					"third": "pidiese"
+				},
+				"plural": {
+					"first": "pidiésemos",
+					"second": "pidieseis",
+					"third": "pidiesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "pidiere",
+					"second": "pidieres",
+					"third": "pidiere"
+				},
+				"plural": {
+					"first": "pidiéremos",
+					"second": "pidiereis",
+					"third": "pidieren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "pide",
+					"third": "pida"
+				},
+				"plural": {
+					"first": "pidamos",
+					"third": "pidan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "pidas",
+					"third": "pida"
+				},
+				"plural": {
+					"first": "pidamos",
+					"second": "pidáis",
+					"third": "pidan"
+				}
+			}
+		}
+	},
+
+	"despedir": "pedir",
+	"impedir": "pedir",
+
+	"medir": {
+		"gerund": "midiendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "mido",
+					"second": "mides",
+					"third": "mide"
+				},
+				"plural": {
+					"third": "miden"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "midió"
+				},
+				"plural": {
+					"third": "midieron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "mida",
+					"second": "midas",
+					"third": "mida"
+				},
+				"plural": {
+					"first": "midamos",
+					"second": "midáis",
+					"third": "midan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "midiera",
+					"second": "midieras",
+					"third": "midiera"
+				},
+				"plural": {
+					"first": "midiéramos",
+					"second": "midierais",
+					"third": "midieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "midiese",
+					"second": "midieses",
+					"third": "midiese"
+				},
+				"plural": {
+					"first": "midiésemos",
+					"second": "midieseis",
+					"third": "midiesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "midiere",
+					"second": "midieres",
+					"third": "midiere"
+				},
+				"plural": {
+					"first": "midiéremos",
+					"second": "midiereis",
+					"third": "midieren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "mide",
+					"third": "mida"
+				},
+				"plural": {
+					"first": "midamos",
+					"third": "midan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "midas",
+					"third": "mida"
+				},
+				"plural": {
+					"first": "midamos",
+					"second": "midáis",
+					"third": "midan"
+				}
+			}
+		}
+	},
+
+	"repetir": {
+		"gerund": "repitiendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "repito",
+					"second": "repites",
+					"third": "repite"
+				},
+				"plural": {
+					"third": "repiten"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "repitió"
+				},
+				"plural": {
+					"third": "repitieron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "repita",
+					"second": "repitas",
+					"third": "repita"
+				},
+				"plural": {
+					"first": "repitamos",
+					"second": "repitáis",
+					"third": "repitan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "repitiera",
+					"second": "repitieras",
+					"third": "repitiera"
+				},
+				"plural": {
+					"first": "repitiéramos",
+					"second": "repitierais",
+					"third": "repitieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "repitiese",
+					"second": "repitieses",
+					"third": "repitiese"
+				},
+				"plural": {
+					"first": "repitiésemos",
+					"second": "repitieseis",
+					"third": "repitiesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "repitiere",
+					"second": "repitieres",
+					"third": "repitiere"
+				},
+				"plural": {
+					"first": "repitiéremos",
+					"second": "repitiereis",
+					"third": "repitieren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "repite",
+					"third": "repita"
+				},
+				"plural": {
+					"first": "repitamos",
+					"third": "repitan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "repitas",
+					"third": "repita"
+				},
+				"plural": {
+					"first": "repitamos",
+					"second": "repitáis",
+					"third": "repitan"
+				}
+			}
+		}
+	},
+
+	"servir": {
+		"gerund": "sirviendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "sirvo",
+					"second": "sirves",
+					"third": "sirve"
+				},
+				"plural": {
+					"third": "sirven"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "sirvió"
+				},
+				"plural": {
+					"third": "sirvieron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "sirva",
+					"second": "sirvas",
+					"third": "sirva"
+				},
+				"plural": {
+					"first": "sirvamos",
+					"second": "sirváis",
+					"third": "sirvan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "sirviera",
+					"second": "sirvieras",
+					"third": "sirviera"
+				},
+				"plural": {
+					"first": "sirviéramos",
+					"second": "sirvierais",
+					"third": "sirvieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "sirviese",
+					"second": "sirvieses",
+					"third": "sirviese"
+				},
+				"plural": {
+					"first": "sirviésemos",
+					"second": "sirvieseis",
+					"third": "sirviesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "sirviere",
+					"second": "sirvieres",
+					"third": "sirviere"
+				},
+				"plural": {
+					"first": "sirviéremos",
+					"second": "sirviereis",
+					"third": "sirvieren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "sirve",
+					"third": "sirva"
+				},
+				"plural": {
+					"first": "sirvamos",
+					"third": "sirvan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "sirvas",
+					"third": "sirva"
+				},
+				"plural": {
+					"first": "sirvamos",
+					"second": "sirváis",
+					"third": "sirvan"
+				}
+			}
+		}
+	},
+
+	"vestir": {
+		"gerund": "vistiendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "visto",
+					"second": "vistes",
+					"third": "viste"
+				},
+				"plural": {
+					"third": "visten"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "vistió"
+				},
+				"plural": {
+					"third": "vistieron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "vista",
+					"second": "vistas",
+					"third": "vista"
+				},
+				"plural": {
+					"first": "vistamos",
+					"second": "vistáis",
+					"third": "vistan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "vistiera",
+					"second": "vistieras",
+					"third": "vistiera"
+				},
+				"plural": {
+					"first": "vistiéramos",
+					"second": "vistierais",
+					"third": "vistieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "vistiese",
+					"second": "vistieses",
+					"third": "vistiese"
+				},
+				"plural": {
+					"first": "vistiésemos",
+					"second": "vistieseis",
+					"third": "vistiesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "vistiere",
+					"second": "vistieres",
+					"third": "vistiere"
+				},
+				"plural": {
+					"first": "vistiéremos",
+					"second": "vistiereis",
+					"third": "vistieren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "viste",
+					"third": "vista"
+				},
+				"plural": {
+					"first": "vistamos",
+					"third": "vistan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "vistas",
+					"third": "vista"
+				},
+				"plural": {
+					"first": "vistamos",
+					"second": "vistáis",
+					"third": "vistan"
+				}
+			}
+		}
+	},
+
+	"reír": {
+		"past participle": "reído",
+		"gerund": "riendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "río",
+					"second": "ríes",
+					"third": "ríe"
+				},
+				"plural": {
+					"first": "reímos",
+					"second": "reís",
+					"third": "ríen"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"first": "reí",
+					"second": "reíste",
+					"third": "rió"
+				},
+				"plural": {
+					"first": "reímos",
+					"second": "reísteis",
+					"third": "rieron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "ría",
+					"second": "rías",
+					"third": "ría"
+				},
+				"plural": {
+					"first": "riamos",
+					"second": "riáis",
+					"third": "rían"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "riera",
+					"second": "rieras",
+					"third": "riera"
+				},
+				"plural": {
+					"first": "riéramos",
+					"second": "rierais",
+					"third": "rieran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "riese",
+					"second": "rieses",
+					"third": "riese"
+				},
+				"plural": {
+					"first": "riésemos",
+					"second": "rieseis",
+					"third": "riesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "riere",
+					"second": "rieres",
+					"third": "riere"
+				},
+				"plural": {
+					"first": "riéremos",
+					"second": "riereis",
+					"third": "rieren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "ríe",
+					"third": "ría"
+				},
+				"plural": {
+					"first": "riamos",
+					"third": "rían"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "rías",
+					"third": "ría"
+				},
+				"plural": {
+					"first": "riamos",
+					"second": "riáis",
+					"third": "rían"
+				}
+			}
+		}
+	},
+
+	"freír": "reír",
+	"sonreír": "reír",
+
+	"huir": {
+		"gerund": "huyendo",
+		"indicative": {
+			"present": {
+				"singular": {
+					"first": "huyo",
+					"second": "huyes",
+					"third": "huye"
+				},
+				"plural": {
+					"third": "huyen"
+				}
+			},
+			"preterite": {
+				"singular": {
+					"third": "huyó"
+				},
+				"plural": {
+					"third": "huyeron"
+				}
+			}
+		},
+		"subjunctive": {
+			"present": {
+				"singular": {
+					"first": "huya",
+					"second": "huyas",
+					"third": "huya"
+				},
+				"plural": {
+					"first": "huyamos",
+					"second": "huyáis",
+					"third": "huyan"
+				}
+			},
+			"imperfect -ra": {
+				"singular": {
+					"first": "huyera",
+					"second": "huyeras",
+					"third": "huyera"
+				},
+				"plural": {
+					"first": "huyéramos",
+					"second": "huyerais",
+					"third": "huyeran"
+				}
+			},
+			"imperfect -se": {
+				"singular": {
+					"first": "huyese",
+					"second": "huyeses",
+					"third": "huyese"
+				},
+				"plural": {
+					"first": "huyésemos",
+					"second": "huyeseis",
+					"third": "huyesen"
+				}
+			},
+			"future": {
+				"singular": {
+					"first": "huyere",
+					"second": "huyeres",
+					"third": "huyere"
+				},
+				"plural": {
+					"first": "huyéremos",
+					"second": "huyereis",
+					"third": "huyeren"
+				}
+			}
+		},
+		"imperative": {
+			"affirmative": {
+				"singular": {
+					"second": "huye",
+					"third": "huya"
+				},
+				"plural": {
+					"first": "huyamos",
+					"third": "huyan"
+				}
+			},
+			"negative": {
+				"singular": {
+					"second": "huyas",
+					"third": "huya"
+				},
+				"plural": {
+					"first": "huyamos",
+					"second": "huyáis",
+					"third": "huyan"
+				}
+			}
+		}
+	},
+
+	"concluir": "huir",
+	"construir": "huir",
+	"contribuir": "huir",
+	"destruir": "huir",
+	"distribuir": "huir",
+	"excluir": "huir",
+	"incluir": "huir",
+	"influir": "huir",
+	"instruir": "huir",
+	"sustituir": "huir",
+
+	"componer": "poner",
+	"disponer": "poner",
+	"exponer": "poner",
+	"imponer": "poner",
+	"oponer": "poner",
+	"proponer": "poner",
+	"reponer": "poner",
+	"suponer": "poner",
+
+	"deshacer": "hacer",
+	"rehacer": "hacer",
+	"satisfacer": "hacer",
+
+	"prever": "ver",
+
+	"bendecir": "decir",
+	"maldecir": "decir",
+	"predecir": "decir"
 }

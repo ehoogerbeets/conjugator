@@ -1,5 +1,538 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Additional irregular verbs andar and compounds andar - preterite (anduve, etc.) 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "plural": {
+        "first": "anduvimos",
+        "second": "anduvisteis",
+        "third": "anduvieron",
+      },
+      "singular": {
+        "first": "anduve",
+        "second": "anduviste",
+        "third": "anduvo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs andar and compounds desandar - follows andar pattern 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "singular": {
+        "first": "desanduve",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs caber caber - future (cabré, cabrás, etc.) 1`] = `
+{
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "cabremos",
+        "second": "cabréis",
+        "third": "cabrán",
+      },
+      "singular": {
+        "first": "cabré",
+        "second": "cabrás",
+        "third": "cabrá",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs caber caber - present first singular (quepo) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "quepo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs caer and compounds caer - present first singular (caigo) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "caigo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs caer and compounds decaer - follows caer pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "decaigo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs compound verbs of existing irregulars bendecir - follows decir pattern 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "singular": {
+        "first": "bendije",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs compound verbs of existing irregulars componer - follows poner pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "compongo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs compound verbs of existing irregulars deshacer - follows hacer pattern 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "plural": {
+        "first": "deshicimos",
+        "second": "deshicisteis",
+        "third": "deshicieron",
+      },
+      "singular": {
+        "first": "deshice",
+        "second": "deshiciste",
+        "third": "deshizo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs compound verbs of existing irregulars predecir - follows decir pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "predigo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs compound verbs of existing irregulars prever - follows ver pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "preveo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs compound verbs of existing irregulars satisfacer - follows hacer pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "satisfago",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs compound verbs of existing irregulars suponer - follows poner pattern 1`] = `
+{
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "supondremos",
+        "second": "supondréis",
+        "third": "supondrán",
+      },
+      "singular": {
+        "first": "supondré",
+        "second": "supondrás",
+        "third": "supondrá",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs conducir and compounds conducir - preterite (conduje, etc.) 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "plural": {
+        "first": "condujimos",
+        "second": "condujisteis",
+        "third": "condujeron",
+      },
+      "singular": {
+        "first": "conduje",
+        "second": "condujiste",
+        "third": "condujo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs conducir and compounds producir - follows conducir pattern 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "singular": {
+        "first": "produje",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs conducir and compounds traducir - follows conducir pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "traduzco",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs conocer and compounds conocer - present first singular (conozco) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "conozco",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs conocer and compounds reconocer - follows conocer pattern 1`] = `
+{
+  "subjunctive": {
+    "present": {
+      "plural": {
+        "first": "reconozcamos",
+        "second": "reconozcáis",
+        "third": "reconozcan",
+      },
+      "singular": {
+        "first": "reconozca",
+        "second": "reconozcas",
+        "third": "reconozca",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs dormir dormir - present (duermo, duermes, etc.) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "dormimos",
+        "second": "dormís",
+        "third": "duermen",
+      },
+      "singular": {
+        "first": "duermo",
+        "second": "duermes",
+        "third": "duerme",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs dormir dormir - preterite third person (durmió, durmieron) 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "plural": {
+        "third": "durmieron",
+      },
+      "singular": {
+        "third": "durmió",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs huir and compounds construir - follows huir pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "construyo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs huir and compounds destruir - follows huir pattern 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "singular": {
+        "third": "destruyó",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs huir and compounds huir - present (huyo, huyes, etc.) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "huimos",
+        "second": "huís",
+        "third": "huyen",
+      },
+      "singular": {
+        "first": "huyo",
+        "second": "huyes",
+        "third": "huye",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs oír and compounds desoír - follows oír pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "desoigo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs oír and compounds oír - present (oigo, oyes, oye, oyen) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "oímos",
+        "second": "oís",
+        "third": "oyen",
+      },
+      "singular": {
+        "first": "oigo",
+        "second": "oyes",
+        "third": "oye",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs pedir and compounds despedir - follows pedir pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "despido",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs pedir and compounds pedir - present (pido, pides, etc.) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "pedimos",
+        "second": "pedís",
+        "third": "piden",
+      },
+      "singular": {
+        "first": "pido",
+        "second": "pides",
+        "third": "pide",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs pedir and compounds servir - follows pedir pattern 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "singular": {
+        "third": "sirvió",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs reír and compounds reír - present (río, ríes, etc.) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "reímos",
+        "second": "reís",
+        "third": "ríen",
+      },
+      "singular": {
+        "first": "río",
+        "second": "ríes",
+        "third": "ríe",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs reír and compounds sonreír - follows reír pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "sonrío",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs sentir and compounds consentir - follows sentir pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "consiento",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs sentir and compounds sentir - present (siento, sientes, etc.) 1`] = `
+{
+  "indicative": {
+    "present": {
+      "plural": {
+        "first": "sentimos",
+        "second": "sentís",
+        "third": "sienten",
+      },
+      "singular": {
+        "first": "siento",
+        "second": "sientes",
+        "third": "siente",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs traer and compounds atraer - follows traer pattern 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "singular": {
+        "first": "atraje",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs traer and compounds traer - preterite (traje, trajiste, etc.) 1`] = `
+{
+  "indicative": {
+    "preterite": {
+      "plural": {
+        "first": "trajimos",
+        "second": "trajisteis",
+        "third": "trajeron",
+      },
+      "singular": {
+        "first": "traje",
+        "second": "trajiste",
+        "third": "trajo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs valer and compounds equivaler - follows valer pattern 1`] = `
+{
+  "indicative": {
+    "present": {
+      "singular": {
+        "first": "equivalgo",
+      },
+    },
+  },
+}
+`;
+
+exports[`Additional irregular verbs valer and compounds valer - future (valdré, etc.) 1`] = `
+{
+  "indicative": {
+    "future": {
+      "plural": {
+        "first": "valdremos",
+        "second": "valdréis",
+        "third": "valdrán",
+      },
+      "singular": {
+        "first": "valdré",
+        "second": "valdrás",
+        "third": "valdrá",
+      },
+    },
+  },
+}
+`;
+
 exports[`CLI Basic Functionality JSON output format conjugates a regular -ar verb (hablar) 1`] = `
 {
   "conditional": {
