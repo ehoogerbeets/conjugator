@@ -20,11 +20,13 @@ const CLI_PATH = join(__dirname, 'node_modules', 'conjugator', 'bin', 'conjugato
 
 /**
  * Helper to run the CLI with given arguments
- * @param {string[]} args - Command line arguments
+ * @param {string|string[]} args - Command line arguments (string will be split by spaces)
  * @returns {string} - stdout output
  */
 function runCLI(args = []) {
-    const result = execFileSync(process.execPath, [CLI_PATH, ...args], {
+    // Handle string arguments by splitting on spaces
+    const argsArray = typeof args === 'string' ? args.split(/\s+/) : args;
+    const result = execFileSync(process.execPath, [CLI_PATH, ...argsArray], {
         encoding: 'utf-8',
         cwd: __dirname,
         timeout: 30000

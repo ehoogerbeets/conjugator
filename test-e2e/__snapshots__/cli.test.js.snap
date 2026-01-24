@@ -2539,38 +2539,38 @@ exports[`CLI Basic Functionality with pronouns outputs JSON with pronouns for ha
   "conditional": {
     "future": {
       "plural": {
-        "first": "nosotros hablaríamos",
-        "second": "vosotros hablaríais",
-        "third": "ellos hablarían",
+        "first": "Nosotros hablaríamos",
+        "second": "Vosotros hablaríais",
+        "third": "Ellos hablarían",
       },
       "singular": {
-        "first": "yo hablaría",
-        "second": "tú hablarías",
-        "third": "él hablaría",
+        "first": "Yo hablaría",
+        "second": "Tú hablarías",
+        "third": "Él hablaría",
       },
     },
     "perfect": {
       "plural": {
-        "first": "nosotros habríamos hablado",
-        "second": "vosotros habríais hablado",
-        "third": "ellos habrían hablado",
+        "first": "Nosotros habríamos hablado",
+        "second": "Vosotros habríais hablado",
+        "third": "Ellos habrían hablado",
       },
       "singular": {
-        "first": "yo habría hablado",
-        "second": "tú habrías hablado",
-        "third": "él habría hablado",
+        "first": "Yo habría hablado",
+        "second": "Tú habrías hablado",
+        "third": "Él habría hablado",
       },
     },
     "present": {
       "plural": {
-        "first": "nosotros hablaríamos",
-        "second": "vosotros hablaríais",
-        "third": "ellos hablarían",
+        "first": "Nosotros hablaríamos",
+        "second": "Vosotros hablaríais",
+        "third": "Ellos hablarían",
       },
       "singular": {
-        "first": "yo hablaría",
-        "second": "tú hablarías",
-        "third": "él hablaría",
+        "first": "Yo hablaría",
+        "second": "Tú hablarías",
+        "third": "Él hablaría",
       },
     },
   },
@@ -2601,184 +2601,184 @@ exports[`CLI Basic Functionality with pronouns outputs JSON with pronouns for ha
   "indicative": {
     "future": {
       "plural": {
-        "first": "nosotros hablaremos",
-        "second": "vosotros hablaréis",
-        "third": "ellos hablarán",
+        "first": "Nosotros hablaremos",
+        "second": "Vosotros hablaréis",
+        "third": "Ellos hablarán",
       },
       "singular": {
-        "first": "yo hablaré",
-        "second": "tú hablarás",
-        "third": "él hablará",
+        "first": "Yo hablaré",
+        "second": "Tú hablarás",
+        "third": "Él hablará",
       },
     },
     "future perfect": {
       "plural": {
-        "first": "nosotros habremos hablado",
-        "second": "vosotros habréis hablado",
-        "third": "ellos habrán hablado",
+        "first": "Nosotros habremos hablado",
+        "second": "Vosotros habréis hablado",
+        "third": "Ellos habrán hablado",
       },
       "singular": {
-        "first": "yo habré hablado",
-        "second": "tú habrás hablado",
-        "third": "él habrá hablado",
+        "first": "Yo habré hablado",
+        "second": "Tú habrás hablado",
+        "third": "Él habrá hablado",
       },
     },
     "imperfect": {
       "plural": {
-        "first": "nosotros hablábamos",
-        "second": "vosotros hablabais",
-        "third": "ellos hablaban",
+        "first": "Nosotros hablábamos",
+        "second": "Vosotros hablabais",
+        "third": "Ellos hablaban",
       },
       "singular": {
-        "first": "yo hablaba",
-        "second": "tú hablabas",
-        "third": "él hablaba",
+        "first": "Yo hablaba",
+        "second": "Tú hablabas",
+        "third": "Él hablaba",
       },
     },
     "perfect": {
       "plural": {
-        "first": "nosotros hemos hablado",
-        "second": "vosotros habéis hablado",
-        "third": "ellos han hablado",
+        "first": "Nosotros hemos hablado",
+        "second": "Vosotros habéis hablado",
+        "third": "Ellos han hablado",
       },
       "singular": {
-        "first": "yo he hablado",
-        "second": "tú has hablado",
-        "third": "él ha hablado",
+        "first": "Yo he hablado",
+        "second": "Tú has hablado",
+        "third": "Él ha hablado",
       },
     },
     "pluperfect": {
       "plural": {
-        "first": "nosotros habíamos hablado",
-        "second": "vosotros habíais hablado",
-        "third": "ellos habían hablado",
+        "first": "Nosotros habíamos hablado",
+        "second": "Vosotros habíais hablado",
+        "third": "Ellos habían hablado",
       },
       "singular": {
-        "first": "yo había hablado",
-        "second": "tú habías hablado",
-        "third": "él había hablado",
+        "first": "Yo había hablado",
+        "second": "Tú habías hablado",
+        "third": "Él había hablado",
       },
     },
     "present": {
       "plural": {
-        "first": "nosotros hablamos",
-        "second": "vosotros habláis",
-        "third": "ellos hablan",
+        "first": "Nosotros hablamos",
+        "second": "Vosotros habláis",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "first": "yo hablo",
-        "second": "tú hablas",
-        "third": "él habla",
+        "first": "Yo hablo",
+        "second": "Tú hablas",
+        "third": "Él habla",
       },
     },
     "preterite": {
       "plural": {
-        "first": "nosotros hablamos",
-        "second": "vosotros hablasteis",
-        "third": "ellos hablaron",
+        "first": "Nosotros hablamos",
+        "second": "Vosotros hablasteis",
+        "third": "Ellos hablaron",
       },
       "singular": {
-        "first": "yo hablé",
-        "second": "tú hablaste",
-        "third": "él habló",
+        "first": "Yo hablé",
+        "second": "Tú hablaste",
+        "third": "Él habló",
       },
     },
     "preterite perfect": {
       "plural": {
-        "first": "nosotros hubimos hablado",
-        "second": "vosotros hubisteis hablado",
-        "third": "ellos hubieron hablado",
+        "first": "Nosotros hubimos hablado",
+        "second": "Vosotros hubisteis hablado",
+        "third": "Ellos hubieron hablado",
       },
       "singular": {
-        "first": "yo hube hablado",
-        "second": "tú hubiste hablado",
-        "third": "él hubo hablado",
+        "first": "Yo hube hablado",
+        "second": "Tú hubiste hablado",
+        "third": "Él hubo hablado",
       },
     },
   },
   "subjunctive": {
     "future": {
       "plural": {
-        "first": "nosotros habláremos",
-        "second": "vosotros hablareis",
-        "third": "ellos hablaren",
+        "first": "Nosotros habláremos",
+        "second": "Vosotros hablareis",
+        "third": "Ellos hablaren",
       },
       "singular": {
-        "first": "yo hablare",
-        "second": "tú hablares",
-        "third": "él hablare",
+        "first": "Yo hablare",
+        "second": "Tú hablares",
+        "third": "Él hablare",
       },
     },
     "future perfect": {
       "plural": {
-        "first": "nosotros hubiéremos hablado",
-        "second": "vosotros hubiereis hablado",
-        "third": "ellos hubieren hablado",
+        "first": "Nosotros hubiéremos hablado",
+        "second": "Vosotros hubiereis hablado",
+        "third": "Ellos hubieren hablado",
       },
       "singular": {
-        "first": "yo hubiere hablado",
-        "second": "tú hubieres hablado",
-        "third": "él hubiere hablado",
+        "first": "Yo hubiere hablado",
+        "second": "Tú hubieres hablado",
+        "third": "Él hubiere hablado",
       },
     },
     "imperfect -ra": {
       "plural": {
-        "first": "nosotros habláramos",
-        "second": "vosotros hablarais",
-        "third": "ellos hablaran",
+        "first": "Nosotros habláramos",
+        "second": "Vosotros hablarais",
+        "third": "Ellos hablaran",
       },
       "singular": {
-        "first": "yo hablara",
-        "second": "tú hablaras",
-        "third": "él hablara",
+        "first": "Yo hablara",
+        "second": "Tú hablaras",
+        "third": "Él hablara",
       },
     },
     "imperfect -se": {
       "plural": {
-        "first": "nosotros hablásemos",
-        "second": "vosotros hablaseis",
-        "third": "ellos hablasen",
+        "first": "Nosotros hablásemos",
+        "second": "Vosotros hablaseis",
+        "third": "Ellos hablasen",
       },
       "singular": {
-        "first": "yo hablase",
-        "second": "tú hablases",
-        "third": "él hablase",
+        "first": "Yo hablase",
+        "second": "Tú hablases",
+        "third": "Él hablase",
       },
     },
     "perfect": {
       "plural": {
-        "first": "nosotros hayamos hablado",
-        "second": "vosotros hayáis hablado",
-        "third": "ellos hayan hablado",
+        "first": "Nosotros hayamos hablado",
+        "second": "Vosotros hayáis hablado",
+        "third": "Ellos hayan hablado",
       },
       "singular": {
-        "first": "yo haya hablado",
-        "second": "tú hayas hablado",
-        "third": "él haya hablado",
+        "first": "Yo haya hablado",
+        "second": "Tú hayas hablado",
+        "third": "Él haya hablado",
       },
     },
     "pluperfect": {
       "plural": {
-        "first": "nosotros hubiéramos hablado",
-        "second": "vosotros hubierais hablado",
-        "third": "ellos hubieran hablado",
+        "first": "Nosotros hubiéramos hablado",
+        "second": "Vosotros hubierais hablado",
+        "third": "Ellos hubieran hablado",
       },
       "singular": {
-        "first": "yo hubiera hablado",
-        "second": "tú hubieras hablado",
-        "third": "él hubiera hablado",
+        "first": "Yo hubiera hablado",
+        "second": "Tú hubieras hablado",
+        "third": "Él hubiera hablado",
       },
     },
     "present": {
       "plural": {
-        "first": "nosotros hablemos",
-        "second": "vosotros habléis",
-        "third": "ellos hablen",
+        "first": "Nosotros hablemos",
+        "second": "Vosotros habléis",
+        "third": "Ellos hablen",
       },
       "singular": {
-        "first": "yo hable",
-        "second": "tú hables",
-        "third": "él hable",
+        "first": "Yo hable",
+        "second": "Tú hables",
+        "third": "Él hable",
       },
     },
   },
@@ -2786,114 +2786,114 @@ exports[`CLI Basic Functionality with pronouns outputs JSON with pronouns for ha
 `;
 
 exports[`CLI Basic Functionality with pronouns outputs list with pronouns for hablar 1`] = `
-"  yo hablo
-  tú hablas
-  él habla
-  nosotros hablamos
-  vosotros habláis
-  ellos hablan
-  yo hablaba
-  tú hablabas
-  él hablaba
-  nosotros hablábamos
-  vosotros hablabais
-  ellos hablaban
-  yo hablé
-  tú hablaste
-  él habló
-  nosotros hablamos
-  vosotros hablasteis
-  ellos hablaron
-  yo hablaré
-  tú hablarás
-  él hablará
-  nosotros hablaremos
-  vosotros hablaréis
-  ellos hablarán
-  yo he hablado
-  tú has hablado
-  él ha hablado
-  nosotros hemos hablado
-  vosotros habéis hablado
-  ellos han hablado
-  yo había hablado
-  tú habías hablado
-  él había hablado
-  nosotros habíamos hablado
-  vosotros habíais hablado
-  ellos habían hablado
-  yo habré hablado
-  tú habrás hablado
-  él habrá hablado
-  nosotros habremos hablado
-  vosotros habréis hablado
-  ellos habrán hablado
-  yo hube hablado
-  tú hubiste hablado
-  él hubo hablado
-  nosotros hubimos hablado
-  vosotros hubisteis hablado
-  ellos hubieron hablado
-  yo hable
-  tú hables
-  él hable
-  nosotros hablemos
-  vosotros habléis
-  ellos hablen
-  yo hablara
-  tú hablaras
-  él hablara
-  nosotros habláramos
-  vosotros hablarais
-  ellos hablaran
-  yo hablase
-  tú hablases
-  él hablase
-  nosotros hablásemos
-  vosotros hablaseis
-  ellos hablasen
-  yo hablare
-  tú hablares
-  él hablare
-  nosotros habláremos
-  vosotros hablareis
-  ellos hablaren
-  yo haya hablado
-  tú hayas hablado
-  él haya hablado
-  nosotros hayamos hablado
-  vosotros hayáis hablado
-  ellos hayan hablado
-  yo hubiera hablado
-  tú hubieras hablado
-  él hubiera hablado
-  nosotros hubiéramos hablado
-  vosotros hubierais hablado
-  ellos hubieran hablado
-  yo hubiere hablado
-  tú hubieres hablado
-  él hubiere hablado
-  nosotros hubiéremos hablado
-  vosotros hubiereis hablado
-  ellos hubieren hablado
-  yo hablaría
-  tú hablarías
-  él hablaría
-  nosotros hablaríamos
-  vosotros hablaríais
-  ellos hablarían
-  yo habría hablado
-  tú habrías hablado
-  él habría hablado
-  nosotros habríamos hablado
-  vosotros habríais hablado
-  ellos habrían hablado
-  yo hablaría
-  tú hablarías
-  él hablaría
-  nosotros hablaríamos
-  vosotros hablaríais
-  ellos hablarían
+"  Yo hablo
+  Tú hablas
+  Él habla
+  Nosotros hablamos
+  Vosotros habláis
+  Ellos hablan
+  Yo hablaba
+  Tú hablabas
+  Él hablaba
+  Nosotros hablábamos
+  Vosotros hablabais
+  Ellos hablaban
+  Yo hablé
+  Tú hablaste
+  Él habló
+  Nosotros hablamos
+  Vosotros hablasteis
+  Ellos hablaron
+  Yo hablaré
+  Tú hablarás
+  Él hablará
+  Nosotros hablaremos
+  Vosotros hablaréis
+  Ellos hablarán
+  Yo he hablado
+  Tú has hablado
+  Él ha hablado
+  Nosotros hemos hablado
+  Vosotros habéis hablado
+  Ellos han hablado
+  Yo había hablado
+  Tú habías hablado
+  Él había hablado
+  Nosotros habíamos hablado
+  Vosotros habíais hablado
+  Ellos habían hablado
+  Yo habré hablado
+  Tú habrás hablado
+  Él habrá hablado
+  Nosotros habremos hablado
+  Vosotros habréis hablado
+  Ellos habrán hablado
+  Yo hube hablado
+  Tú hubiste hablado
+  Él hubo hablado
+  Nosotros hubimos hablado
+  Vosotros hubisteis hablado
+  Ellos hubieron hablado
+  Yo hable
+  Tú hables
+  Él hable
+  Nosotros hablemos
+  Vosotros habléis
+  Ellos hablen
+  Yo hablara
+  Tú hablaras
+  Él hablara
+  Nosotros habláramos
+  Vosotros hablarais
+  Ellos hablaran
+  Yo hablase
+  Tú hablases
+  Él hablase
+  Nosotros hablásemos
+  Vosotros hablaseis
+  Ellos hablasen
+  Yo hablare
+  Tú hablares
+  Él hablare
+  Nosotros habláremos
+  Vosotros hablareis
+  Ellos hablaren
+  Yo haya hablado
+  Tú hayas hablado
+  Él haya hablado
+  Nosotros hayamos hablado
+  Vosotros hayáis hablado
+  Ellos hayan hablado
+  Yo hubiera hablado
+  Tú hubieras hablado
+  Él hubiera hablado
+  Nosotros hubiéramos hablado
+  Vosotros hubierais hablado
+  Ellos hubieran hablado
+  Yo hubiere hablado
+  Tú hubieres hablado
+  Él hubiere hablado
+  Nosotros hubiéremos hablado
+  Vosotros hubiereis hablado
+  Ellos hubieren hablado
+  Yo hablaría
+  Tú hablarías
+  Él hablaría
+  Nosotros hablaríamos
+  Vosotros hablaríais
+  Ellos hablarían
+  Yo habría hablado
+  Tú habrías hablado
+  Él habría hablado
+  Nosotros habríamos hablado
+  Vosotros habríais hablado
+  Ellos habrían hablado
+  Yo hablaría
+  Tú hablarías
+  Él hablaría
+  Nosotros hablaríamos
+  Vosotros hablaríais
+  Ellos hablarían
   ¡Tú habla!
   ¡Él hable!
   ¡Nosotros hablemos!
@@ -2908,114 +2908,114 @@ exports[`CLI Basic Functionality with pronouns outputs list with pronouns for ha
 `;
 
 exports[`CLI Basic Functionality with pronouns outputs list with pronouns for ir 1`] = `
-"  yo voy
-  tú vas
-  él va
-  nosotros vamos
-  vosotros vais
-  ellos van
-  yo iba
-  tú ibas
-  él iba
-  nosotros íbamos
-  vosotros ibais
-  ellos iban
-  yo fui
-  tú fuiste
-  él fue
-  nosotros fuimos
-  vosotros fuisteis
-  ellos fueron
-  yo iré
-  tú irás
-  él irá
-  nosotros iremos
-  vosotros iréis
-  ellos irán
-  yo he ido
-  tú has ido
-  él ha ido
-  nosotros hemos ido
-  vosotros habéis ido
-  ellos han ido
-  yo había ido
-  tú habías ido
-  él había ido
-  nosotros habíamos ido
-  vosotros habíais ido
-  ellos habían ido
-  yo habré ido
-  tú habrás ido
-  él habrá ido
-  nosotros habremos ido
-  vosotros habréis ido
-  ellos habrán ido
-  yo hube ido
-  tú hubiste ido
-  él hubo ido
-  nosotros hubimos ido
-  vosotros hubisteis ido
-  ellos hubieron ido
-  yo vaya
-  tú vayas
-  él vaya
-  nosotros vayamos
-  vosotros vayáis
-  ellos vayan
-  yo fuera
-  tú fueras
-  él fuera
-  nosotros fuéramos
-  vosotros fuerais
-  ellos fueran
-  yo fuese
-  tú fueses
-  él fuese
-  nosotros fuésemos
-  vosotros fueseis
-  ellos fuesen
-  yo fuere
-  tú fueres
-  él fuere
-  nosotros fuéremos
-  vosotros fuereis
-  ellos fueren
-  yo haya ido
-  tú hayas ido
-  él haya ido
-  nosotros hayamos ido
-  vosotros hayáis ido
-  ellos hayan ido
-  yo hubiera ido
-  tú hubieras ido
-  él hubiera ido
-  nosotros hubiéramos ido
-  vosotros hubierais ido
-  ellos hubieran ido
-  yo hubiere ido
-  tú hubieres ido
-  él hubiere ido
-  nosotros hubiéremos ido
-  vosotros hubiereis ido
-  ellos hubieren ido
-  yo iría
-  tú irías
-  él iría
-  nosotros iríamos
-  vosotros iríais
-  ellos irían
-  yo habría ido
-  tú habrías ido
-  él habría ido
-  nosotros habríamos ido
-  vosotros habríais ido
-  ellos habrían ido
-  yo iría
-  tú irías
-  él iría
-  nosotros iríamos
-  vosotros iríais
-  ellos irían
+"  Yo voy
+  Tú vas
+  Él va
+  Nosotros vamos
+  Vosotros vais
+  Ellos van
+  Yo iba
+  Tú ibas
+  Él iba
+  Nosotros íbamos
+  Vosotros ibais
+  Ellos iban
+  Yo fui
+  Tú fuiste
+  Él fue
+  Nosotros fuimos
+  Vosotros fuisteis
+  Ellos fueron
+  Yo iré
+  Tú irás
+  Él irá
+  Nosotros iremos
+  Vosotros iréis
+  Ellos irán
+  Yo he ido
+  Tú has ido
+  Él ha ido
+  Nosotros hemos ido
+  Vosotros habéis ido
+  Ellos han ido
+  Yo había ido
+  Tú habías ido
+  Él había ido
+  Nosotros habíamos ido
+  Vosotros habíais ido
+  Ellos habían ido
+  Yo habré ido
+  Tú habrás ido
+  Él habrá ido
+  Nosotros habremos ido
+  Vosotros habréis ido
+  Ellos habrán ido
+  Yo hube ido
+  Tú hubiste ido
+  Él hubo ido
+  Nosotros hubimos ido
+  Vosotros hubisteis ido
+  Ellos hubieron ido
+  Yo vaya
+  Tú vayas
+  Él vaya
+  Nosotros vayamos
+  Vosotros vayáis
+  Ellos vayan
+  Yo fuera
+  Tú fueras
+  Él fuera
+  Nosotros fuéramos
+  Vosotros fuerais
+  Ellos fueran
+  Yo fuese
+  Tú fueses
+  Él fuese
+  Nosotros fuésemos
+  Vosotros fueseis
+  Ellos fuesen
+  Yo fuere
+  Tú fueres
+  Él fuere
+  Nosotros fuéremos
+  Vosotros fuereis
+  Ellos fueren
+  Yo haya ido
+  Tú hayas ido
+  Él haya ido
+  Nosotros hayamos ido
+  Vosotros hayáis ido
+  Ellos hayan ido
+  Yo hubiera ido
+  Tú hubieras ido
+  Él hubiera ido
+  Nosotros hubiéramos ido
+  Vosotros hubierais ido
+  Ellos hubieran ido
+  Yo hubiere ido
+  Tú hubieres ido
+  Él hubiere ido
+  Nosotros hubiéremos ido
+  Vosotros hubiereis ido
+  Ellos hubieren ido
+  Yo iría
+  Tú irías
+  Él iría
+  Nosotros iríamos
+  Vosotros iríais
+  Ellos irían
+  Yo habría ido
+  Tú habrías ido
+  Él habría ido
+  Nosotros habríamos ido
+  Vosotros habríais ido
+  Ellos habrían ido
+  Yo iría
+  Tú irías
+  Él iría
+  Nosotros iríamos
+  Vosotros iríais
+  Ellos irían
   ¡Tú ve!
   ¡Él vaya!
   ¡Nosotros vayamos!
@@ -3049,12 +3049,12 @@ exports[`CLI Filter Arguments combined filters combined filters for ser - indica
 `;
 
 exports[`CLI Filter Arguments combined filters combined filters with pronouns and list 1`] = `
-"  yo como
-  tú comes
-  él come
-  nosotros comemos
-  vosotros coméis
-  ellos comen
+"  Yo como
+  Tú comes
+  Él come
+  Nosotros comemos
+  Vosotros coméis
+  Ellos comen
 "
 `;
 
@@ -4506,10 +4506,10 @@ exports[`CLI Formality Variations formal second person 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "second": "ustedes hablan",
+        "second": "Ustedes hablan",
       },
       "singular": {
-        "second": "usted habla",
+        "second": "Usted habla",
       },
     },
   },
@@ -4567,10 +4567,10 @@ exports[`CLI Formality Variations informal second person 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "second": "vosotros habláis",
+        "second": "Vosotros habláis",
       },
       "singular": {
-        "second": "tú hablas",
+        "second": "Tú hablas",
       },
     },
   },
@@ -4582,10 +4582,10 @@ exports[`CLI Gender Variations feminine pronouns 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "third": "ellas hablan",
+        "third": "Ellas hablan",
       },
       "singular": {
-        "third": "ella habla",
+        "third": "Ella habla",
       },
     },
   },
@@ -4597,10 +4597,10 @@ exports[`CLI Gender Variations inanimate pronouns 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "third": "ellos hablan",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "third": "ello habla",
+        "third": "Ello habla",
       },
     },
   },
@@ -4612,10 +4612,10 @@ exports[`CLI Gender Variations masculine pronouns 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "third": "ellos hablan",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "third": "él habla",
+        "third": "Él habla",
       },
     },
   },
@@ -4627,14 +4627,14 @@ exports[`CLI Style Variations Spanish regional styles andino style 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "first": "nosotros hablamos",
-        "second": "ustedes hablan",
-        "third": "ellos hablan",
+        "first": "Nosotros hablamos",
+        "second": "Ustedes hablan",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "first": "yo hablo",
-        "second": "tú hablas",
-        "third": "él habla",
+        "first": "Yo hablo",
+        "second": "Tú hablas",
+        "third": "Él habla",
       },
     },
   },
@@ -4646,14 +4646,14 @@ exports[`CLI Style Variations Spanish regional styles caribeno style 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "first": "nosotros hablamos",
-        "second": "ustedes hablan",
-        "third": "ellos hablan",
+        "first": "Nosotros hablamos",
+        "second": "Ustedes hablan",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "first": "yo hablo",
-        "second": "tú hablas",
-        "third": "él habla",
+        "first": "Yo hablo",
+        "second": "Tú hablas",
+        "third": "Él habla",
       },
     },
   },
@@ -4665,14 +4665,14 @@ exports[`CLI Style Variations Spanish regional styles castillano style (default)
   "indicative": {
     "present": {
       "plural": {
-        "first": "nosotros hablamos",
-        "second": "vosotros habláis",
-        "third": "ellos hablan",
+        "first": "Nosotros hablamos",
+        "second": "Vosotros habláis",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "first": "yo hablo",
-        "second": "tú hablas",
-        "third": "él habla",
+        "first": "Yo hablo",
+        "second": "Tú hablas",
+        "third": "Él habla",
       },
     },
   },
@@ -4684,14 +4684,14 @@ exports[`CLI Style Variations Spanish regional styles centroamericano style 1`] 
   "indicative": {
     "present": {
       "plural": {
-        "first": "nosotros hablamos",
-        "second": "ustedes hablan",
-        "third": "ellos hablan",
+        "first": "Nosotros hablamos",
+        "second": "Ustedes hablan",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "first": "yo hablo",
-        "second": "vos hablás",
-        "third": "él habla",
+        "first": "Yo hablo",
+        "second": "Vos hablás",
+        "third": "Él habla",
       },
     },
   },
@@ -4703,14 +4703,14 @@ exports[`CLI Style Variations Spanish regional styles chileano style 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "first": "nosotros hablamos",
-        "second": "ustedes hablan",
-        "third": "ellos hablan",
+        "first": "Nosotros hablamos",
+        "second": "Ustedes hablan",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "first": "yo hablo",
-        "second": "tú hablas",
-        "third": "él habla",
+        "first": "Yo hablo",
+        "second": "Tú hablas",
+        "third": "Él habla",
       },
     },
   },
@@ -4722,14 +4722,14 @@ exports[`CLI Style Variations Spanish regional styles mexicano style 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "first": "nosotros hablamos",
-        "second": "ustedes hablan",
-        "third": "ellos hablan",
+        "first": "Nosotros hablamos",
+        "second": "Ustedes hablan",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "first": "yo hablo",
-        "second": "tú hablas",
-        "third": "él habla",
+        "first": "Yo hablo",
+        "second": "Tú hablas",
+        "third": "Él habla",
       },
     },
   },
@@ -4741,14 +4741,14 @@ exports[`CLI Style Variations Spanish regional styles rioplatense style 1`] = `
   "indicative": {
     "present": {
       "plural": {
-        "first": "nosotros hablamos",
-        "second": "ustedes hablan",
-        "third": "ellos hablan",
+        "first": "Nosotros hablamos",
+        "second": "Ustedes hablan",
+        "third": "Ellos hablan",
       },
       "singular": {
-        "first": "yo hablo",
-        "second": "vos hablás",
-        "third": "él habla",
+        "first": "Yo hablo",
+        "second": "Vos hablás",
+        "third": "Él habla",
       },
     },
   },

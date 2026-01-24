@@ -202,6 +202,13 @@ function conjugatePerson(
     options: ConjugateOptions,
     conjugation: Conjugation
 ): string {
+    // Validate infinitive before processing - just check basic validity
+    // Let inflect() handle detailed validation (it knows about accented endings, etc.)
+    if (!infinitive || typeof infinitive !== "string" || infinitive.length < 2) {
+        // Invalid infinitive - return empty string as fallback
+        return "";
+    }
+
     const pronoun = options.usePronouns ? getPronoun({ ...options, ...params }) + " " : "";
     let ret: string;
 
@@ -212,14 +219,29 @@ function conjugatePerson(
         }
         if (options.verbOnly) {
             ret = inflect(infinitive, params as InflectOptions);
+            // Ensure we have a valid result
+            if (!ret || ret.length === 0) {
+                ret = infinitive;
+            }
         } else {
-            ret = pronoun + ((params.positivity === "negative") ? "no " : "") + inflect(infinitive, params as InflectOptions);
-            ret = ret[0].toUpperCase() + ret.substring(1);
-            ret = "¡" + ret + "!";
+            const inflected = inflect(infinitive, params as InflectOptions);
+            ret = pronoun + ((params.positivity === "negative") ? "no " : "") + (inflected || infinitive);
+            if (ret && ret.length > 0) {
+                ret = ret[0].toUpperCase() + ret.substring(1);
+                ret = "¡" + ret + "!";
+            } else {
+                ret = infinitive;
+            }
         }
     } else {
         ret = pronoun ? pronoun[0].toUpperCase() + pronoun.substring(1) : "";
-        ret = pronoun + inflect(infinitive, params as InflectOptions);
+        const inflected = inflect(infinitive, params as InflectOptions);
+        // Ensure we have a valid result
+        if (!inflected || inflected.length === 0) {
+            ret += infinitive;
+        } else {
+            ret += inflected;
+        }
     }
 
     if (!conjugation[params.mood!]) {
@@ -329,6 +351,12 @@ function conjugateMood(
  * @returns an object containing all of the requested inflections of the given verb
  */
 const conjugateVerb = function(infinitive: string, options?: ConjugateOptions): Conjugation {
+    // Validate infinitive input
+    if (!infinitive || typeof infinitive !== "string" || infinitive.length < 2) {
+        // Return empty conjugation for invalid input
+        return {};
+    }
+
     const conjugation: Conjugation = {};
     const opts = options || {};
 
